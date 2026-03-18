@@ -2,6 +2,7 @@
 
 import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
+import { track } from "@vercel/analytics";
 import type { AuditResult, SEOIssue } from "@/lib/seo-analyzer";
 
 const SEVERITY_COLORS = {
@@ -126,6 +127,7 @@ function ResultsContent() {
         if (parsed.url && url.includes(new URL(parsed.url).hostname)) {
           setResult(parsed);
           setLoading(false);
+          track("audit_completed", { url, score: parsed.score, grade: parsed.grade });
           return;
         }
       } catch { /* ignore */ }
@@ -141,6 +143,7 @@ function ResultsContent() {
       .then((data) => {
         if (data.error) throw new Error(data.error);
         setResult(data);
+        track("audit_completed", { url, score: data.score, grade: data.grade });
       })
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false));
@@ -149,6 +152,7 @@ function ResultsContent() {
   async function handleCheckout(type: "one-time" | "monthly") {
     if (!result) return;
     setCheckingOut(true);
+    track("checkout_initiated", { type, score: result.score, grade: result.grade });
     try {
       const priceId = type === "one-time"
         ? process.env.NEXT_PUBLIC_STRIPE_PRICE_ONETIME!
@@ -210,7 +214,7 @@ function ResultsContent() {
             <div className="w-7 h-7 bg-black rounded-md flex items-center justify-center">
               <span className="text-white text-xs font-bold">S</span>
             </div>
-            <span className="font-semibold text-gray-900">SEOAudit.ai</span>
+            <span className="font-semibold text-gray-900">GetMetaFix</span>
           </a>
           <a href="/" className="text-sm text-gray-500 hover:text-gray-900">← Audit another URL</a>
         </div>

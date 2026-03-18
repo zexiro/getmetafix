@@ -52,7 +52,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
   const res = await undiciFetch(url, {
     headers: {
       "User-Agent":
-        "Mozilla/5.0 (compatible; SEOAuditBot/1.0; +https://seoaudit.ai)",
+        "Mozilla/5.0 (compatible; GetMetaFixBot/1.0; +https://getmetafix.com)",
     },
     signal: AbortSignal.timeout(15000),
     dispatcher: agent,

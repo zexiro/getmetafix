@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { track } from "@vercel/analytics";
 
 export default function Home() {
   const [url, setUrl] = useState("");
@@ -14,6 +15,7 @@ export default function Home() {
     if (!url.trim()) return;
     setError("");
     setLoading(true);
+    track("audit_submitted", { url: url.trim() });
 
     try {
       const res = await fetch("/api/audit", {
@@ -43,11 +45,12 @@ export default function Home() {
             <div className="w-7 h-7 bg-black rounded-md flex items-center justify-center">
               <span className="text-white text-xs font-bold">S</span>
             </div>
-            <span className="font-semibold text-gray-900">SEOAudit.ai</span>
+            <span className="font-semibold text-gray-900">GetMetaFix</span>
           </div>
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <a href="#pricing" className="hover:text-gray-900 transition-colors">Pricing</a>
             <a href="#how-it-works" className="hover:text-gray-900 transition-colors">How it works</a>
+            <a href="/blog" className="hover:text-gray-900 transition-colors">Blog</a>
           </div>
         </div>
       </nav>
@@ -269,7 +272,7 @@ export default function Home() {
             <div className="w-5 h-5 bg-black rounded flex items-center justify-center">
               <span className="text-white text-[10px] font-bold">S</span>
             </div>
-            <span className="text-sm font-medium text-gray-900">SEOAudit.ai</span>
+            <span className="text-sm font-medium text-gray-900">GetMetaFix</span>
           </div>
           <p className="text-sm text-gray-400">
             Built by an AI. Powered by actual SEO knowledge.
