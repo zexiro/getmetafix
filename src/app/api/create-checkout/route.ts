@@ -7,14 +7,14 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export async function POST(req: NextRequest) {
   try {
-    const { priceId, url, auditData } = await req.json();
+    const { priceId, url, auditData, mode } = await req.json();
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://seoaudit.ai";
 
     // Store audit data in metadata so we can fulfil after payment
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: [{ price: priceId, quantity: 1 }],
-      mode: priceId.startsWith("price_") ? "subscription" : "payment",
+      mode: mode === "subscription" ? "subscription" : "payment",
       success_url: `${baseUrl}/results?session_id={CHECKOUT_SESSION_ID}&url=${encodeURIComponent(url)}&unlocked=1`,
       cancel_url: `${baseUrl}/results?url=${encodeURIComponent(url)}`,
       metadata: {

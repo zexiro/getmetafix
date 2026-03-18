@@ -157,7 +157,12 @@ function ResultsContent() {
       const res = await fetch("/api/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ priceId, url, auditData: result }),
+        body: JSON.stringify({
+          priceId,
+          url,
+          auditData: result,
+          mode: type === "monthly" ? "subscription" : "payment",
+        }),
       });
       const data = await res.json();
       if (data.url) window.location.href = data.url;
