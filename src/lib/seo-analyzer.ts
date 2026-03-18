@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { Agent, fetch as undiciFetch } from "undici";
 
 export interface SEOIssue {
   id: string;
@@ -44,14 +45,18 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
   if (!url.startsWith("http")) url = "https://" + url;
   const parsedUrl = new URL(url);
 
-  // Fetch the page
-  const res = await fetch(url, {
+  // Fetch the page — use undici with relaxed TLS for crawler
+  const agent = new Agent({
+    connect: { rejectUnauthorized: false },
+  });
+  const res = await undiciFetch(url, {
     headers: {
       "User-Agent":
         "Mozilla/5.0 (compatible; SEOAuditBot/1.0; +https://seoaudit.ai)",
     },
     signal: AbortSignal.timeout(15000),
-  });
+    dispatcher: agent,
+  } as Parameters<typeof undiciFetch>[1]);
 
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: HTTP ${res.status}`);
