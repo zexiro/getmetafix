@@ -106,6 +106,69 @@ function IssueCard({ issue, unlocked }: { issue: SEOIssue; unlocked: boolean }) 
   );
 }
 
+function EmailCapture({ url, summary }: { url: string; summary: { score: number; grade: string; critical: number; warning: number } }) {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email) return;
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/email-capture", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, url, summary }),
+      });
+      if (res.ok) {
+        setStatus("sent");
+        track("email_captured", { grade: summary.grade });
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
+
+  if (status === "sent") {
+    return (
+      <div className="rounded-xl border border-green-200 bg-green-50 p-4 flex items-center gap-3">
+        <span className="text-green-600 text-lg">✓</span>
+        <p className="text-sm text-green-700 font-medium">Report sent! Check your inbox.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="rounded-xl border border-gray-200 bg-white p-4">
+      <p className="text-sm font-medium text-gray-900 mb-3">
+        Email me this report
+      </p>
+      <form onSubmit={handleSubmit} className="flex gap-2">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="you@example.com"
+          required
+          className="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+        />
+        <button
+          type="submit"
+          disabled={status === "sending"}
+          className="px-4 py-2 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 disabled:opacity-50 whitespace-nowrap"
+        >
+          {status === "sending" ? "Sending…" : "Send report"}
+        </button>
+      </form>
+      {status === "error" && (
+        <p className="text-xs text-red-500 mt-2">Something went wrong. Please try again.</p>
+      )}
+    </div>
+  );
+}
+
 function ResultsContent() {
   const params = useSearchParams();
   const url = params.get("url") ?? "";
@@ -301,6 +364,13 @@ function ResultsContent() {
             )}
           </div>
         </div>
+
+        {/* Email capture */}
+        {!unlocked && (
+          <div className="mt-6">
+            <EmailCapture url={url} summary={{ score: result.score, grade: result.grade, critical: result.summary.critical, warning: result.summary.warning }} />
+          </div>
+        )}
 
         {/* Issues */}
         <div className="mt-10 space-y-8">
