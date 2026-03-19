@@ -51,6 +51,7 @@ export default function Home() {
             <a href="#pricing" className="hover:text-gray-900 transition-colors">Pricing</a>
             <a href="#how-it-works" className="hover:text-gray-900 transition-colors">How it works</a>
             <a href="/growth-audit" className="hover:text-gray-900 transition-colors font-medium text-gray-900">Growth Audit</a>
+            <a href="/monitor" className="hover:text-gray-900 transition-colors font-medium text-gray-900">Monitor</a>
             <a href="/blog" className="hover:text-gray-900 transition-colors">Blog</a>
           </div>
         </div>
