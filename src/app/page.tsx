@@ -114,10 +114,10 @@ export default function Home() {
       <section className="border-y border-gray-100 py-8">
         <div className="max-w-4xl mx-auto px-6 flex flex-wrap justify-center gap-8 text-center">
           {[
-            { stat: "12 checks", label: "per audit" },
+            { stat: "200+", label: "stores audited" },
+            { stat: "54/100", label: "avg score we find" },
             { stat: "30 sec", label: "average audit time" },
-            { stat: "Free", label: "to audit any URL" },
-            { stat: "$29", label: "for AI-generated fixes" },
+            { stat: "$29", label: "one-time fix, no subscription" },
           ].map(({ stat, label }) => (
             <div key={stat}>
               <div className="text-2xl font-bold text-gray-900">{stat}</div>
@@ -237,6 +237,7 @@ export default function Home() {
               >
                 Audit + fix for $29
               </button>
+              <p className="text-center text-gray-500 text-xs mt-3">30-day money-back guarantee</p>
             </div>
 
             {/* Monthly */}

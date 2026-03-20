@@ -10,11 +10,18 @@ export async function POST(req: NextRequest) {
     const { priceId, url, auditData, mode } = await req.json();
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://seoaudit.ai";
 
-    // Store audit data in metadata so we can fulfil after payment
+    const isSubscription = mode === "subscription";
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: [{ price: priceId, quantity: 1 }],
-      mode: mode === "subscription" ? "subscription" : "payment",
+      mode: isSubscription ? "subscription" : "payment",
+      ...(isSubscription ? {
+        subscription_data: {
+          trial_period_days: 14,
+          metadata: { audited_url: url },
+        },
+      } : {}),
       success_url: `${baseUrl}/results?session_id={CHECKOUT_SESSION_ID}&url=${encodeURIComponent(url)}&unlocked=1`,
       cancel_url: `${baseUrl}/results?url=${encodeURIComponent(url)}`,
       metadata: {

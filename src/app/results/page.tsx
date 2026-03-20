@@ -70,7 +70,7 @@ function IssueCard({ issue, unlocked }: { issue: SEOIssue; unlocked: boolean }) 
 
           <div>
             <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">
-              AI Fix {!unlocked && <span className="text-amber-600">🔒 Unlock for $29</span>}
+              AI Fix {!unlocked && <span className="text-amber-600">🔒 Start free trial to unlock</span>}
             </div>
             {unlocked ? (
               <div className="relative">
@@ -212,23 +212,19 @@ function ResultsContent() {
       .finally(() => setLoading(false));
   }, [url]);
 
-  async function handleCheckout(type: "one-time" | "monthly") {
+  async function handleCheckout() {
     if (!result) return;
     setCheckingOut(true);
-    track("checkout_initiated", { type, score: result.score, grade: result.grade });
+    track("checkout_initiated", { type: "trial", score: result.score, grade: result.grade });
     try {
-      const priceId = type === "one-time"
-        ? process.env.NEXT_PUBLIC_STRIPE_PRICE_ONETIME!
-        : process.env.NEXT_PUBLIC_STRIPE_PRICE_MONTHLY!;
-
       const res = await fetch("/api/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          priceId,
+          priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_MONTHLY!,
           url,
           auditData: result,
-          mode: type === "monthly" ? "subscription" : "payment",
+          mode: "subscription",
         }),
       });
       const data = await res.json();
@@ -337,28 +333,22 @@ function ResultsContent() {
                     {result.summary.critical + result.summary.warning} issues found. Each one has a ready-to-paste code fix — just click, copy, and deploy.
                   </p>
                   <ul className="text-sm text-gray-300 space-y-1.5 mb-6">
-                    {["Copy-ready HTML/JSON-LD snippets", "Prioritised by impact", "AI-written meta descriptions & titles", "One-time payment, instant access"].map((f) => (
+                    {["Copy-ready HTML/JSON-LD snippets", "Prioritised by impact", "AI-written meta descriptions & titles", "Weekly monitoring included"].map((f) => (
                       <li key={f} className="flex items-center gap-2">
                         <span className="text-green-400">✓</span> {f}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-3">
+                <div className="flex flex-col gap-2">
                   <button
-                    onClick={() => handleCheckout("one-time")}
+                    onClick={() => handleCheckout()}
                     disabled={checkingOut}
-                    className="flex-1 py-3 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 text-sm"
+                    className="w-full py-3 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 text-sm"
                   >
-                    {checkingOut ? "Loading…" : "Unlock all fixes — $29"}
+                    {checkingOut ? "Loading…" : "Start 14-day free trial"}
                   </button>
-                  <button
-                    onClick={() => handleCheckout("monthly")}
-                    disabled={checkingOut}
-                    className="flex-1 py-3 border border-gray-600 text-gray-300 font-medium rounded-xl hover:border-gray-400 transition-colors disabled:opacity-50 text-sm"
-                  >
-                    Monitor weekly — $19/mo
-                  </button>
+                  <p className="text-center text-xs text-gray-500">$19/mo after trial. Cancel anytime.</p>
                 </div>
               </div>
             )}
@@ -439,12 +429,13 @@ function ResultsContent() {
               Each fix is a ready-to-paste code snippet. No guessing. No Googling. Just copy and deploy.
             </p>
             <button
-              onClick={() => handleCheckout("one-time")}
+              onClick={() => handleCheckout()}
               disabled={checkingOut}
               className="px-8 py-3.5 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
             >
-              {checkingOut ? "Loading…" : "Get all fixes — $29 one-time"}
+              {checkingOut ? "Loading…" : "Start 14-day free trial"}
             </button>
+            <p className="mt-3 text-sm text-gray-500">$19/mo after trial. Cancel anytime.</p>
           </div>
         )}
       </div>
