@@ -38,7 +38,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">1. Who We Are</h2>
             <p>
-              GetMetaFix is operated by <strong>CodeHawks Limited</strong>, a company registered in England and Wales.
+              GetMetaFix is operated by <strong>CodeHawks Limited</strong>, a company registered in England and Wales (Company No. 16095971).
               We provide an automated SEO audit tool, an AI-powered meta tag fix package, and a website monitoring subscription.
             </p>
             <p className="mt-3">
@@ -213,6 +213,7 @@ export default function PrivacyPage() {
             </p>
             <p className="text-sm mt-2">
               <strong>CodeHawks Limited</strong><br />
+              Company No. 16095971<br />
               Email: <a href="mailto:hello@getmetafix.com" className="text-green-600 hover:underline">hello@getmetafix.com</a>
             </p>
           </section>

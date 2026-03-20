@@ -38,7 +38,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">1. Who We Are</h2>
             <p>
-              GetMetaFix is operated by <strong>CodeHawks Limited</strong>, a company registered in England and Wales.
+              GetMetaFix is operated by <strong>CodeHawks Limited</strong>, a company registered in England and Wales (Company No. 16095971).
               These Terms &amp; Conditions (&ldquo;Terms&rdquo;) govern your use of the GetMetaFix website and services
               at <a href="https://getmetafix.com" className="text-green-600 hover:underline">getmetafix.com</a>.
             </p>
@@ -229,6 +229,7 @@ export default function TermsPage() {
             </p>
             <p className="text-sm mt-2">
               <strong>CodeHawks Limited</strong><br />
+              Company No. 16095971<br />
               Email: <a href="mailto:hello@getmetafix.com" className="text-green-600 hover:underline">hello@getmetafix.com</a>
             </p>
           </section>
