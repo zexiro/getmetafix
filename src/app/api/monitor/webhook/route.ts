@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Invalid signature" }, { status: 400 });
     }
   } else {
-    // Dev/testing mode — parse event directly
+    // Dev/testing mode - parse event directly
     try {
       event = JSON.parse(body) as Stripe.Event;
     } catch {
@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
 
     if (!monitoredUrl || !customerEmail) {
       console.log(
-        "Monitor webhook: skipping session — missing required metadata",
+        "Monitor webhook: skipping session - missing required metadata",
         session.id
       );
       return NextResponse.json({ received: true });
@@ -66,12 +66,12 @@ export async function POST(req: NextRequest) {
 
     addSubscriber(subscriber);
     console.log(
-      `Monitor: new subscriber added — ${monitoredUrl} (${customerEmail})`
+      `Monitor: new subscriber added - ${monitoredUrl} (${customerEmail})`
     );
   } else if (event.type === "customer.subscription.deleted") {
     const subscription = event.data.object as Stripe.Subscription;
     deactivateSubscriber(subscription.id);
-    console.log(`Monitor: subscriber deactivated — ${subscription.id}`);
+    console.log(`Monitor: subscriber deactivated - ${subscription.id}`);
   }
 
   return NextResponse.json({ received: true });

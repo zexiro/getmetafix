@@ -11,7 +11,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 export async function POST(req: NextRequest) {
   const body = await req.text();
 
-  // Signature verification — enabled when STRIPE_GROWTH_AUDIT_WEBHOOK_SECRET is set
+  // Signature verification - enabled when STRIPE_GROWTH_AUDIT_WEBHOOK_SECRET is set
   const webhookSecret = process.env.STRIPE_GROWTH_AUDIT_WEBHOOK_SECRET;
   let event: Stripe.Event;
 
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Invalid signature" }, { status: 400 });
     }
   } else {
-    // No webhook secret configured — parse event directly (dev/testing mode)
+    // No webhook secret configured - parse event directly (dev/testing mode)
     try {
       event = JSON.parse(body) as Stripe.Event;
     } catch {
@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
   const competitorUrl = session.metadata?.competitor_url || undefined;
 
   if (!auditedUrl || !businessName || !customerEmail) {
-    console.log("Growth Audit webhook: skipping session — missing required metadata", session.id);
+    console.log("Growth Audit webhook: skipping session - missing required metadata", session.id);
     return NextResponse.json({ received: true });
   }
 
@@ -77,7 +77,7 @@ export async function POST(req: NextRequest) {
     console.log(`Growth Audit: completed and emailed for ${auditedUrl}`);
   } catch (err) {
     console.error(`Growth Audit: failed for ${auditedUrl}:`, err);
-    // Return 200 so Stripe doesn't retry — log the error for manual follow-up
+    // Return 200 so Stripe doesn't retry - log the error for manual follow-up
     // In production you'd want alerting here
   }
 

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} — GetMetaFix`,
+    title: `${post.title} – GetMetaFix`,
     description: post.description,
     openGraph: {
       title: post.title,
@@ -122,7 +122,7 @@ export default async function BlogPost({ params }: Props) {
         {/* Inline CTA */}
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
           <p className="text-sm font-semibold text-gray-900 mb-1">Check your site right now</p>
-          <p className="text-sm text-gray-500 mb-4">Free SEO audit in 30 seconds — find all the issues covered in this guide.</p>
+          <p className="text-sm text-gray-500 mb-4">Free SEO audit in 30 seconds – find all the issues covered in this guide.</p>
           <Link
             href="/"
             className="inline-flex items-center gap-2 bg-black text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-800 transition-colors"

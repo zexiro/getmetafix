@@ -16,7 +16,7 @@ async function sendFulfillmentEmail(
 ) {
   const resultsLink = `${BASE_URL}/results?url=${encodeURIComponent(auditedUrl)}&unlocked=1`;
   const subject = isSubscription
-    ? "Your GetMetaFix subscription is active — fixes unlocked"
+    ? "Your GetMetaFix subscription is active - fixes unlocked"
     : "Your GetMetaFix fixes are ready";
 
   const body = `
@@ -62,7 +62,7 @@ async function sendFulfillmentEmail(
 
   <p style="font-size: 12px; color: #aaa; margin: 24px 0 0;">
     Questions? Reply to this email or contact alex@getmetafix.com<br />
-    GetMetaFix — <a href="${BASE_URL}" style="color: #aaa;">${BASE_URL}</a>
+    GetMetaFix - <a href="${BASE_URL}" style="color: #aaa;">${BASE_URL}</a>
   </p>
 </div>
   `.trim();
@@ -108,7 +108,7 @@ export async function POST(req: NextRequest) {
       const isSubscription = session.mode === "subscription";
 
       console.log(
-        `✅ Payment completed — Email: ${customerEmail}, URL: ${auditedUrl}, Mode: ${session.mode}`
+        `✅ Payment completed - Email: ${customerEmail}, URL: ${auditedUrl}, Mode: ${session.mode}`
       );
 
       // Send fulfillment email

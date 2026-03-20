@@ -51,7 +51,7 @@ function deriveTopIssues(current: HealthCheck): string[] {
     issues.push(`SSL certificate expires in ${current.sslExpiryDays} days`);
   }
   if (current.robotsBlocking)
-    issues.push("robots.txt is blocking Googlebot — site may disappear from Google");
+    issues.push("robots.txt is blocking Googlebot - site may disappear from Google");
   if (current.brokenLinksCount > 0)
     issues.push(
       `${current.brokenLinksCount} broken internal link${current.brokenLinksCount > 1 ? "s" : ""} found`
@@ -59,15 +59,15 @@ function deriveTopIssues(current: HealthCheck): string[] {
   if (!current.metaTitlePresent) issues.push("Page title tag is missing");
   if (!current.metaDescPresent) issues.push("Meta description is missing");
   if (!current.ogImagePresent)
-    issues.push("OG image missing — social shares will have no preview image");
+    issues.push("OG image missing - social shares will have no preview image");
   if (current.h1Count === 0) issues.push("No H1 heading found on the page");
   if (current.h1Count > 1)
-    issues.push(`${current.h1Count} H1 headings found — should be exactly 1`);
+    issues.push(`${current.h1Count} H1 headings found - should be exactly 1`);
   if (!current.sitemapExists)
-    issues.push("sitemap.xml not found — submit one to Google Search Console");
+    issues.push("sitemap.xml not found - submit one to Google Search Console");
   if (current.pageSpeed !== null && current.pageSpeed < 50)
     issues.push(
-      `PageSpeed score is ${current.pageSpeed}/100 — poor performance hurts rankings`
+      `PageSpeed score is ${current.pageSpeed}/100 - poor performance hurts rankings`
     );
   return issues.slice(0, 3);
 }
@@ -109,7 +109,7 @@ function buildHtmlEmail(opts: WeeklyReportOptions): string {
             )
             .join("")}
         </ol>`
-      : `<div style="color:#22c55e;font-size:14px;font-weight:600;">Everything looks good — no issues found this week.</div>`;
+      : `<div style="color:#22c55e;font-size:14px;font-weight:600;">Everything looks good - no issues found this week.</div>`;
 
   return `
     <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;max-width:600px;margin:0 auto;color:#111827;">
@@ -245,9 +245,9 @@ function buildTextEmail(opts: WeeklyReportOptions): string {
   const issueLines =
     topIssues.length > 0
       ? topIssues.map((issue, i) => `  ${i + 1}. ${issue}`).join("\n")
-      : "  Everything looks good — no issues found this week.";
+      : "  Everything looks good - no issues found this week.";
 
-  return `GetMetaFix — Weekly Health Report
+  return `GetMetaFix - Weekly Health Report
 ${domain} · ${dateStr}
 ${url}
 
@@ -270,7 +270,7 @@ QUICK STATS:
 You're receiving this because you signed up for Website Health Monitor at getmetafix.com.
 To cancel, reply to this email.
 
-— The GetMetaFix Team
+- The GetMetaFix Team
 https://getmetafix.com`;
 }
 
@@ -285,7 +285,7 @@ export async function sendWeeklyReport(
     year: "numeric",
   });
 
-  const subject = `Weekly health report for ${domain} — ${dateStr}`;
+  const subject = `Weekly health report for ${domain} - ${dateStr}`;
   const htmlBody = buildHtmlEmail(opts);
   const textBody = buildTextEmail(opts);
 

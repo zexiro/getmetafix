@@ -339,7 +339,7 @@ function ResultsContent() {
                     Get AI-generated fixes for every issue
                   </h2>
                   <p className="text-gray-400 text-sm mb-4">
-                    {result.summary.critical + result.summary.warning} issues found. Each has a ready-to-paste code fix — click, copy, deploy.
+                    {result.summary.critical + result.summary.warning} issues found. Each has a ready-to-paste code fix – click, copy, deploy.
                   </p>
                   <ul className="text-sm text-gray-300 space-y-1.5 mb-6">
                     {["Copy-ready HTML/JSON-LD snippets", "Prioritised by impact", "AI-written meta descriptions & titles", "30-day money-back guarantee"].map((f) => (
@@ -356,7 +356,7 @@ function ResultsContent() {
                     disabled={checkingOut}
                     className="w-full py-3 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 text-sm"
                   >
-                    {checkingOut ? "Loading…" : "Unlock all fixes — $29"}
+                    {checkingOut ? "Loading…" : "Unlock all fixes – $29"}
                   </button>
                   <p className="text-center text-xs text-gray-500">One-time payment. Fixes stay yours forever.</p>
                   {/* Secondary: subscription */}
@@ -365,7 +365,7 @@ function ResultsContent() {
                     disabled={checkingOut}
                     className="w-full py-2.5 bg-gray-800 text-gray-200 font-medium rounded-xl hover:bg-gray-700 transition-colors disabled:opacity-50 text-sm mt-1"
                   >
-                    {checkingOut ? "Loading…" : "Or: $19/mo — fixes + weekly monitoring"}
+                    {checkingOut ? "Loading…" : "Or: $19/mo – fixes + weekly monitoring"}
                   </button>
                 </div>
               </div>
@@ -452,7 +452,7 @@ function ResultsContent() {
                 disabled={checkingOut}
                 className="px-8 py-3.5 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
               >
-                {checkingOut ? "Loading…" : "Unlock all fixes — $29"}
+                {checkingOut ? "Loading…" : "Unlock all fixes – $29"}
               </button>
               <button
                 onClick={() => handleCheckout("subscription")}

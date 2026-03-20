@@ -120,7 +120,7 @@ async function runSeoChecks(url: string, $: cheerio.CheerioAPI, isHttps: boolean
 
   // 6. OG image
   const ogImage = $('meta[property="og:image"]').attr("content")?.trim() ?? "";
-  checks.push(check("og-image", "og:image tag", !!ogImage, ogImage || "(none)", ogImage ? "Present" : "Missing og:image — social shares will show no image"));
+  checks.push(check("og-image", "og:image tag", !!ogImage, ogImage || "(none)", ogImage ? "Present" : "Missing og:image - social shares will show no image"));
 
   // 7. Twitter card
   const twitterCard = $('meta[name="twitter:card"]').attr("content")?.trim() ?? "";
@@ -130,16 +130,16 @@ async function runSeoChecks(url: string, $: cheerio.CheerioAPI, isHttps: boolean
 
   // 8. Canonical tag
   const canonical = $('link[rel="canonical"]').attr("href")?.trim() ?? "";
-  checks.push(check("canonical", "Canonical tag", !!canonical, canonical || "(none)", canonical ? "Present" : "Missing canonical tag — may cause duplicate content issues"));
+  checks.push(check("canonical", "Canonical tag", !!canonical, canonical || "(none)", canonical ? "Present" : "Missing canonical tag - may cause duplicate content issues"));
 
   // 9. Schema / JSON-LD
   const jsonLd = $('script[type="application/ld+json"]').length > 0;
-  checks.push(check("schema", "Schema markup (JSON-LD)", jsonLd, jsonLd ? "Present" : "(none)", jsonLd ? "Structured data found" : "No schema markup — missing rich result eligibility"));
+  checks.push(check("schema", "Schema markup (JSON-LD)", jsonLd, jsonLd ? "Present" : "(none)", jsonLd ? "Structured data found" : "No schema markup - missing rich result eligibility"));
 
   // 10. Robots meta
   const robots = $('meta[name="robots"]').attr("content")?.trim() ?? "";
   const notNoindex = !robots.includes("noindex");
-  checks.push(check("robots", "Robots meta (not noindex)", notNoindex, robots || "(not set — default is index)", notNoindex ? "Page is indexable" : "CRITICAL: Page is set to noindex — not visible in search"));
+  checks.push(check("robots", "Robots meta (not noindex)", notNoindex, robots || "(not set - default is index)", notNoindex ? "Page is indexable" : "CRITICAL: Page is set to noindex - not visible in search"));
 
   // 11. Sitemap
   let sitemapOk = false;
@@ -155,10 +155,10 @@ async function runSeoChecks(url: string, $: cheerio.CheerioAPI, isHttps: boolean
   } catch {
     sitemapOk = false;
   }
-  checks.push(check("sitemap", "Sitemap (/sitemap.xml)", sitemapOk, sitemapOk ? "Found" : "Not found", sitemapOk ? "Sitemap exists" : "No sitemap.xml found — submit one to Google Search Console"));
+  checks.push(check("sitemap", "Sitemap (/sitemap.xml)", sitemapOk, sitemapOk ? "Found" : "Not found", sitemapOk ? "Sitemap exists" : "No sitemap.xml found - submit one to Google Search Console"));
 
   // 12. SSL / HTTPS
-  checks.push(check("ssl", "SSL (HTTPS)", isHttps, isHttps ? "HTTPS" : "HTTP", isHttps ? "Site uses HTTPS" : "Site is not using HTTPS — this is a ranking factor"));
+  checks.push(check("ssl", "SSL (HTTPS)", isHttps, isHttps ? "HTTPS" : "HTTP", isHttps ? "Site uses HTTPS" : "Site is not using HTTPS - this is a ranking factor"));
 
   // Score: each check worth ~3.3 pts, max 40
   const passedCount = checks.filter((c) => c.passed).length;
@@ -179,7 +179,7 @@ async function runPerformanceChecks(url: string, $: cheerio.CheerioAPI, response
     "Server response time",
     responseOk,
     `${responseTime}ms`,
-    responseOk ? "Fast response time" : `Slow response time (${responseTime}ms) — aim for < 2000ms`
+    responseOk ? "Fast response time" : `Slow response time (${responseTime}ms) - aim for < 2000ms`
   ));
 
   // Images without alt
@@ -199,7 +199,7 @@ async function runPerformanceChecks(url: string, $: cheerio.CheerioAPI, response
 
   // Viewport tag
   const viewport = $('meta[name="viewport"]').attr("content")?.trim() ?? "";
-  checks.push(check("viewport", "Viewport meta tag (mobile)", !!viewport, viewport || "(none)", viewport ? "Mobile viewport set" : "Missing viewport tag — will render poorly on mobile"));
+  checks.push(check("viewport", "Viewport meta tag (mobile)", !!viewport, viewport || "(none)", viewport ? "Mobile viewport set" : "Missing viewport tag - will render poorly on mobile"));
 
   // PageSpeed Insights (optional, may not have API key)
   let performanceScore: number | null = null;
@@ -239,20 +239,20 @@ async function runPerformanceChecks(url: string, $: cheerio.CheerioAPI, response
           "PageSpeed mobile score",
           performanceScore >= 70,
           `${performanceScore}/100`,
-          performanceScore >= 90 ? "Excellent performance" : performanceScore >= 70 ? "Good performance" : performanceScore >= 50 ? "Needs improvement" : "Poor performance — likely hurting conversions"
+          performanceScore >= 90 ? "Excellent performance" : performanceScore >= 70 ? "Good performance" : performanceScore >= 50 ? "Needs improvement" : "Poor performance - likely hurting conversions"
         ));
         if (lcp) {
           const lcpMs = parseFloat(lcp.replace(/[^0-9.]/g, "")) * (lcp.includes("ms") ? 1 : 1000);
-          checks.push(check("lcp", "LCP (Largest Contentful Paint)", lcpMs < 2500, lcp, lcpMs < 2500 ? "Good LCP" : "LCP too slow — target < 2.5s"));
+          checks.push(check("lcp", "LCP (Largest Contentful Paint)", lcpMs < 2500, lcp, lcpMs < 2500 ? "Good LCP" : "LCP too slow - target < 2.5s"));
         }
         if (cls) {
           const clsVal = parseFloat(cls);
-          checks.push(check("cls", "CLS (Cumulative Layout Shift)", clsVal < 0.1, cls, clsVal < 0.1 ? "Good layout stability" : "High CLS — page elements are shifting"));
+          checks.push(check("cls", "CLS (Cumulative Layout Shift)", clsVal < 0.1, cls, clsVal < 0.1 ? "Good layout stability" : "High CLS - page elements are shifting"));
         }
       }
     }
   } catch {
-    // PageSpeed API unavailable — that's fine
+    // PageSpeed API unavailable - that's fine
   }
 
   const passedCount = checks.filter((c) => c.passed).length;
@@ -293,7 +293,7 @@ function runSocialChecks($: cheerio.CheerioAPI): SocialChecks {
   // OG image
   const ogImage = $('meta[property="og:image"]').attr("content")?.trim() ?? "";
   const ogImageOk = !!ogImage && (ogImage.startsWith("http://") || ogImage.startsWith("https://") || ogImage.startsWith("/"));
-  checks.push(check("og-image-social", "og:image for social sharing", ogImageOk, ogImage || "(none)", ogImageOk ? "og:image is set" : "No og:image — social shares will be link-only (no preview image)"));
+  checks.push(check("og-image-social", "og:image for social sharing", ogImageOk, ogImage || "(none)", ogImageOk ? "og:image is set" : "No og:image - social shares will be link-only (no preview image)"));
 
   const passedCount = checks.filter((c) => c.passed).length;
   const score = Math.round((passedCount / checks.length) * 30);
@@ -334,7 +334,7 @@ async function runCompetitorChecks(
     const comp$ = cheerio.load(html);
     competitorChecks = basicChecksFor(comp$);
   } catch {
-    // competitor fetch failed — use defaults
+    // competitor fetch failed - use defaults
   }
 
   return { competitorUrl, subjectChecks, competitorChecks };

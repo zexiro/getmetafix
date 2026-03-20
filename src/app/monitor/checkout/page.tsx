@@ -136,7 +136,7 @@ export default function MonitorCheckoutPage() {
                   Redirecting to checkout…
                 </span>
               ) : (
-                "Continue to payment — $79/mo"
+                "Continue to payment – $79/mo"
               )}
             </button>
 

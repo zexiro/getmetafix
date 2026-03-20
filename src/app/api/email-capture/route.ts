@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
         ? `<strong style="color:#dc2626">${summary.critical} critical issue${summary.critical !== 1 ? "s" : ""}</strong>${summary.warning > 0 ? ` and <strong style="color:#d97706">${summary.warning} warning${summary.warning !== 1 ? "s" : ""}</strong>` : ""} found.`
         : summary?.warning > 0
         ? `<strong style="color:#d97706">${summary.warning} warning${summary.warning !== 1 ? "s" : ""}</strong> found.`
-        : "No critical issues found — great work.";
+        : "No critical issues found - great work.";
 
     const htmlBody = `
 <!DOCTYPE html>
@@ -91,7 +91,7 @@ export async function POST(req: NextRequest) {
           <p style="color:#374151;font-size:15px;margin:0 0 24px">${issuesText}</p>
 
           <p style="color:#374151;font-size:15px;margin:0 0 8px">
-            The full audit with all issue details is available on your results page. If you'd like the AI-generated fixes — exact HTML to copy-paste into your site — they're available for $29 (one-time).
+            The full audit with all issue details is available on your results page. If you'd like the AI-generated fixes - exact HTML to copy-paste into your site - they're available for $29 (one-time).
           </p>
 
           <!-- CTA -->
@@ -138,7 +138,7 @@ export async function POST(req: NextRequest) {
           email: "hello@getmetafix.com",
           name: "GetMetaFix",
         },
-        subject: `Your SEO audit for ${new URL(url).hostname} — Grade ${summary?.grade ?? "complete"}`,
+        subject: `Your SEO audit for ${new URL(url).hostname} - Grade ${summary?.grade ?? "complete"}`,
         content: [{ type: "text/html", value: htmlBody }],
         tracking_settings: {
           click_tracking: { enable: true },

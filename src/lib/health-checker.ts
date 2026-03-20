@@ -134,7 +134,7 @@ async function checkBrokenLinks(
         brokenCount++;
       }
     } catch {
-      // network error — count as broken
+      // network error - count as broken
       brokenCount++;
     }
   }

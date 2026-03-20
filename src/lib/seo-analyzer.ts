@@ -45,7 +45,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
   if (!url.startsWith("http")) url = "https://" + url;
   const parsedUrl = new URL(url);
 
-  // Fetch the page — use undici with relaxed TLS for crawler
+  // Fetch the page - use undici with relaxed TLS for crawler
   const agent = new Agent({
     connect: { rejectUnauthorized: false },
   });
@@ -115,7 +115,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
       severity: "critical",
       title: "Missing meta description",
       description:
-        "No meta description found. Google uses this in search snippets — missing it means Google writes one for you (usually badly).",
+        "No meta description found. Google uses this in search snippets - missing it means Google writes one for you (usually badly).",
       current: "(none)",
       fix: `<meta name="description" content="[Write a 120–155 character description of this page that includes your primary keyword and a clear value proposition.]">`,
     });
@@ -187,7 +187,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
       severity: "critical",
       title: "Missing og:image",
       description:
-        "No Open Graph image. Social media shares of your page will show no image — dramatically reducing click-through rates.",
+        "No Open Graph image. Social media shares of your page will show no image - dramatically reducing click-through rates.",
       current: "(none)",
       fix: `<meta property="og:image" content="https://${parsedUrl.hostname}/og-image.jpg">\n<!-- Create a 1200×630px image and host it at this URL -->`,
     });
@@ -283,7 +283,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
       description:
         "No H1 heading found. Every page should have exactly one H1 that includes your primary keyword.",
       current: "(none)",
-      fix: `<h1>[Your primary keyword phrase — be specific, e.g. "Handmade Leather Wallets for Men"]</h1>`,
+      fix: `<h1>[Your primary keyword phrase - be specific, e.g. "Handmade Leather Wallets for Men"]</h1>`,
     });
   } else if (h1s.length > 1) {
     issues.push({
@@ -343,7 +343,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
       description:
         "Images without alt text are invisible to search engines and screen readers. Each image should describe what it shows.",
       current: imgsWithoutAlt.slice(0, 3).join(", ") + (imgsWithoutAlt.length > 3 ? ` (+${imgsWithoutAlt.length - 3} more)` : ""),
-      fix: `Add descriptive alt text to each image. Examples:\n<img src="product.jpg" alt="Handmade leather wallet in tan — front view">\n<img src="team.jpg" alt="The [Company] founding team at our Brooklyn studio">`,
+      fix: `Add descriptive alt text to each image. Examples:\n<img src="product.jpg" alt="Handmade leather wallet in tan - front view">\n<img src="team.jpg" alt="The [Company] founding team at our Brooklyn studio">`,
     });
   } else if (images.length > 0) {
     passed++;
@@ -388,7 +388,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
       severity: "critical",
       title: "Page is set to noindex",
       description:
-        "This page has a noindex directive — it will not appear in Google search results. If this is intentional, ignore this. If not, remove the noindex tag immediately.",
+        "This page has a noindex directive - it will not appear in Google search results. If this is intentional, ignore this. If not, remove the noindex tag immediately.",
       current: robots,
       fix: robots === "noindex" ? `Remove the robots meta tag entirely, or change to:\n<meta name="robots" content="index, follow">` : `<meta name="robots" content="${robots.replace("noindex", "index")}">`,
     });
@@ -422,7 +422,7 @@ export async function analyzeUrl(url: string): Promise<AuditResult> {
       severity: "critical",
       title: "Missing viewport meta tag",
       description:
-        "No viewport tag found. This will cause your page to render poorly on mobile devices. Google uses mobile-first indexing — this directly impacts rankings.",
+        "No viewport tag found. This will cause your page to render poorly on mobile devices. Google uses mobile-first indexing - this directly impacts rankings.",
       current: "(none)",
       fix: `<meta name="viewport" content="width=device-width, initial-scale=1">`,
     });

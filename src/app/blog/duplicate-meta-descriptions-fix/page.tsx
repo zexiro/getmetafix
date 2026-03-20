@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Duplicate Meta Descriptions: What They Are and How to Fix Them — GetMetaFix",
+  title: "Duplicate Meta Descriptions: What They Are and How to Fix Them – GetMetaFix",
   description:
-    "Duplicate meta descriptions silently hurt your SEO — Google ignores them and your click-through rate suffers. Here's how to find them and fix them on Shopify, WordPress, and Wix.",
+    "Duplicate meta descriptions silently hurt your SEO – Google ignores them and your click-through rate suffers. Here's how to find them and fix them on Shopify, WordPress, and Wix.",
   openGraph: {
     title: "Duplicate Meta Descriptions: What They Are and How to Fix Them",
     description:
-      "Duplicate meta descriptions silently hurt your SEO — Google ignores them and your click-through rate suffers. Here's how to find them and fix them on Shopify, WordPress, and Wix.",
+      "Duplicate meta descriptions silently hurt your SEO – Google ignores them and your click-through rate suffers. Here's how to find them and fix them on Shopify, WordPress, and Wix.",
     url: "https://getmetafix.com/blog/duplicate-meta-descriptions-fix",
     type: "article",
     publishedTime: "2026-03-20",
@@ -23,7 +23,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Duplicate Meta Descriptions: What They Are and How to Fix Them",
   description:
-    "Duplicate meta descriptions silently hurt your SEO — Google ignores them and your click-through rate suffers. Here's how to find them and fix them on Shopify, WordPress, and Wix.",
+    "Duplicate meta descriptions silently hurt your SEO – Google ignores them and your click-through rate suffers. Here's how to find them and fix them on Shopify, WordPress, and Wix.",
   datePublished: "2026-03-20",
   dateModified: "2026-03-20",
   author: {
@@ -90,7 +90,7 @@ export default function DuplicateMetaDescriptionsPage() {
             Duplicate Meta Descriptions: What They Are and How to Fix Them
           </h1>
           <p className="text-xl text-gray-500 leading-relaxed">
-            Duplicate meta descriptions silently hurt your SEO — Google ignores them and your click-through rate suffers. Here&apos;s how to find them and fix them on Shopify, WordPress, and Wix.
+            Duplicate meta descriptions silently hurt your SEO – Google ignores them and your click-through rate suffers. Here&apos;s how to find them and fix them on Shopify, WordPress, and Wix.
           </p>
         </header>
 
@@ -98,7 +98,7 @@ export default function DuplicateMetaDescriptionsPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
           <p className="text-sm font-semibold text-gray-900 mb-1">Check your site right now</p>
           <p className="text-sm text-gray-500 mb-4">
-            Free SEO audit in 30 seconds — find duplicate meta descriptions and every other issue covered in this guide.
+            Free SEO audit in 30 seconds – find duplicate meta descriptions and every other issue covered in this guide.
           </p>
           <Link
             href="/"
@@ -118,28 +118,28 @@ export default function DuplicateMetaDescriptionsPage() {
             content. Google reads this tag to understand what each page is about and often uses it as the snippet of text shown below your link in search results.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            When multiple pages carry identical descriptions, Google faces a problem: it cannot distinguish your pages from one another. The result is predictable and costly — Google ignores the description entirely and writes its own, pulling a random excerpt from your page content instead.
+            When multiple pages carry identical descriptions, Google faces a problem: it cannot distinguish your pages from one another. The result is predictable and costly – Google ignores the description entirely and writes its own, pulling a random excerpt from your page content instead.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">Here&apos;s what a duplicate meta description looks like in HTML:</p>
           <pre className="bg-gray-950 text-green-400 rounded-xl p-4 overflow-x-auto text-sm my-6"><code>{`<!-- Product page A -->
 <meta name="description" content="Shop our full range of products. Free delivery over £50.">
 
-<!-- Product page B — identical description -->
+<!-- Product page B – identical description -->
 <meta name="description" content="Shop our full range of products. Free delivery over £50.">`}</code></pre>
           <p className="text-gray-600 leading-relaxed mb-4">
-            This kind of duplication is almost always accidental — caused by a CMS template generating the same fallback text across hundreds of pages when no custom description has been set.
+            This kind of duplication is almost always accidental – caused by a CMS template generating the same fallback text across hundreds of pages when no custom description has been set.
           </p>
 
           <hr className="border-gray-200 my-8" />
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Why duplicate meta descriptions hurt your SEO</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Meta descriptions don&apos;t directly affect Google&apos;s ranking algorithm — Google has confirmed this. But they have a significant indirect impact, and duplicate descriptions make that impact negative.
+            Meta descriptions don&apos;t directly affect Google&apos;s ranking algorithm – Google has confirmed this. But they have a significant indirect impact, and duplicate descriptions make that impact negative.
           </p>
 
-          <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">1. Google rewrites them — badly</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">1. Google rewrites them – badly</h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            When Google detects a duplicate or templated meta description, it overrides it with an auto-generated snippet pulled from your page content. Google&apos;s algorithm doesn&apos;t understand your intent — it grabs whatever text appears relevant to the search query, which is often an awkward sentence fragment, a navigation item, or a legal disclaimer.
+            When Google detects a duplicate or templated meta description, it overrides it with an auto-generated snippet pulled from your page content. Google&apos;s algorithm doesn&apos;t understand your intent – it grabs whatever text appears relevant to the search query, which is often an awkward sentence fragment, a navigation item, or a legal disclaimer.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             You lose control of the single most visible piece of copy in Google search results.
@@ -155,7 +155,7 @@ export default function DuplicateMetaDescriptionsPage() {
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">3. Pages look identical in search results</h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            If a user sees two of your pages in search results with the same description, they have no reason to visit either — they cannot tell what&apos;s different. This is especially damaging for e-commerce stores where product pages often appear together for broad category queries.
+            If a user sees two of your pages in search results with the same description, they have no reason to visit either – they cannot tell what&apos;s different. This is especially damaging for e-commerce stores where product pages often appear together for broad category queries.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">4. Google Search Console flags it</h3>
@@ -191,7 +191,7 @@ export default function DuplicateMetaDescriptionsPage() {
             <li className="text-gray-600 mb-1 ml-4 list-disc">Download Screaming Frog SEO Spider (free tier crawls up to 500 pages)</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Enter your domain and run a crawl</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Go to the <strong className="font-semibold text-gray-900">Meta Description</strong> tab</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc">Filter by <strong className="font-semibold text-gray-900">Duplicate</strong> — you&apos;ll see every page sharing an identical description</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc">Filter by <strong className="font-semibold text-gray-900">Duplicate</strong> – you&apos;ll see every page sharing an identical description</li>
           </ul>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Method 4: View page source</h3>
@@ -214,7 +214,7 @@ export default function DuplicateMetaDescriptionsPage() {
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">The formula for a good meta description</h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            <strong className="font-semibold text-gray-900">[Primary keyword] + [specific value proposition] + [soft CTA] — under 155 characters</strong>
+            <strong className="font-semibold text-gray-900">[Primary keyword] + [specific value proposition] + [soft CTA] – under 155 characters</strong>
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Example for a product page:<br />
@@ -242,7 +242,7 @@ export default function DuplicateMetaDescriptionsPage() {
             <li className="text-gray-600 mb-1 ml-4 list-disc">Click <strong className="font-semibold text-gray-900">Save</strong></li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Prioritise your highest-traffic pages first — use Google Search Console to find which product URLs get the most impressions.
+            Prioritise your highest-traffic pages first – use Google Search Console to find which product URLs get the most impressions.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">For collection pages</h3>
@@ -259,7 +259,7 @@ export default function DuplicateMetaDescriptionsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How to fix duplicate meta descriptions on WordPress</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            WordPress itself doesn&apos;t add meta descriptions — they come from your SEO plugin. The most common culprits for duplicates are pages with no description written, leaving the plugin to use a global fallback template.
+            WordPress itself doesn&apos;t add meta descriptions – they come from your SEO plugin. The most common culprits for duplicates are pages with no description written, leaving the plugin to use a global fallback template.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">With Yoast SEO</h3>
@@ -322,8 +322,8 @@ export default function DuplicateMetaDescriptionsPage() {
             Every page you want Google to rank and users to click. In practice, prioritise:
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Homepage</strong> — Always needs a hand-crafted description</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Top-level service or product category pages</strong> — High traffic, high competition</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Homepage</strong> – Always needs a hand-crafted description</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Top-level service or product category pages</strong> – High traffic, high competition</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Individual product pages</strong> for your best sellers</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Blog posts</strong> targeting specific keywords</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Landing pages</strong> used in ads or outreach</li>
@@ -336,14 +336,14 @@ export default function DuplicateMetaDescriptionsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Check for duplicate meta descriptions right now</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            The fastest way to find duplicate meta descriptions — and every other SEO issue on your site — is a free 30-second audit at{" "}
+            The fastest way to find duplicate meta descriptions – and every other SEO issue on your site – is a free 30-second audit at{" "}
             <a href="https://getmetafix.com" className="text-black underline hover:text-gray-600 transition-colors" target="_blank" rel="noopener noreferrer">GetMetaFix</a>.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Paste in any URL and get a full report: whether your meta description is present, the right length, and potentially duplicated. No account required.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            If you want the AI-generated fix — a unique, keyword-optimised meta description written specifically for your page — that&apos;s included in the $29 Fix Package.
+            If you want the AI-generated fix – a unique, keyword-optimised meta description written specifically for your page – that&apos;s included in the $29 Fix Package.
           </p>
 
         </article>

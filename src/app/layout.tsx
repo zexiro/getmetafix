@@ -10,7 +10,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "GetMetaFix — Free SEO Audit in 30 Seconds",
+  title: "GetMetaFix – Free SEO Audit in 30 Seconds",
   description:
     "Instant SEO audit for Shopify & WordPress. Find broken meta tags, missing OG images, schema errors. AI-generated fixes included. Free to audit, $29 to fix.",
 };

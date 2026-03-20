@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "WooCommerce SEO Meta Tags: Complete Setup Guide (2026) — GetMetaFix",
+  title: "WooCommerce SEO Meta Tags: Complete Setup Guide (2026) – GetMetaFix",
   description:
-    "Most WooCommerce stores ship with default meta descriptions or leave them blank entirely. Here's how to fix every WooCommerce meta tag issue — titles, descriptions, og:image, canonical, and more.",
+    "Most WooCommerce stores ship with default meta descriptions or leave them blank entirely. Here's how to fix every WooCommerce meta tag issue – titles, descriptions, og:image, canonical, and more.",
   openGraph: {
     title: "WooCommerce SEO Meta Tags: Complete Setup Guide (2026)",
     description:
-      "Most WooCommerce stores ship with default meta descriptions or leave them blank entirely. Here's how to fix every WooCommerce meta tag issue — titles, descriptions, og:image, canonical, and more.",
+      "Most WooCommerce stores ship with default meta descriptions or leave them blank entirely. Here's how to fix every WooCommerce meta tag issue – titles, descriptions, og:image, canonical, and more.",
     url: "https://getmetafix.com/blog/woocommerce-seo-meta-tags-guide-2026",
     type: "article",
     publishedTime: "2026-03-20",
@@ -23,7 +23,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "WooCommerce SEO Meta Tags: Complete Setup Guide (2026)",
   description:
-    "Most WooCommerce stores ship with default meta descriptions or leave them blank entirely. Here's how to fix every WooCommerce meta tag issue — titles, descriptions, og:image, canonical, and more.",
+    "Most WooCommerce stores ship with default meta descriptions or leave them blank entirely. Here's how to fix every WooCommerce meta tag issue – titles, descriptions, og:image, canonical, and more.",
   datePublished: "2026-03-20",
   dateModified: "2026-03-20",
   author: {
@@ -101,7 +101,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
           <p className="text-sm font-semibold text-gray-900 mb-1">Find your WooCommerce meta tag issues in 30 seconds</p>
           <p className="text-sm text-gray-500 mb-4">
             GetMetaFix scans your store and flags every missing title, broken og:image, and
-            duplicate description — for free, no account required.
+            duplicate description – for free, no account required.
           </p>
           <Link
             href="/"
@@ -120,11 +120,11 @@ export default function WooCommerceSeoMetaTagsGuide() {
           <p className="text-gray-600 leading-relaxed mb-4">
             WooCommerce is the most widely used ecommerce platform in the world, powering roughly
             one in four online stores. It runs on WordPress, which means you have near-total control
-            over your site — including your SEO. That sounds like an advantage. It frequently is not.
+            over your site – including your SEO. That sounds like an advantage. It frequently is not.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Unlike a hosted platform that enforces defaults, WooCommerce leaves meta tag management
-            almost entirely up to you. Install it, add products, launch your store — and unless you
+            almost entirely up to you. Install it, add products, launch your store – and unless you
             actively configured an SEO plugin and filled in every field, you are publishing pages
             with no meta descriptions, auto-generated title tags, and social previews that default
             to your site logo or nothing at all.
@@ -184,7 +184,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Google uses this as the snippet of text shown below your link in search results. It is
-            not a direct ranking factor, but it heavily influences click-through rate — which is a
+            not a direct ranking factor, but it heavily influences click-through rate – which is a
             ranking signal. Write 150&ndash;160 characters that include your primary keyword and a
             clear reason to click. Unique per page, always.
           </p>
@@ -198,7 +198,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">og:title</code>{" "}
             is absent, platforms pull from your{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">&lt;title&gt;</code>{" "}
-            tag — which is fine. If{" "}
+            tag – which is fine. If{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">og:description</code>{" "}
             is missing, you get an ugly preview with no supporting text.
           </p>
@@ -208,7 +208,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             This determines the thumbnail image shown in social link previews. For WooCommerce, the
-            correct value is your product&apos;s featured image — specifically sized at{" "}
+            correct value is your product&apos;s featured image – specifically sized at{" "}
             <strong className="font-semibold text-gray-900">1200 × 630px</strong> for optimal
             rendering. Without this, Facebook and LinkedIn either grab a random image from the page
             or show nothing. A good product image in a link preview can double click-through rates
@@ -225,7 +225,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">summary</code>{" "}
             for a compact card. Most ecommerce stores should use{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">summary_large_image</code>{" "}
-            — it shows the product photo prominently and looks significantly more compelling in a
+            – it shows the product photo prominently and looks significantly more compelling in a
             feed.
           </p>
 
@@ -264,12 +264,12 @@ export default function WooCommerceSeoMetaTagsGuide() {
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Under the SEO tab, set your focus keyphrase, then write a custom SEO title and meta
-            description. Yoast previews exactly how your result will look in Google — use it. Under
+            description. Yoast previews exactly how your result will look in Google – use it. Under
             the Social tab, set a dedicated og:image and og:description. If you leave these blank,
             Yoast falls back to your SEO title and description, which is acceptable but not optimal.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Yoast automatically handles canonical tags for product pages — it sets the canonical
+            Yoast automatically handles canonical tags for product pages – it sets the canonical
             to the clean product URL and strips query string variants.
           </p>
 
@@ -279,7 +279,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Go to <strong className="font-semibold text-gray-900">Products &rarr; Categories</strong> in
             WordPress, then click Edit on any category. The Yoast metabox appears at the bottom.
-            Write a unique meta description that describes the category — not a generic
+            Write a unique meta description that describes the category – not a generic
             &ldquo;Shop our range of X&rdquo; template. Mention specific product types, price ranges, or
             brands that live within the category.
           </p>
@@ -314,14 +314,14 @@ export default function WooCommerceSeoMetaTagsGuide() {
           <p className="text-gray-600 leading-relaxed mb-4">
             On any product, scroll to the RankMath panel. Set your focus keyword, then expand the
             General tab for title and description, and the Social tab for Open Graph and Twitter
-            Card. RankMath surfaces a snippet preview and a real-time score — aim for a green score,
+            Card. RankMath surfaces a snippet preview and a real-time score – aim for a green score,
             but do not write for the score at the expense of writing for humans.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             One RankMath advantage worth noting: it includes WooCommerce-specific schema markup
             (Product schema with price, availability, and review data) in its free tier. Yoast
             requires the paid WooCommerce SEO add-on for equivalent schema output. If schema markup
-            matters to your store — and it should — RankMath is worth the switch.
+            matters to your store – and it should – RankMath is worth the switch.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             For bulk edits, RankMath&apos;s free Bulk Edit tool lets you update meta titles and
@@ -335,7 +335,7 @@ export default function WooCommerceSeoMetaTagsGuide() {
             Setting meta tags manually via functions.php
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            For developers who want programmatic control — or stores that cannot use a plugin —
+            For developers who want programmatic control – or stores that cannot use a plugin –
             you can output meta tags directly from your theme&apos;s{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">functions.php</code>{" "}
             or a custom plugin using the{" "}
@@ -360,7 +360,7 @@ function custom_woo_meta_tags() {
         // og:description
         echo '<meta property="og:description" content="' . esc_attr( $description ) . '">' . "\n";
 
-        // og:image — featured image at 1200x630
+        // og:image – featured image at 1200x630
         $image_id  = $product->get_image_id();
         $image_url = wp_get_attachment_image_url( $image_id, 'full' );
         if ( $image_url ) {
@@ -376,10 +376,10 @@ function custom_woo_meta_tags() {
 }`}</code></pre>
           <p className="text-gray-600 leading-relaxed mb-4">
             A few important caveats with this approach. First, if you already have Yoast or
-            RankMath active, do not add this code — you will output duplicate tags. Second, the
+            RankMath active, do not add this code – you will output duplicate tags. Second, the
             short description fallback for meta descriptions only works if your product short
             descriptions are actually written and kept under 160 characters. Third, this code does
-            not handle category pages or the homepage — you would need additional{" "}
+            not handle category pages or the homepage – you would need additional{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">is_product_category()</code>{" "}
             and{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">is_front_page()</code>{" "}
@@ -398,7 +398,7 @@ function custom_woo_meta_tags() {
           </h2>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Product pages — highest priority
+            Product pages – highest priority
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Every product page needs a unique title tag, a unique meta description, and a
@@ -408,13 +408,13 @@ function custom_woo_meta_tags() {
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Title tag formula that works:{" "}
-            <strong className="font-semibold text-gray-900">[Primary Keyword] — [Key Differentiator] | [Brand]</strong>.
-            For example: <em>Organic Cotton T-Shirt — Heavyweight 280gsm | NovaApparel</em>. Under
+            <strong className="font-semibold text-gray-900">[Primary Keyword] – [Key Differentiator] | [Brand]</strong>.
+            For example: <em>Organic Cotton T-Shirt – Heavyweight 280gsm | NovaApparel</em>. Under
             60 characters, keyword-first, brand at the end.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Category pages — often neglected, high opportunity
+            Category pages – often neglected, high opportunity
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Category pages are often where the most-searched category-level keywords land. A query
@@ -429,21 +429,21 @@ function custom_woo_meta_tags() {
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">/category/shoes/page/2/</code>{" "}
             canonicalises to{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">/category/shoes/</code>
-            ) — Yoast and RankMath both handle this automatically.
+            ) – Yoast and RankMath both handle this automatically.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Homepage — your brand&apos;s first impression on Google
+            Homepage – your brand&apos;s first impression on Google
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Your homepage title tag should lead with your brand name and follow with a short value
-            proposition — what you sell and why someone should buy from you. Keep it under 60
+            proposition – what you sell and why someone should buy from you. Keep it under 60
             characters. The meta description should be 150&ndash;160 characters that describe
             your store, include a keyword (e.g. your primary product category), and end with a
             soft call to action.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Set a single, high-quality homepage og:image that represents your brand — typically
+            Set a single, high-quality homepage og:image that represents your brand – typically
             a hero image or product lifestyle shot. This image appears whenever someone shares
             your homepage URL on social media. It is worth a few minutes to get right.
           </p>
@@ -460,17 +460,17 @@ function custom_woo_meta_tags() {
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Install Yoast SEO or RankMath</strong> if
-              you have not already — do not run WooCommerce without an SEO plugin
+              you have not already – do not run WooCommerce without an SEO plugin
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Audit your homepage</strong> — open
+              <strong className="font-semibold text-gray-900">Audit your homepage</strong> – open
               your store in a browser, right-click &rarr; View Page Source, search for{" "}
               <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">meta name=&quot;description&quot;</code>{" "}
               and confirm it is set, unique, and under 160 characters
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Check your top 10 products</strong> in
-              Google Search Console for pages with the highest impressions but low CTR — those
+              Google Search Console for pages with the highest impressions but low CTR – those
               almost always have weak or missing meta descriptions
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
@@ -479,23 +479,23 @@ function custom_woo_meta_tags() {
               still shows something sensible when shared
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Enable twitter:card</strong> — in
+              <strong className="font-semibold text-gray-900">Enable twitter:card</strong> – in
               Yoast, go to SEO &rarr; Social &rarr; Twitter and ensure Twitter card data is enabled;
               set the card type to Summary with Large Image
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Verify canonical tags are active</strong> —
+              <strong className="font-semibold text-gray-900">Verify canonical tags are active</strong> –
               visit a category page with a sort parameter (e.g.{" "}
               <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">?orderby=price</code>),
               view source, and confirm a canonical pointing to the clean URL is present
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Write unique category descriptions</strong> —
+              <strong className="font-semibold text-gray-900">Write unique category descriptions</strong> –
               log into WordPress, go to Products &rarr; Categories, and add a 150-character
               description to every category that receives organic traffic
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Check og:image dimensions</strong> — your
+              <strong className="font-semibold text-gray-900">Check og:image dimensions</strong> – your
               product featured images should be at least 1200 × 630px; smaller images render poorly
               in social previews and get cropped unpredictably
             </li>
@@ -506,7 +506,7 @@ function custom_woo_meta_tags() {
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Run a free GetMetaFix audit</strong> to
-              catch anything this checklist missed — it checks all the above in 30 seconds and
+              catch anything this checklist missed – it checks all the above in 30 seconds and
               flags every issue with a specific fix
             </li>
           </ul>
@@ -519,7 +519,7 @@ function custom_woo_meta_tags() {
             Find every meta tag issue on your WooCommerce store
           </h2>
           <p className="text-gray-400 mb-2">
-            GetMetaFix runs a free 30-second audit on any URL — checking title tags, meta
+            GetMetaFix runs a free 30-second audit on any URL – checking title tags, meta
             descriptions, og:image, canonical tags, and more.
           </p>
           <p className="text-gray-500 text-sm mb-6">

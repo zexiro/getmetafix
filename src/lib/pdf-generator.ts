@@ -61,7 +61,7 @@ export function generateAuditHtml(result: GrowthAuditResult): string {
       const subjectCell = `<td style="padding:8px 12px;font-size:12px;">${sc.passed ? '<span style="color:#22c55e;">✓</span>' : '<span style="color:#ef4444;">✗</span>'} ${sc.value}</td>`;
       const compCell = cc
         ? `<td style="padding:8px 12px;font-size:12px;">${cc.passed ? '<span style="color:#22c55e;">✓</span>' : '<span style="color:#ef4444;">✗</span>'} ${cc.value}</td>`
-        : `<td style="padding:8px 12px;font-size:12px;color:#9ca3af;">—</td>`;
+        : `<td style="padding:8px 12px;font-size:12px;color:#9ca3af;">-</td>`;
       return `<tr style="border-bottom:1px solid #f3f4f6;"><td style="padding:8px 12px;font-size:13px;color:#374151;">${sc.label}</td>${subjectCell}${compCell}</tr>`;
     }).join("");
 
@@ -86,7 +86,7 @@ export function generateAuditHtml(result: GrowthAuditResult): string {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GetMetaFix Growth Audit — ${businessName}</title>
+<title>GetMetaFix Growth Audit - ${businessName}</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #fff; color: #111827; }
@@ -181,7 +181,7 @@ export function generateAuditHtml(result: GrowthAuditResult): string {
     </p>
     <div style="display:flex;gap:12px;align-items:center;">
       <a href="https://getmetafix.com" style="display:inline-block;background:#111827;color:#fff;padding:10px 20px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;">
-        Start monitoring — getmetafix.com
+        Start monitoring - getmetafix.com
       </a>
       <span style="font-size:12px;color:#6b7280;">Reply to this email with any questions.</span>
     </div>
@@ -201,7 +201,7 @@ export function generateAuditHtml(result: GrowthAuditResult): string {
 
 export async function generatePdf(html: string): Promise<Buffer> {
   // Build the module path at runtime so Turbopack cannot statically analyze it.
-  // Turbopack only traces string literals passed directly to require/import —
+  // Turbopack only traces string literals passed directly to require/import -
   // a runtime-constructed string is opaque to the bundler.
   const playwrightPath =
     process.env.PLAYWRIGHT_CORE_PATH ??

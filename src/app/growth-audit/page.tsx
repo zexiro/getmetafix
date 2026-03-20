@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Growth Audit — GetMetaFix",
+  title: "Growth Audit – GetMetaFix",
   description:
     "47-point audit covering SEO, page speed, social presence, and competitors. Find out exactly what's holding your business back online. Delivered as a PDF within 30 minutes.",
 };
@@ -49,7 +49,7 @@ export default function GrowthAuditPage() {
             href="/growth-audit/order"
             className="px-8 py-4 bg-black text-white font-semibold rounded-xl hover:bg-gray-800 transition-colors text-base"
           >
-            Get Your Growth Audit — $149
+            Get Your Growth Audit – $149
           </Link>
         </div>
 
@@ -97,7 +97,7 @@ export default function GrowthAuditPage() {
               </svg>
             </div>
             <h3 className="font-bold text-gray-900 text-lg mb-2">Performance</h3>
-            <p className="text-sm text-gray-500 mb-4">Is your site fast enough to keep visitors — and rank?</p>
+            <p className="text-sm text-gray-500 mb-4">Is your site fast enough to keep visitors – and rank?</p>
             <ul className="text-sm text-gray-500 space-y-2">
               {[
                 "Page speed score",
@@ -198,7 +198,7 @@ export default function GrowthAuditPage() {
             href="/growth-audit/order"
             className="inline-block px-8 py-4 bg-white text-black font-semibold rounded-xl hover:bg-gray-100 transition-colors text-base"
           >
-            Get Your Growth Audit — $149
+            Get Your Growth Audit – $149
           </Link>
           <p className="text-gray-500 text-sm mt-4">
             Delivered within 30 minutes. 100% satisfaction guarantee.
