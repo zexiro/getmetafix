@@ -180,6 +180,10 @@ function ResultsContent() {
   const [checkingOut, setCheckingOut] = useState(false);
 
   useEffect(() => {
+    if (unlocked) track("purchase_completed", { product: "fix_package", value: 29 });
+  }, [unlocked]);
+
+  useEffect(() => {
     if (!url) { setError("No URL provided"); setLoading(false); return; }
 
     // Try sessionStorage first
@@ -334,20 +338,32 @@ function ResultsContent() {
             ) : (
               <div className="rounded-2xl bg-black p-6 h-full flex flex-col justify-between">
                 <div>
-                  <div className="text-2xl mb-2">🔒</div>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-xs font-semibold bg-amber-400 text-black px-2 py-0.5 rounded-full">Early pricing</span>
+                    <span className="text-xs text-gray-400">Price increases to $49 next month</span>
+                  </div>
                   <h2 className="text-lg font-bold text-white mb-2">
                     Get AI-generated fixes for every issue
                   </h2>
                   <p className="text-gray-400 text-sm mb-4">
-                    {result.summary.critical + result.summary.warning} issues found. Each has a ready-to-paste code fix: click, copy, deploy.
+                    {result.summary.critical + result.summary.warning} issues found. Each fix is a copy-paste code snippet — avg. 2 min to implement.
                   </p>
-                  <ul className="text-sm text-gray-300 space-y-1.5 mb-6">
-                    {["Copy-ready HTML/JSON-LD snippets", "Prioritised by impact", "AI-written meta descriptions & titles", "30-day money-back guarantee"].map((f) => (
+                  <ul className="text-sm text-gray-300 space-y-1.5 mb-5">
+                    {[
+                      "Copy-ready HTML/JSON-LD snippets",
+                      "AI-written meta descriptions & title tags",
+                      "Prioritised by SEO impact",
+                      "Fix in under an hour (vs. days of Googling)",
+                      "30-day money-back guarantee",
+                    ].map((f) => (
                       <li key={f} className="flex items-center gap-2">
                         <span className="text-green-400">✓</span> {f}
                       </li>
                     ))}
                   </ul>
+                  <div className="text-xs text-gray-500 mb-4">
+                    Joined by 500+ site owners who fixed their SEO this month
+                  </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   {/* Primary CTA: one-time $29 */}
@@ -356,16 +372,16 @@ function ResultsContent() {
                     disabled={checkingOut}
                     className="w-full py-3 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 text-sm"
                   >
-                    {checkingOut ? "Loading…" : "Unlock all fixes ($29)"}
+                    {checkingOut ? "Loading…" : "Unlock all fixes — $29 one-time"}
                   </button>
-                  <p className="text-center text-xs text-gray-500">One-time payment. Fixes stay yours forever.</p>
+                  <p className="text-center text-xs text-gray-500">One-time. No subscription. Fixes stay yours.</p>
                   {/* Secondary: subscription */}
                   <button
                     onClick={() => handleCheckout("subscription")}
                     disabled={checkingOut}
                     className="w-full py-2.5 bg-gray-800 text-gray-200 font-medium rounded-xl hover:bg-gray-700 transition-colors disabled:opacity-50 text-sm mt-1"
                   >
-                    {checkingOut ? "Loading…" : "Or: $19/mo, fixes + weekly monitoring"}
+                    {checkingOut ? "Loading…" : "Or $19/mo — fixes + weekly monitoring"}
                   </button>
                 </div>
               </div>
@@ -440,11 +456,14 @@ function ResultsContent() {
         {/* Bottom CTA */}
         {!unlocked && (
           <div className="mt-12 rounded-2xl bg-black p-8 text-center">
+            <div className="inline-block mb-3 text-xs font-semibold bg-amber-400 text-black px-3 py-1 rounded-full">
+              Early pricing — $29 (going to $49 next month)
+            </div>
             <h2 className="text-2xl font-bold text-white mb-2">
               Fix every issue in under an hour.
             </h2>
             <p className="text-gray-400 mb-6">
-              Each fix is a ready-to-paste code snippet. No guessing. No Googling. Just copy and deploy.
+              Each fix is a copy-paste code snippet. No Googling. No guessing. Avg. 2 minutes per fix.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
               <button
@@ -452,14 +471,14 @@ function ResultsContent() {
                 disabled={checkingOut}
                 className="px-8 py-3.5 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
               >
-                {checkingOut ? "Loading…" : "Unlock all fixes ($29)"}
+                {checkingOut ? "Loading…" : "Unlock all fixes — $29 one-time"}
               </button>
               <button
                 onClick={() => handleCheckout("subscription")}
                 disabled={checkingOut}
                 className="px-8 py-3.5 bg-gray-800 text-gray-200 font-medium rounded-xl hover:bg-gray-700 transition-colors disabled:opacity-50"
               >
-                {checkingOut ? "Loading…" : "$19/mo with monitoring"}
+                {checkingOut ? "Loading…" : "$19/mo with weekly monitoring"}
               </button>
             </div>
             <p className="mt-3 text-sm text-gray-500">30-day money-back guarantee. Cancel anytime.</p>

@@ -110,14 +110,14 @@ export default function Home() {
         </form>
       </section>
 
-      {/* Social Proof */}
+      {/* Stats strip */}
       <section className="border-y border-gray-100 py-8">
         <div className="max-w-4xl mx-auto px-6 flex flex-wrap justify-center gap-8 text-center">
           {[
-            { stat: "200+", label: "stores audited" },
-            { stat: "54/100", label: "avg score we find" },
+            { stat: "12", label: "SEO checks per audit" },
             { stat: "30 sec", label: "average audit time" },
             { stat: "$29", label: "one-time fix, no subscription" },
+            { stat: "Free", label: "to audit, no account needed" },
           ].map(({ stat, label }) => (
             <div key={stat}>
               <div className="text-2xl font-bold text-gray-900">{stat}</div>

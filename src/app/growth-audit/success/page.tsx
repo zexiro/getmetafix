@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { TrackEvent } from "@/components/TrackEvent";
 
 export const metadata: Metadata = {
   title: "Order Confirmed: GetMetaFix Growth Audit",
@@ -21,6 +22,7 @@ export default async function GrowthAuditSuccessPage({
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <TrackEvent event="purchase_completed" props={{ product: "growth_audit", value: 149 }} />
       {/* Nav */}
       <nav className="border-b border-gray-100 px-6 py-4">
         <div className="max-w-5xl mx-auto flex items-center justify-between">

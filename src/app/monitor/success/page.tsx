@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { TrackEvent } from "@/components/TrackEvent";
 
 export const metadata: Metadata = {
   title: "You&apos;re all set | GetMetaFix Monitor",
@@ -17,6 +18,7 @@ export default async function MonitorSuccessPage({
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <TrackEvent event="purchase_completed" props={{ product: "monitor", value: 79 }} />
       {/* Nav */}
       <nav className="border-b border-gray-100 px-6 py-4">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
