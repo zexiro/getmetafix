@@ -212,20 +212,29 @@ function ResultsContent() {
       .finally(() => setLoading(false));
   }, [url]);
 
-  async function handleCheckout() {
+  async function handleCheckout(type: "onetime" | "subscription" = "onetime") {
     if (!result) return;
     setCheckingOut(true);
-    track("checkout_initiated", { type: "trial", score: result.score, grade: result.grade });
+    track("checkout_initiated", { type, score: result.score, grade: result.grade });
     try {
       const res = await fetch("/api/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_MONTHLY!,
-          url,
-          auditData: result,
-          mode: "subscription",
-        }),
+        body: JSON.stringify(
+          type === "onetime"
+            ? {
+                priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ONETIME!,
+                url,
+                auditData: result,
+                mode: "payment",
+              }
+            : {
+                priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_MONTHLY!,
+                url,
+                auditData: result,
+                mode: "subscription",
+              }
+        ),
       });
       const data = await res.json();
       if (data.url) window.location.href = data.url;
@@ -330,10 +339,10 @@ function ResultsContent() {
                     Get AI-generated fixes for every issue
                   </h2>
                   <p className="text-gray-400 text-sm mb-4">
-                    {result.summary.critical + result.summary.warning} issues found. Each one has a ready-to-paste code fix — just click, copy, and deploy.
+                    {result.summary.critical + result.summary.warning} issues found. Each has a ready-to-paste code fix — click, copy, deploy.
                   </p>
                   <ul className="text-sm text-gray-300 space-y-1.5 mb-6">
-                    {["Copy-ready HTML/JSON-LD snippets", "Prioritised by impact", "AI-written meta descriptions & titles", "Weekly monitoring included"].map((f) => (
+                    {["Copy-ready HTML/JSON-LD snippets", "Prioritised by impact", "AI-written meta descriptions & titles", "30-day money-back guarantee"].map((f) => (
                       <li key={f} className="flex items-center gap-2">
                         <span className="text-green-400">✓</span> {f}
                       </li>
@@ -341,14 +350,23 @@ function ResultsContent() {
                   </ul>
                 </div>
                 <div className="flex flex-col gap-2">
+                  {/* Primary CTA: one-time $29 */}
                   <button
-                    onClick={() => handleCheckout()}
+                    onClick={() => handleCheckout("onetime")}
                     disabled={checkingOut}
                     className="w-full py-3 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 text-sm"
                   >
-                    {checkingOut ? "Loading…" : "Start 14-day free trial"}
+                    {checkingOut ? "Loading…" : "Unlock all fixes — $29"}
                   </button>
-                  <p className="text-center text-xs text-gray-500">$19/mo after trial. Cancel anytime.</p>
+                  <p className="text-center text-xs text-gray-500">One-time payment. Fixes stay yours forever.</p>
+                  {/* Secondary: subscription */}
+                  <button
+                    onClick={() => handleCheckout("subscription")}
+                    disabled={checkingOut}
+                    className="w-full py-2.5 bg-gray-800 text-gray-200 font-medium rounded-xl hover:bg-gray-700 transition-colors disabled:opacity-50 text-sm mt-1"
+                  >
+                    {checkingOut ? "Loading…" : "Or: $19/mo — fixes + weekly monitoring"}
+                  </button>
                 </div>
               </div>
             )}
@@ -428,14 +446,23 @@ function ResultsContent() {
             <p className="text-gray-400 mb-6">
               Each fix is a ready-to-paste code snippet. No guessing. No Googling. Just copy and deploy.
             </p>
-            <button
-              onClick={() => handleCheckout()}
-              disabled={checkingOut}
-              className="px-8 py-3.5 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
-            >
-              {checkingOut ? "Loading…" : "Start 14-day free trial"}
-            </button>
-            <p className="mt-3 text-sm text-gray-500">$19/mo after trial. Cancel anytime.</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+              <button
+                onClick={() => handleCheckout("onetime")}
+                disabled={checkingOut}
+                className="px-8 py-3.5 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
+              >
+                {checkingOut ? "Loading…" : "Unlock all fixes — $29"}
+              </button>
+              <button
+                onClick={() => handleCheckout("subscription")}
+                disabled={checkingOut}
+                className="px-8 py-3.5 bg-gray-800 text-gray-200 font-medium rounded-xl hover:bg-gray-700 transition-colors disabled:opacity-50"
+              >
+                {checkingOut ? "Loading…" : "$19/mo with monitoring"}
+              </button>
+            </div>
+            <p className="mt-3 text-sm text-gray-500">30-day money-back guarantee. Cancel anytime.</p>
           </div>
         )}
       </div>
