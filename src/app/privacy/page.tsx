@@ -38,7 +38,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">1. Who We Are</h2>
             <p>
-              GetMetaFix is operated by <strong>Maestro Labs</strong>, a company registered in England and Wales.
+              GetMetaFix is operated by <strong>CodeHawks Limited</strong>, a company registered in England and Wales.
               We provide an automated SEO audit tool, an AI-powered meta tag fix package, and a website monitoring subscription.
             </p>
             <p className="mt-3">
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
               <a href="mailto:hello@getmetafix.com" className="text-green-600 hover:underline">hello@getmetafix.com</a>
             </p>
             <p className="mt-2 text-sm text-gray-500">
-              Maestro Labs is the data controller for the personal data described in this policy. This policy is governed
+              CodeHawks Limited is the data controller for the personal data described in this policy. This policy is governed
               by the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
             </p>
           </section>
@@ -212,7 +212,7 @@ export default function PrivacyPage() {
               For any questions about this Privacy Policy or your personal data, please contact:
             </p>
             <p className="text-sm mt-2">
-              <strong>Maestro Labs</strong><br />
+              <strong>CodeHawks Limited</strong><br />
               Email: <a href="mailto:hello@getmetafix.com" className="text-green-600 hover:underline">hello@getmetafix.com</a>
             </p>
           </section>
@@ -228,7 +228,7 @@ export default function PrivacyPage() {
             </div>
             <span className="text-gray-900 font-medium">GetMetaFix</span>
             <span className="text-gray-300">&mdash;</span>
-            <span>by Maestro Labs</span>
+            <span>by CodeHawks Limited</span>
           </div>
           <div className="flex gap-6">
             <Link href="/" className="hover:text-gray-700 transition-colors">Home</Link>

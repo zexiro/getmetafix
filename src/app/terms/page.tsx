@@ -38,7 +38,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">1. Who We Are</h2>
             <p>
-              GetMetaFix is operated by <strong>Maestro Labs</strong>, a company registered in England and Wales.
+              GetMetaFix is operated by <strong>CodeHawks Limited</strong>, a company registered in England and Wales.
               These Terms &amp; Conditions (&ldquo;Terms&rdquo;) govern your use of the GetMetaFix website and services
               at <a href="https://getmetafix.com" className="text-green-600 hover:underline">getmetafix.com</a>.
             </p>
@@ -164,7 +164,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">7. Intellectual Property</h2>
             <p className="text-sm">
               All content on the GetMetaFix website, including text, software, design, and graphics, is owned by
-              Maestro Labs or its licensors and is protected by copyright. You may not reproduce or redistribute
+              CodeHawks Limited or its licensors and is protected by copyright. You may not reproduce or redistribute
               our content without prior written permission.
             </p>
             <p className="text-sm mt-3">
@@ -177,7 +177,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">8. Limitation of Liability</h2>
             <p className="text-sm">
-              To the fullest extent permitted by law, Maestro Labs shall not be liable for:
+              To the fullest extent permitted by law, CodeHawks Limited shall not be liable for:
             </p>
             <ul className="list-disc pl-5 space-y-2 text-sm mt-3">
               <li>Any loss of revenue, profits, business, or anticipated savings</li>
@@ -228,7 +228,7 @@ export default function TermsPage() {
               For any questions about these Terms, please contact:
             </p>
             <p className="text-sm mt-2">
-              <strong>Maestro Labs</strong><br />
+              <strong>CodeHawks Limited</strong><br />
               Email: <a href="mailto:hello@getmetafix.com" className="text-green-600 hover:underline">hello@getmetafix.com</a>
             </p>
           </section>
@@ -244,7 +244,7 @@ export default function TermsPage() {
             </div>
             <span className="text-gray-900 font-medium">GetMetaFix</span>
             <span className="text-gray-300">&mdash;</span>
-            <span>by Maestro Labs</span>
+            <span>by CodeHawks Limited</span>
           </div>
           <div className="flex gap-6">
             <Link href="/" className="hover:text-gray-700 transition-colors">Home</Link>
