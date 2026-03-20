@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Local SEO for Restaurants: How Google Reviews Affect Your Rankings (2026) – GetMetaFix",
+  title: "Local SEO for Restaurants: How Google Reviews Affect Your Rankings (2026) | GetMetaFix",
   description:
     "Learn how local SEO for restaurants works in 2026, why your Google Business Profile matters, and how responding to Google reviews within 24 hours can directly improve your local search rankings.",
   openGraph: {
@@ -67,11 +67,11 @@ export default function LocalSeoRestaurantsPost() {
           </p>
         </header>
 
-        {/* Inline CTA – ReviewReply */}
+        {/* Inline CTA: ReviewReply */}
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
           <p className="text-sm font-semibold text-gray-900 mb-1">Responding to reviews taking too long?</p>
           <p className="text-sm text-gray-500 mb-4">
-            ReviewReply automatically responds to every Google review for your restaurant – fast, on-brand,
+            ReviewReply automatically responds to every Google review for your restaurant, fast, on-brand,
             and within the 24-hour window that boosts trust signals.
           </p>
           <Link
@@ -92,20 +92,20 @@ export default function LocalSeoRestaurantsPost() {
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             When someone searches &ldquo;Italian restaurant near me&rdquo; or &ldquo;best brunch in [city]&rdquo;, Google
-            does not just show a list of websites. It shows a <strong className="font-semibold text-gray-900">local pack</strong> – a
+            does not just show a list of websites. It shows a <strong className="font-semibold text-gray-900">local pack</strong>, a
             map with three highlighted businesses at the top of the results. Those three spots capture
             the overwhelming majority of clicks. Everything below them fights over the scraps.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Local SEO for restaurants is the practice of making sure your business appears in that local
-            pack – and appears above your competitors. It is not about gaming Google. It is about giving
+            pack, appearing above your competitors. It is not about gaming Google. It is about giving
             Google the correct signals to understand who you are, where you are, and how trusted you are
             by your customers.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             The restaurants that dominate local search in 2026 are not necessarily the best in the city.
             They are the ones who have done the basics correctly: a fully optimised Google Business Profile,
-            consistent business information across the web, and an active review presence – including
+            consistent business information across the web, and an active review presence, including
             responses.
           </p>
 
@@ -121,7 +121,7 @@ export default function LocalSeoRestaurantsPost() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Complete every field – especially the ones restaurants skip
+            Complete every field, especially the ones restaurants skip
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Most restaurant owners fill in the basics: name, address, phone number, hours. Far fewer
@@ -129,19 +129,19 @@ export default function LocalSeoRestaurantsPost() {
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-1 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Business category</strong> – choose your primary category with precision (e.g. &ldquo;Italian Restaurant&rdquo; not just &ldquo;Restaurant&rdquo;) and add relevant secondary categories
+              <strong className="font-semibold text-gray-900">Business category:</strong> choose your primary category with precision (e.g. &ldquo;Italian Restaurant&rdquo; not just &ldquo;Restaurant&rdquo;) and add relevant secondary categories
             </li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Attributes</strong> – outdoor seating, reservations accepted, delivery available, dog-friendly. These appear as filters in search
+              <strong className="font-semibold text-gray-900">Attributes:</strong> outdoor seating, reservations accepted, delivery available, dog-friendly. These appear as filters in search
             </li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Menu link</strong> – Google surfaces your menu directly in the profile. Link to a canonical menu URL, not a PDF
+              <strong className="font-semibold text-gray-900">Menu link:</strong> Google surfaces your menu directly in the profile. Link to a canonical menu URL, not a PDF
             </li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Photos</strong> – profiles with more than 100 photos receive significantly more clicks. Add interior shots, food photos, and exterior images that help customers recognise you
+              <strong className="font-semibold text-gray-900">Photos:</strong> profiles with more than 100 photos receive significantly more clicks. Add interior shots, food photos, and exterior images that help customers recognise you
             </li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Business description</strong> – use your primary keywords naturally in the 750-character description. Mention your cuisine, neighbourhood, and what makes you different
+              <strong className="font-semibold text-gray-900">Business description:</strong> use your primary keywords naturally in the 750-character description. Mention your cuisine, neighbourhood, and what makes you different
             </li>
           </ul>
 
@@ -150,8 +150,8 @@ export default function LocalSeoRestaurantsPost() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             NAP stands for Name, Address, Phone number. Google cross-references your business information
-            across dozens of third-party directories – Yelp, TripAdvisor, OpenTable, your own website,
-            local newspaper listings – to verify you are a real, trustworthy business. Inconsistencies
+            across dozens of third-party directories, including Yelp, TripAdvisor, OpenTable, your own website,
+            and local newspaper listings, to verify you are a real, trustworthy business. Inconsistencies
             (a slightly different address format here, an old phone number there) dilute your local
             authority and suppress your ranking.
           </p>
@@ -168,8 +168,8 @@ export default function LocalSeoRestaurantsPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Reviews are not just a reputation tool. They are a direct local search ranking signal.
             Google&apos;s own documentation confirms that &ldquo;responding to reviews shows that you value
-            your customers and their feedback.&rdquo; But more than optics, Google uses review activity –
-            quantity, recency, sentiment, and owner responses – as part of its local ranking algorithm.
+            your customers and their feedback.&rdquo; But more than optics, Google uses review activity,
+            including quantity, recency, sentiment, and owner responses, as part of its local ranking algorithm.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Here is what the data shows about Google review responses for restaurants:
@@ -178,7 +178,7 @@ export default function LocalSeoRestaurantsPost() {
             <li className="text-gray-600 mb-1 ml-4 list-disc">Businesses that respond to reviews are rated <strong className="font-semibold text-gray-900">1.7x more trustworthy</strong> by consumers than those that do not</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Responding to negative reviews <strong className="font-semibold text-gray-900">recovers up to 33% of dissatisfied customers</strong> when done within 24 hours</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Restaurants with consistent review responses rank higher in competitive local pack positions compared to those with identical star ratings but no responses</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Response time matters</strong> – responding within 24 hours is considered a strong trust signal by Google and significantly outperforms delayed or irregular responses</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><strong className="font-semibold text-gray-900">Response time matters:</strong> responding within 24 hours is considered a strong trust signal by Google and significantly outperforms delayed or irregular responses</li>
           </ul>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
@@ -187,8 +187,8 @@ export default function LocalSeoRestaurantsPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Google evaluates local businesses on three core pillars: <strong className="font-semibold text-gray-900">relevance</strong>,{" "}
             <strong className="font-semibold text-gray-900">distance</strong>, and{" "}
-            <strong className="font-semibold text-gray-900">prominence</strong>. Review activity – including
-            your responses – falls under prominence. A restaurant that regularly engages with its reviews
+            <strong className="font-semibold text-gray-900">prominence</strong>. Review activity, including
+            your responses, falls under prominence. A restaurant that regularly engages with its reviews
             is signalling to Google that it is an active, customer-focused business, which Google rewards
             with higher prominence scores.
           </p>
@@ -212,8 +212,8 @@ export default function LocalSeoRestaurantsPost() {
             argue. Never copy-paste the same response. Google and customers both notice.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Naturally weaving your location and cuisine into responses – &ldquo;We look forward to welcoming
-            you back to our Shoreditch kitchen&rdquo; – also provides a subtle local keyword reinforcement
+            Naturally weaving your location and cuisine into responses: &ldquo;We look forward to welcoming
+            you back to our Shoreditch kitchen,&rdquo; which also provides a subtle local keyword reinforcement
             that supports your SEO.
           </p>
 
@@ -223,14 +223,14 @@ export default function LocalSeoRestaurantsPost() {
             The 24-hour rule: why response speed is a trust signal
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Responding to reviews within 24 hours is not just good customer service – it is a measurable
+            Responding to reviews within 24 hours is not just good customer service. It is a measurable
             trust signal that Google weighs in its local ranking calculation. Businesses that respond
             rapidly and consistently demonstrate to both Google and potential customers that the business
             is actively managed, attentive, and responsive.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             The problem for most restaurant operators is capacity. You are managing a kitchen, staff, and
-            service – manually checking Google reviews and crafting individual responses every day rarely
+            service. Manually checking Google reviews and crafting individual responses every day rarely
             makes the priority list. Reviews pile up. Weeks pass. Your local ranking quietly erodes.
           </p>
 
@@ -252,13 +252,13 @@ export default function LocalSeoRestaurantsPost() {
 
         </article>
 
-        {/* Bottom CTA – ReviewReply */}
+        {/* Bottom CTA: ReviewReply */}
         <div className="mt-16 bg-black rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-2">
             Automatically respond to every Google review
           </h2>
           <p className="text-gray-400 mb-2">
-            ReviewReply handles your Google review responses for you – fast, personalised, and always
+            ReviewReply handles your Google review responses for you, fast, personalised, and always
             within the 24-hour window that boosts your local rankings.
           </p>
           <p className="text-gray-500 text-sm mb-6">

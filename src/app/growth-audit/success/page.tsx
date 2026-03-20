@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Order Confirmed – GetMetaFix Growth Audit",
+  title: "Order Confirmed: GetMetaFix Growth Audit",
   description: "Your Growth Audit is being prepared. Check your inbox within 30 minutes.",
 };
 

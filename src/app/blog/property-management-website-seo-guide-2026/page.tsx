@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Property Management Website SEO: The Complete Fix Guide (2026) – GetMetaFix",
+  title: "Property Management Website SEO: The Complete Fix Guide (2026) | GetMetaFix",
   description:
-    "Property management websites get 40% of their leads from Google – and most are losing half of those leads to bad meta tags. Here's how to fix every SEO issue on your property management site in 2026.",
+    "Property management websites get 40% of their leads from Google. Most are losing half of those leads to bad meta tags. Here's how to fix every SEO issue on your property management site in 2026.",
   openGraph: {
     title: "Property Management Website SEO: The Complete Fix Guide (2026)",
     description:
-      "Property management websites get 40% of their leads from Google – and most are losing half of those leads to bad meta tags. Here's how to fix every SEO issue on your property management site in 2026.",
+      "Property management websites get 40% of their leads from Google. Most are losing half of those leads to bad meta tags. Here's how to fix every SEO issue on your property management site in 2026.",
     url: "https://getmetafix.com/blog/property-management-website-seo-guide-2026",
     type: "article",
     publishedTime: "2026-03-20",
@@ -61,7 +61,7 @@ export default function PropertyManagementSeoPost() {
             Property Management Website SEO: The Complete Fix Guide (2026)
           </h1>
           <p className="text-xl text-gray-500 leading-relaxed">
-            Property management websites get 40% of their leads from Google – and most of them are
+            Property management websites get 40% of their leads from Google. Most of them are
             losing half of those leads to bad meta tags. Here is every mistake, why it matters, and
             exactly how to fix it.
           </p>
@@ -71,7 +71,7 @@ export default function PropertyManagementSeoPost() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
           <p className="text-sm font-semibold text-gray-900 mb-1">Not sure where your site stands?</p>
           <p className="text-sm text-gray-500 mb-4">
-            GetMetaFix audits your property management website in 30 seconds – title tags, meta
+            GetMetaFix audits your property management website in 30 seconds, covering title tags, meta
             descriptions, Open Graph, canonical URLs, schema markup. Free, no account required.
           </p>
           <Link
@@ -97,7 +97,7 @@ export default function PropertyManagementSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             The data is clear: property management businesses that rank in the top 3 Google results for
             their city capture <strong className="font-semibold text-gray-900">over 60% of all clicks</strong> for
-            that search. Everything below position 3 shares the remaining 40% – and most searchers never
+            that search. Everything below position 3 shares the remaining 40%, and most searchers never
             scroll past the first page at all.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
@@ -107,24 +107,24 @@ export default function PropertyManagementSeoPost() {
             <li className="text-gray-600 mb-1 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Property owners</strong> searching for
               &ldquo;property management company [city]&rdquo;, &ldquo;landlord services [neighbourhood]&rdquo;,
-              or &ldquo;property management fees [city]&rdquo; – these searches represent high-value, long-term
+              or &ldquo;property management fees [city]&rdquo;. These searches represent high-value, long-term
               client acquisition
             </li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Prospective tenants</strong> searching
               for &ldquo;apartments for rent [city]&rdquo;, &ldquo;2 bed flat [neighbourhood]&rdquo;, or specific
-              property addresses – these searches drive occupancy rates and reduce void periods
+              property addresses. These searches drive occupancy rates and reduce void periods
             </li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
             Both audiences are high-intent. Both are making significant financial decisions. And both
-            will click the first credible result they see – which means whoever shows up first, with the
+            will click the first credible result they see, which means whoever shows up first, with the
             most compelling title and description, wins the lead.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Most property management websites are not losing business because of their service. They are
-            losing it because their SEO fundamentals – the technical signals that tell Google what their
-            site is about and who it serves – are broken. The six mistakes below account for the majority
+            losing it because their SEO fundamentals (the technical signals that tell Google what their
+            site is about and who it serves) are broken. The six mistakes below account for the majority
             of lost traffic we see when auditing property management sites.
           </p>
 
@@ -158,7 +158,7 @@ export default function PropertyManagementSeoPost() {
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong className="font-semibold text-gray-900">How to fix it:</strong> Every core page on
-            your site – homepage, services page, about page, any area-specific pages – should have a
+            your site (homepage, services page, about page, any area-specific pages) should have a
             unique title tag that includes your primary city or service area. Keep the title under 60
             characters total. Lead with the keyword (property management + location), follow with your
             brand name.
@@ -171,12 +171,12 @@ export default function PropertyManagementSeoPost() {
             Meta descriptions are the 150-160 character summaries that appear below your title in Google
             results. They do not directly affect ranking, but they dramatically affect{" "}
             <strong className="font-semibold text-gray-900">click-through rate</strong>. A compelling meta
-            description can increase clicks by 20-30% from the same ranking position – which means more
+            description can increase clicks by 20-30% from the same ranking position, which means more
             leads without needing to rank higher.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Property management sites consistently have two problems: either the meta description is
-            completely missing (so Google writes its own – usually pulling a random paragraph from the
+            completely missing (so Google writes its own, usually pulling a random paragraph from the
             page), or the same description is copied across every page (Google ignores duplicates and
             rewrites them anyway).
           </p>
@@ -191,7 +191,7 @@ export default function PropertyManagementSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong className="font-semibold text-gray-900">How to fix it:</strong> Write a unique meta
             description for every page. Include: your location, a key differentiator or statistic, and
-            a soft call to action. Stay between 145-158 characters. Think of it as a small ad – it
+            a soft call to action. Stay between 145-158 characters. Think of it as a small ad, it
             needs to earn the click against every other result on the page.
           </p>
 
@@ -216,11 +216,11 @@ export default function PropertyManagementSeoPost() {
             every page:
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:title</code> – your page title (can match your title tag)</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:description</code> – 1-2 sentences, under 200 characters</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:image</code> – 1200x630px image of a property, your team, or your logo on a clean background</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:url</code> – the canonical URL of the page</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:type</code> – set to <code className="bg-gray-100 px-1 rounded text-xs font-mono">website</code> for your homepage, <code className="bg-gray-100 px-1 rounded text-xs font-mono">article</code> for blog posts</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:title</code>: your page title (can match your title tag)</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:description</code>: 1-2 sentences, under 200 characters</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:image</code>: 1200x630px image of a property, your team, or your logo on a clean background</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:url</code>: the canonical URL of the page</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc"><code className="bg-gray-100 px-1 rounded text-xs font-mono">og:type</code>: set to <code className="bg-gray-100 px-1 rounded text-xs font-mono">website</code> for your homepage, <code className="bg-gray-100 px-1 rounded text-xs font-mono">article</code> for blog posts</li>
           </ul>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
@@ -228,7 +228,7 @@ export default function PropertyManagementSeoPost() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             This is the mistake that surprises most property management companies. Property listing
-            pages – individual property URLs – are extremely prone to duplicate content issues. The
+            pages (individual property URLs) are extremely prone to duplicate content issues. The
             same property may appear at multiple URLs:
             <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono mx-1">/properties/flat-23-riverside/?sort=price</code>
             and
@@ -249,7 +249,7 @@ export default function PropertyManagementSeoPost() {
           </pre>
           <p className="text-gray-600 leading-relaxed mb-4">
             For sites built on WordPress with a plugin like Yoast or RankMath, canonicals are handled
-            automatically – but verify they are generating correctly, especially for filtered or paginated
+            automatically, but verify they are generating correctly, especially for filtered or paginated
             listing pages.
           </p>
 
@@ -277,7 +277,7 @@ export default function PropertyManagementSeoPost() {
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong className="font-semibold text-gray-900">How to fix it:</strong> Run every page title
-            through a character counter (or paste your URL into GetMetaFix – it flags over-length titles
+            through a character counter (or paste your URL into GetMetaFix, which flags over-length titles
             automatically). Shorten by removing adjectives, abbreviating your company name, and
             eliminating redundant words. Google gives more weight to words at the start, so lead with
             your keyword.
@@ -289,12 +289,12 @@ export default function PropertyManagementSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Schema markup is machine-readable code added to your pages that tells Google exactly what
             type of business you are, where you are located, what your opening hours are, and how to
-            contact you. Without it, Google has to guess all of this from your page content – and it
+            contact you. Without it, Google has to guess all of this from your page content, and it
             sometimes guesses wrong.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             With proper schema markup, your listing in Google search results can display star ratings,
-            your address, and a click-to-call phone number directly in the results page – without the
+            your address, and a click-to-call phone number directly in the results page, without the
             user needing to click through to your site. This increases your click-through rate and
             builds immediate trust.
           </p>
@@ -310,7 +310,7 @@ export default function PropertyManagementSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Property management is one of the most geographically concentrated industries in local
             search. A landlord in Salford is not going to hire a property manager based in London.
-            Google knows this – and it weights local signals heavily when ranking property management
+            Google knows this, and it weights local signals heavily when ranking property management
             results.
           </p>
 
@@ -318,8 +318,8 @@ export default function PropertyManagementSeoPost() {
             Geo-targeted title tags: serve every area you operate
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            If your company manages properties across multiple areas – say, Manchester, Salford, and
-            Stockport – you need separate landing pages for each area, each with its own geo-targeted
+            If your company manages properties across multiple areas (say, Manchester, Salford, and
+            Stockport), you need separate landing pages for each area, each with its own geo-targeted
             title tag. A single homepage with &ldquo;Property Management in Manchester&rdquo; will not rank for
             &ldquo;property management Stockport&rdquo; searches.
           </p>
@@ -340,7 +340,7 @@ export default function PropertyManagementSeoPost() {
               <code className="bg-gray-100 px-1 rounded text-xs font-mono">Property Management in Salford</code>
             </li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Content:</strong> area-specific details – local landlord legislation, typical rental yields in the area, nearby landmarks you manage near, local testimonials
+              <strong className="font-semibold text-gray-900">Content:</strong> area-specific details, including local landlord legislation, typical rental yields in the area, nearby landmarks you manage near, and local testimonials
             </li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
@@ -381,7 +381,7 @@ export default function PropertyManagementSeoPost() {
           </pre>
           <p className="text-gray-600 leading-relaxed mb-4">
             Use <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono">RealEstateAgent</code> as
-            your schema type – it is the most accurate match for property management companies and
+            your schema type, it is the most accurate match for property management companies and
             gives Google the clearest signal about your business category. After adding it, test it
             using Google&apos;s Rich Results Test tool to verify there are no errors.
           </p>
@@ -390,7 +390,7 @@ export default function PropertyManagementSeoPost() {
             Google Business Profile: the local SEO multiplier
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Your Google Business Profile operates alongside your website SEO – and for local searches,
+            Your Google Business Profile operates alongside your website SEO, and for local searches,
             it can outrank your website entirely. When someone searches &ldquo;property management company
             Manchester&rdquo;, the map pack (three businesses with pins) appears above all organic website
             results.
@@ -400,11 +400,11 @@ export default function PropertyManagementSeoPost() {
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-1 ml-4 list-disc">Business category set to &ldquo;Property Management Company&rdquo; (not just &ldquo;Real Estate Agency&rdquo;)</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc">Name, address, and phone number (NAP) exactly matching what is on your website – inconsistencies suppress your ranking</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc">Name, address, and phone number (NAP) exactly matching what is on your website (inconsistencies suppress your ranking)</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Service areas listed for every city or postcode district you operate in</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Business description using your target keywords naturally</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">At least 10 photos of properties, your office, and your team</li>
-            <li className="text-gray-600 mb-1 ml-4 list-disc">Responding to every review within 24 hours – this is a local ranking signal</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc">Responding to every review within 24 hours. This is a local ranking signal</li>
           </ul>
 
           <hr className="border-gray-200 my-8" />
@@ -418,43 +418,43 @@ export default function PropertyManagementSeoPost() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Priority 1 – Critical fixes (do these first)
+            Priority 1: Critical fixes (do these first)
           </h3>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Add your city to every title tag</strong> – homepage, services, about, and any area pages. Format: [Service] [City] | [Brand]
+              <strong className="font-semibold text-gray-900">Add your city to every title tag:</strong> homepage, services, about, and any area pages. Format: [Service] [City] | [Brand]
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Shorten all title tags to under 60 characters</strong> – run every page through a character counter or paste your URL into GetMetaFix
+              <strong className="font-semibold text-gray-900">Shorten all title tags to under 60 characters:</strong> run every page through a character counter or paste your URL into GetMetaFix
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Write unique meta descriptions for core pages</strong> – homepage, landlord services, tenant search, contact. 145-158 characters each. Include location + differentiator + CTA
+              <strong className="font-semibold text-gray-900">Write unique meta descriptions for core pages:</strong> homepage, landlord services, tenant search, contact. 145-158 characters each. Include location + differentiator + CTA
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Add canonical tags to all listing pages</strong> – prevents duplicate content splitting your ranking signals
+              <strong className="font-semibold text-gray-900">Add canonical tags to all listing pages:</strong> prevents duplicate content splitting your ranking signals
             </li>
           </ul>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Priority 2 – High-impact improvements
+            Priority 2: High-impact improvements
           </h3>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Add Open Graph tags</strong> to every page – og:title, og:description, og:image (1200x630px), og:url, og:type
+              <strong className="font-semibold text-gray-900">Add Open Graph tags</strong> to every page: og:title, og:description, og:image (1200x630px), og:url, og:type
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Add LocalBusiness/RealEstateAgent schema markup</strong> to your homepage – include address, phone, opening hours, and service areas
+              <strong className="font-semibold text-gray-900">Add LocalBusiness/RealEstateAgent schema markup</strong> to your homepage, including address, phone, opening hours, and service areas
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Create dedicated area pages</strong> for every city or district you manage in – unique content, not just swapped location names
+              <strong className="font-semibold text-gray-900">Create dedicated area pages</strong> for every city or district you manage in. Use unique content, not just swapped location names
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Fully optimise your Google Business Profile</strong> – category, NAP consistency, service areas, description, photos, review responses
+              <strong className="font-semibold text-gray-900">Fully optimise your Google Business Profile:</strong> category, NAP consistency, service areas, description, photos, review responses
             </li>
           </ul>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            Priority 3 – Ongoing maintenance
+            Priority 3: Ongoing maintenance
           </h3>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-1 ml-4 list-disc">Monitor for meta tag regressions after any site update or theme change</li>
@@ -471,24 +471,24 @@ export default function PropertyManagementSeoPost() {
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             Meta tag fixes are among the fastest-acting SEO changes you can make. Once Google re-crawls
-            your pages – typically within 1-4 weeks for an active site – corrected title tags and meta
+            your pages (typically within 1-4 weeks for an active site), and corrected title tags and meta
             descriptions will appear in search results. Click-through rate improvements are often visible
             in Google Search Console within 30-60 days.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Ranking improvements from schema markup, canonical tag fixes, and area page creation take
-            longer – typically 2-4 months before you see measurable movement in positions. This is
+            longer, typically 2-4 months before you see measurable movement in positions. This is
             normal. Google re-evaluates page authority gradually, not overnight.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             The businesses that see the fastest results are those that fix the critical issues first
             (title tags, meta descriptions, canonicals), then layer on the structural improvements
             (schema, area pages, GBP optimisation) over the following months. Do not wait for everything
-            to be perfect before publishing – ship the priority fixes now.
+            to be perfect before publishing. Ship the priority fixes now.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            The fastest way to find out exactly what is broken on your property management website –
-            right now, in under 30 seconds – is to run a free audit at{" "}
+            The fastest way to find out exactly what is broken on your property management website,
+            right now in under 30 seconds, is to run a free audit at{" "}
             <Link href="/" className="text-black font-semibold hover:text-gray-600 transition-colors underline underline-offset-2">
               getmetafix.com
             </Link>. It checks every meta tag, Open Graph tag, canonical URL, and flags what needs
@@ -503,7 +503,7 @@ export default function PropertyManagementSeoPost() {
             Find out what&apos;s breaking your property management SEO
           </h2>
           <p className="text-gray-400 mb-2">
-            GetMetaFix audits your site in 30 seconds – title tags, meta descriptions, Open Graph,
+            GetMetaFix audits your site in 30 seconds, covering title tags, meta descriptions, Open Graph,
             canonical URLs, schema markup. See exactly what Google sees.
           </p>
           <p className="text-gray-500 text-sm mb-6">

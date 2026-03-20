@@ -154,7 +154,7 @@ export default function GrowthAuditOrderPage() {
                 </svg>
                 Redirecting to checkout…
               </span>
-            ) : "Pay $149 – Get My Growth Audit"}
+            ) : "Pay $149 and Get My Growth Audit"}
           </button>
 
           <p className="text-center text-xs text-gray-400 pt-2">

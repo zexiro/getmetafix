@@ -2,9 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Website Health Monitor – GetMetaFix",
+  title: "Website Health Monitor | GetMetaFix",
   description:
-    "Weekly automated health checks for your website. Know the moment something breaks – SSL, broken links, page speed, uptime, SEO. Monday morning report. $79/mo.",
+    "Weekly automated health checks for your website. Know the moment something breaks: SSL, broken links, page speed, uptime, SEO. Monday morning report. $79/mo.",
 };
 
 export default function MonitorPage() {
@@ -42,7 +42,7 @@ export default function MonitorPage() {
 
         <p className="text-xl text-gray-500 mb-10 max-w-2xl mx-auto">
           Weekly automated health checks. Monday morning report.{" "}
-          <strong className="text-gray-700">$79/mo – cancel anytime.</strong>
+          <strong className="text-gray-700">$79/mo, cancel anytime.</strong>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -50,7 +50,7 @@ export default function MonitorPage() {
             href="/monitor/checkout"
             className="px-8 py-4 bg-black text-white font-semibold rounded-xl hover:bg-gray-800 transition-colors text-base"
           >
-            Start Monitoring – $79/mo
+            Start Monitoring ($79/mo)
           </Link>
         </div>
 
@@ -99,7 +99,7 @@ export default function MonitorPage() {
               Performance
             </h3>
             <p className="text-sm text-gray-500 mb-4">
-              Is your site fast enough to keep visitors – and rank?
+              Is your site fast enough to keep visitors and rank?
             </p>
             <ul className="text-sm text-gray-500 space-y-2">
               {[
@@ -210,7 +210,7 @@ export default function MonitorPage() {
                 step: "2",
                 title: "We check every week",
                 description:
-                  "Our engine scans your site weekly – performance, SEO, uptime, SSL, links.",
+                  "Our engine scans your site weekly: performance, SEO, uptime, SSL, links.",
               },
               {
                 step: "3",
@@ -258,7 +258,7 @@ export default function MonitorPage() {
             href="/monitor/checkout"
             className="inline-block px-8 py-4 bg-white text-black font-semibold rounded-xl hover:bg-gray-100 transition-colors text-base"
           >
-            Start Monitoring – $79/mo
+            Start Monitoring ($79/mo)
           </Link>
 
           <p className="text-gray-500 text-sm mt-4">

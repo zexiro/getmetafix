@@ -61,7 +61,7 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 pt-20 pb-16 text-center">
         <div className="inline-flex items-center gap-2 bg-green-50 text-green-700 text-sm font-medium px-3 py-1 rounded-full mb-6">
           <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-          Free audit – no account required
+          Free audit, no account required
         </div>
 
         <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -70,7 +70,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-500 mb-10 max-w-2xl mx-auto">
-          Enter any URL. Get a full SEO health report – meta tags, Open Graph, schema, headings, images.
+          Enter any URL. Get a full SEO health report: meta tags, Open Graph, schema, headings, images.
           Free to audit. <strong className="text-gray-700">$29 to get the AI-generated fixes.</strong>
         </p>
 
@@ -105,7 +105,7 @@ export default function Home() {
             <p className="mt-3 text-red-500 text-sm">{error}</p>
           )}
           <p className="mt-3 text-gray-400 text-sm">
-            Works with any website – Shopify, WordPress, Webflow, custom builds
+            Works with any website: Shopify, WordPress, Webflow, custom builds
           </p>
         </form>
       </section>

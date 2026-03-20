@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Google Business Profile SEO: The Complete Optimisation Guide (2026) – GetMetaFix",
+  title: "Google Business Profile SEO: The Complete Optimisation Guide (2026) | GetMetaFix",
   description:
-    "Learn exactly how to optimise your Google Business Profile in 2026. The 7 highest-impact steps – from categories and photos to reviews and weekly posts – that drive real local search rankings.",
+    "Learn exactly how to optimise your Google Business Profile in 2026. The 7 highest-impact steps, from categories and photos to reviews and weekly posts, that drive real local search rankings.",
   openGraph: {
     title: "Google Business Profile SEO: The Complete Optimisation Guide (2026)",
     description:
-      "Learn exactly how to optimise your Google Business Profile in 2026. The 7 highest-impact steps – from categories and photos to reviews and weekly posts – that drive real local search rankings.",
+      "Learn exactly how to optimise your Google Business Profile in 2026. The 7 highest-impact steps, from categories and photos to reviews and weekly posts, that drive real local search rankings.",
     url: "https://getmetafix.com/blog/google-business-profile-seo-guide-2026",
     type: "article",
     publishedTime: "2026-03-20",
@@ -61,16 +61,16 @@ export default function GoogleBusinessProfileSeoPost() {
             Google Business Profile SEO: The Complete Optimisation Guide (2026)
           </h1>
           <p className="text-xl text-gray-500 leading-relaxed">
-            Your Google Business Profile is your most important local SEO asset – and most businesses
+            Your Google Business Profile is your most important local SEO asset, and most businesses
             set it up once and forget it. Here&apos;s exactly what to do.
           </p>
         </header>
 
-        {/* Inline CTA – GetMetaFix */}
+        {/* Inline CTA: GetMetaFix */}
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
           <p className="text-sm font-semibold text-gray-900 mb-1">Your website SEO affects your GBP rankings too</p>
           <p className="text-sm text-gray-500 mb-4">
-            GetMetaFix audits your site&apos;s meta tags, Open Graph data, and schema markup – the
+            GetMetaFix audits your site&apos;s meta tags, Open Graph data, and schema markup: the
             signals that feed directly into how Google represents your business in local search.
           </p>
           <Link
@@ -90,7 +90,7 @@ export default function GoogleBusinessProfileSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             When someone searches &ldquo;plumber near me&rdquo;, &ldquo;best coffee shop in [city]&rdquo;, or &ldquo;dentist
             [neighbourhood]&rdquo;, Google does not just return a list of websites. At the very top of the
-            page, before any organic results, it shows a <strong className="font-semibold text-gray-900">local pack</strong> – a
+            page, before any organic results, it shows a <strong className="font-semibold text-gray-900">local pack</strong>, a
             map with three highlighted businesses and their key information pulled directly from their
             Google Business Profiles.
           </p>
@@ -101,7 +101,7 @@ export default function GoogleBusinessProfileSeoPost() {
             organic ranking.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Your Google Business Profile (GBP) – formerly Google My Business – is what gets you into
+            Your Google Business Profile (GBP, formerly Google My Business) is what gets you into
             that pack. And the businesses dominating local packs in 2026 are not the oldest or the
             biggest. They are the ones who treat their GBP as an active marketing channel, not a
             one-time setup task.
@@ -126,7 +126,7 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-2">
-            1. Complete every field – especially the business description
+            1. Complete every field, especially the business description
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             An incomplete GBP is a ranking penalty you are self-imposing. Google explicitly states that
@@ -138,26 +138,26 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Business description (750 characters)</strong> – this is where most businesses leave
+              <strong className="font-semibold text-gray-900">Business description (750 characters):</strong> this is where most businesses leave
               ranking on the table. Write a natural, keyword-rich description that includes your primary
               service, your location, and what makes you different. If you are a family solicitor in
-              Bristol, say &ldquo;family solicitor in Bristol&rdquo; – not just &ldquo;we provide legal services.&rdquo;
+              Bristol, say &ldquo;family solicitor in Bristol&rdquo;, not just &ldquo;we provide legal services.&rdquo;
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Opening hours</strong> – including special hours for bank holidays. Incorrect hours
+              <strong className="font-semibold text-gray-900">Opening hours:</strong> including special hours for bank holidays. Incorrect hours
               are one of the most common causes of customer frustration and negative reviews
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Attributes</strong> – these appear as filter options in search (e.g. &ldquo;wheelchair
+              <strong className="font-semibold text-gray-900">Attributes:</strong> these appear as filter options in search (e.g. &ldquo;wheelchair
               accessible&rdquo;, &ldquo;free parking&rdquo;, &ldquo;accepts card payments&rdquo;). Customers filter by these. If
               you offer them and haven&apos;t ticked them, you are invisible to those searches
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Website URL</strong> – link to a relevant landing page, not just your homepage if
+              <strong className="font-semibold text-gray-900">Website URL:</strong> link to a relevant landing page, not just your homepage if
               you have multiple locations or service-specific pages
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Phone number and messaging</strong> – enable Google messaging so customers can
+              <strong className="font-semibold text-gray-900">Phone number and messaging:</strong> enable Google messaging so customers can
               contact you directly from the profile without calling
             </li>
           </ul>
@@ -174,13 +174,13 @@ export default function GoogleBusinessProfileSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Be specific. &ldquo;Italian Restaurant&rdquo; outperforms &ldquo;Restaurant&rdquo; for Italian food searches.
             &ldquo;Family Solicitor&rdquo; outperforms &ldquo;Legal Services&rdquo; for family law searches. Search for your
-            exact service type in the category dropdown – Google has over 4,000 categories and yours
+            exact service type in the category dropdown. Google has over 4,000 categories and yours
             almost certainly exists.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Secondary categories expand the range of searches you appear for. If you are primarily a
             coffee shop that also sells pastries and light lunches, your secondary categories might
-            include &ldquo;Cafe&rdquo;, &ldquo;Bakery&rdquo;, and &ldquo;Sandwich Shop.&rdquo; Add every relevant secondary category –
+            include &ldquo;Cafe&rdquo;, &ldquo;Bakery&rdquo;, and &ldquo;Sandwich Shop.&rdquo; Add every relevant secondary category,
             but only those genuinely relevant to your business. Irrelevant categories dilute your
             relevance signals.
           </p>
@@ -191,7 +191,7 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-2">
-            3. Add photos regularly – Google rewards fresh content
+            3. Add photos regularly: Google rewards fresh content
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Google uses photo activity as a freshness signal. Profiles that are regularly updated
@@ -209,17 +209,17 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Exterior photos</strong> – at least three, from different angles and times of day,
+              <strong className="font-semibold text-gray-900">Exterior photos:</strong> at least three, from different angles and times of day,
               so customers can recognise your premises when they arrive
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Interior photos</strong> – show what the experience looks and feels like inside
+              <strong className="font-semibold text-gray-900">Interior photos:</strong> show what the experience looks and feels like inside
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Team and people photos</strong> – humanise your business. Customers buy from people
+              <strong className="font-semibold text-gray-900">Team and people photos:</strong> humanise your business. Customers buy from people
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Product or work photos</strong> – showcase what you actually do or sell
+              <strong className="font-semibold text-gray-900">Product or work photos:</strong> showcase what you actually do or sell
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Cadence:</strong> aim to add at least two new photos per week. Set a recurring
@@ -236,7 +236,7 @@ export default function GoogleBusinessProfileSeoPost() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Most businesses skip the Products and Services sections entirely. This is a significant
-            missed opportunity – both for keyword coverage and for customer conversion.
+            missed opportunity, both for keyword coverage and for customer conversion.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             The Services section lets you list every service you offer with individual names,
@@ -258,7 +258,7 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-2">
-            5. Get reviews – and respond to every single one
+            5. Get reviews, and respond to every single one
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Reviews are a direct local ranking factor. Google&apos;s ranking documentation explicitly
@@ -268,7 +268,7 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong className="font-semibold text-gray-900">Getting more reviews:</strong> the simplest and most effective method is to ask
-            directly at the moment of peak satisfaction – right after a successful job, a great meal,
+            directly at the moment of peak satisfaction, right after a successful job, a great meal,
             or a positive purchase. Create a short Google review link from your GBP dashboard (under
             &ldquo;Ask for Reviews&rdquo;) and share it via SMS, email, or a QR code on your receipt or
             premises.
@@ -276,20 +276,20 @@ export default function GoogleBusinessProfileSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong className="font-semibold text-gray-900">Responding to reviews:</strong> response rate is a ranking signal. Businesses that
             respond to the majority of their reviews consistently outrank those with the same star
-            rating who do not respond. Respond to every review – positive and negative – within
+            rating who do not respond. Respond to every review (positive and negative) within
             24 hours where possible.
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Positive reviews:</strong> thank the customer by name, reference something specific
               from their review, and include a soft invitation to return. Keep it genuine and under
-              100 words. Weaving in your location – &ldquo;We&apos;re so glad you enjoyed your visit to
-              our Manchester studio&rdquo; – provides a subtle local keyword signal
+              100 words. Weaving in your location, such as &ldquo;We&apos;re so glad you enjoyed your visit to
+              our Manchester studio&rdquo;, provides a subtle local keyword signal
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
               <strong className="font-semibold text-gray-900">Negative reviews:</strong> acknowledge the experience, apologise without being
               defensive, and offer to resolve the issue offline with a direct contact method. Never
-              argue. Never use copy-paste responses – Google and customers both notice
+              argue. Never use copy-paste responses. Google and customers both notice
             </li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
@@ -302,8 +302,8 @@ export default function GoogleBusinessProfileSeoPost() {
             6. Post weekly updates to your GBP
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Google Business Profile Posts are short updates – announcements, offers, events, new
-            products – that appear directly on your profile in both Google Search and Maps results.
+            Google Business Profile Posts are short updates (announcements, offers, events, new
+            products) that appear directly on your profile in both Google Search and Maps results.
             They function as a freshness signal: a business that posts regularly is demonstrating
             active management, which Google rewards with higher prominence scores.
           </p>
@@ -312,10 +312,10 @@ export default function GoogleBusinessProfileSeoPost() {
             weekly cadence keeps your profile looking current at all times. Each post should include:
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
-            <li className="text-gray-600 mb-2 ml-4 list-disc">A clear, specific headline (not &ldquo;Weekly update&rdquo; – something the customer cares about)</li>
-            <li className="text-gray-600 mb-2 ml-4 list-disc">A photo – posts with images get significantly more engagement than text-only posts</li>
+            <li className="text-gray-600 mb-2 ml-4 list-disc">A clear, specific headline (not &ldquo;Weekly update&rdquo;, but something the customer cares about)</li>
+            <li className="text-gray-600 mb-2 ml-4 list-disc">A photo (posts with images get significantly more engagement than text-only posts)</li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">A call-to-action button (Book, Order, Learn More, Call) directing to a relevant page</li>
-            <li className="text-gray-600 mb-2 ml-4 list-disc">A naturally incorporated keyword or two – but write for the customer first</li>
+            <li className="text-gray-600 mb-2 ml-4 list-disc">A naturally incorporated keyword or two, but write for the customer first</li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
             Good post ideas: a current promotion, a new service, a recent case study or project
@@ -329,7 +329,7 @@ export default function GoogleBusinessProfileSeoPost() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             The Questions &amp; Answers section of your GBP is publicly visible and, crucially, anyone
-            can answer – not just you. Left unmanaged, competitors or misinformed users can post
+            can answer, not just you. Left unmanaged, competitors or misinformed users can post
             inaccurate answers to questions about your business.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
@@ -339,12 +339,12 @@ export default function GoogleBusinessProfileSeoPost() {
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">Think about the 10 questions new customers most commonly ask you (by phone, email, or in person)</li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">Post each as a question from a Google account, then answer it thoroughly from your business account</li>
-            <li className="text-gray-600 mb-2 ml-4 list-disc">Include relevant keywords in your answers naturally – &ldquo;Yes, we offer same-day emergency boiler repair across Leeds and surrounding areas&rdquo;</li>
+            <li className="text-gray-600 mb-2 ml-4 list-disc">Include relevant keywords in your answers naturally, for example: &ldquo;Yes, we offer same-day emergency boiler repair across Leeds and surrounding areas&rdquo;</li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">Set up a Google alert for your business name so you are notified when new questions are posted and can respond promptly</li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
             Q&amp;A content is indexed by Google and can surface directly in search results. A well-answered
-            Q&amp;A section also reduces the friction customers feel before making contact – removing
+            Q&amp;A section also reduces the friction customers feel before making contact, removing
             doubts before they even reach out.
           </p>
 
@@ -363,23 +363,23 @@ export default function GoogleBusinessProfileSeoPost() {
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Title tags and meta descriptions</strong> – Google uses these to confirm your
+              <strong className="font-semibold text-gray-900">Title tags and meta descriptions:</strong> Google uses these to confirm your
               business name, primary service, and location match what is in your GBP. A website title
-              tag that says &ldquo;Joe&apos;s Plumbing – Emergency Plumber in Bristol&rdquo; reinforces exactly what
+              tag that says &ldquo;Joe&apos;s Plumbing: Emergency Plumber in Bristol&rdquo; reinforces exactly what
               your GBP is claiming
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">LocalBusiness schema markup</strong> – structured data on your website telling Google
+              <strong className="font-semibold text-gray-900">LocalBusiness schema markup:</strong> structured data on your website telling Google
               your NAP (name, address, phone), opening hours, and service areas. This is one of the
               strongest signals you can add to reinforce your GBP data and improve local ranking
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">Open Graph tags</strong> – control how your business appears when links are shared
+              <strong className="font-semibold text-gray-900">Open Graph tags:</strong> control how your business appears when links are shared
               in messaging apps and social networks, which feeds into overall brand visibility and
               trust signals
             </li>
             <li className="text-gray-600 mb-2 ml-4 list-disc">
-              <strong className="font-semibold text-gray-900">NAP consistency</strong> – the name, address, and phone number in your website&apos;s
+              <strong className="font-semibold text-gray-900">NAP consistency:</strong> the name, address, and phone number in your website&apos;s
               footer and contact page must match your GBP exactly, including formatting. Discrepancies
               dilute your local authority
             </li>
@@ -403,15 +403,15 @@ export default function GoogleBusinessProfileSeoPost() {
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             Optimising your GBP is only half the equation. These are the errors that actively
-            suppress rankings – and many businesses are making more than one of them.
+            suppress rankings, and many businesses are making more than one of them.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
             Keyword stuffing your business name
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Adding keywords to your GBP display name – &ldquo;Joe&apos;s Plumbing | Emergency Plumber Bristol
-            24/7 Boiler Repair&rdquo; – is against Google&apos;s guidelines and can result in your listing being
+            Adding keywords to your GBP display name, for example &ldquo;Joe&apos;s Plumbing | Emergency Plumber Bristol
+            24/7 Boiler Repair&rdquo;, is against Google&apos;s guidelines and can result in your listing being
             suspended. Your display name should match your real-world business name, nothing more.
             Use the description field and categories for keyword signals instead.
           </p>
@@ -433,7 +433,7 @@ export default function GoogleBusinessProfileSeoPost() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Duplicate GBP listings split your reviews, dilute your authority, and create NAP
             inconsistency signals. If your business has been operating for several years, there is a
-            reasonable chance a duplicate listing exists – particularly if you have ever moved address
+            reasonable chance a duplicate listing exists, particularly if you have ever moved address
             or changed your business name. Search Google Maps for your business name and address to
             check, then request removal of any duplicates through Google&apos;s support process.
           </p>
@@ -470,7 +470,7 @@ export default function GoogleBusinessProfileSeoPost() {
             Run through this list once to establish your baseline, then revisit monthly to maintain it:
           </p>
           <ul className="list-disc list-inside space-y-1 my-4 ml-4">
-            <li className="text-gray-600 mb-1 ml-4 list-disc">GBP is 100% complete – all fields filled, no blank sections</li>
+            <li className="text-gray-600 mb-1 ml-4 list-disc">GBP is 100% complete, all fields filled, no blank sections</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Business description uses primary keywords and location naturally (750 characters)</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Primary category is specific and accurate (not generic)</li>
             <li className="text-gray-600 mb-1 ml-4 list-disc">Relevant secondary categories added</li>
@@ -488,14 +488,14 @@ export default function GoogleBusinessProfileSeoPost() {
 
         </article>
 
-        {/* Bottom CTA – GetMetaFix */}
+        {/* Bottom CTA: GetMetaFix */}
         <div className="mt-16 bg-black rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-2">
             Your website SEO affects your GBP rankings
           </h2>
           <p className="text-gray-400 mb-2">
             GetMetaFix audits your site&apos;s meta tags, schema markup, Open Graph data, and NAP
-            consistency – the signals that feed directly into how Google ranks your business locally.
+            consistency: the signals that feed directly into how Google ranks your business locally.
           </p>
           <p className="text-gray-500 text-sm mb-6">
             Check your site free in 30 seconds. No account required.

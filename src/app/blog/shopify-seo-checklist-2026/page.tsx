@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Shopify SEO Checklist 2026: Fix Every Issue in Under 2 Hours – GetMetaFix",
+  title: "Shopify SEO Checklist 2026: Fix Every Issue in Under 2 Hours | GetMetaFix",
   description:
-    "Most Shopify stores have the same 5 SEO mistakes. Here's a complete checklist covering meta tags, technical SEO, content, and PageSpeed – find and fix them in under 2 hours.",
+    "Most Shopify stores have the same 5 SEO mistakes. Here's a complete checklist covering meta tags, technical SEO, content, and PageSpeed. Find and fix them in under 2 hours.",
   openGraph: {
     title: "Shopify SEO Checklist 2026: Fix Every Issue in Under 2 Hours",
     description:
-      "Most Shopify stores have the same 5 SEO mistakes. Here's a complete checklist covering meta tags, technical SEO, content, and PageSpeed – find and fix them in under 2 hours.",
+      "Most Shopify stores have the same 5 SEO mistakes. Here's a complete checklist covering meta tags, technical SEO, content, and PageSpeed. Find and fix them in under 2 hours.",
     url: "https://getmetafix.com/blog/shopify-seo-checklist-2026",
     type: "article",
     publishedTime: "2026-03-20",
@@ -23,7 +23,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Shopify SEO Checklist 2026: Fix Every Issue in Under 2 Hours",
   description:
-    "Most Shopify stores have the same 5 SEO mistakes. Here's a complete checklist covering meta tags, technical SEO, content, and PageSpeed – find and fix them in under 2 hours.",
+    "Most Shopify stores have the same 5 SEO mistakes. Here's a complete checklist covering meta tags, technical SEO, content, and PageSpeed. Find and fix them in under 2 hours.",
   datePublished: "2026-03-20",
   dateModified: "2026-03-20",
   author: {
@@ -91,7 +91,7 @@ export default function ShopifySeoChecklist2026() {
           </h1>
           <p className="text-xl text-gray-500 leading-relaxed">
             Most Shopify stores have the same 5 SEO mistakes. Here&apos;s a complete checklist to
-            find and fix them in under 2 hours – covering meta tags, technical SEO, content,
+            find and fix them in under 2 hours, covering meta tags, technical SEO, content,
             and PageSpeed.
           </p>
         </header>
@@ -101,7 +101,7 @@ export default function ShopifySeoChecklist2026() {
           <p className="text-sm font-semibold text-gray-900 mb-1">Run a free 30-second audit that checks 20+ of these items automatically</p>
           <p className="text-sm text-gray-500 mb-4">
             GetMetaFix scans your Shopify store and flags every missing title, broken og:image,
-            duplicate description, and technical SEO issue – free, no account required.
+            duplicate description, and technical SEO issue, free, no account required.
           </p>
           <Link
             href="/"
@@ -120,7 +120,7 @@ export default function ShopifySeoChecklist2026() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify powers roughly 4.5 million live stores. It is the most popular hosted ecommerce
             platform in the English-speaking world. And yet, when you audit a random sample of
-            Shopify stores – even stores doing six or seven figures in revenue – you find the same
+            Shopify stores (even stores doing six or seven figures in revenue), you find the same
             cluster of SEO problems, repeated store after store.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
@@ -156,7 +156,7 @@ export default function ShopifySeoChecklist2026() {
             </li>
           </ul>
           <p className="text-gray-600 leading-relaxed mb-4">
-            This checklist works through every layer – meta tags, technical SEO, content, and
+            This checklist works through every layer: meta tags, technical SEO, content, and
             PageSpeed. Work through it top to bottom. Most fixes take under five minutes each.
           </p>
 
@@ -173,7 +173,7 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            1. Title tag – under 60 characters, keyword first
+            1. Title tag: under 60 characters, keyword first
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify&apos;s default title tag format is{" "}
@@ -181,23 +181,23 @@ export default function ShopifySeoChecklist2026() {
             For most stores, the product name alone is already 50+ characters. Add the store name
             and you are at 70+, which Google truncates with an ellipsis. Lead with your primary
             keyword. Move the brand to the end or drop it entirely on product pages. Target
-            50&ndash;58 characters to guarantee full display in search results without truncation.
+            50-58 characters to guarantee full display in search results without truncation.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            2. Meta description – unique, 150&ndash;160 characters, with a hook
+            2. Meta description: unique, 150-160 characters, with a hook
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Shopify does not generate meta descriptions by default – it leaves the field blank,
+            Shopify does not generate meta descriptions by default. It leaves the field blank,
             which means Google writes its own using whatever text it finds on the page. That is
             usually the first sentence of your product description, which is rarely the most
             compelling copy. Write a custom meta description for every product and collection page.
             Include the primary keyword, a clear differentiator (price, material, free delivery),
-            and a soft call to action. Keep it between 150&ndash;160 characters.
+            and a soft call to action. Keep it between 150-160 characters.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            3. og:title – match your title tag or write a more social-friendly version
+            3. og:title: match your title tag or write a more social-friendly version
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             The{" "}
@@ -205,13 +205,13 @@ export default function ShopifySeoChecklist2026() {
             tag controls the bold headline shown when your page is shared on Facebook, LinkedIn,
             WhatsApp, or in Slack. Shopify&apos;s default themes populate this from your page title.
             If your title tag is keyword-optimised and under 60 characters, this is fine. If you
-            want a slightly different (more social-friendly) headline – drop the brand, use a more
-            conversational tone – set it explicitly in your theme&apos;s{" "}
+            want a slightly different (more social-friendly) headline (drop the brand, use a more
+            conversational tone), set it explicitly in your theme&apos;s{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">theme.liquid</code>.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            4. og:description – do not let platforms pull from body text
+            4. og:description: do not let platforms pull from body text
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Without an explicit{" "}
@@ -219,19 +219,19 @@ export default function ShopifySeoChecklist2026() {
             Facebook and LinkedIn will extract text from the page body. This is unpredictable
             and often produces ugly, truncated previews. Set{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">og:description</code>{" "}
-            explicitly – your meta description is an acceptable fallback, but a slightly
+            explicitly. Your meta description is an acceptable fallback, but a slightly
             longer, more social-optimised version performs better.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            5. og:image – 1200 &times; 630px, absolute URL, HTTPS
+            5. og:image: 1200 &times; 630px, absolute URL, HTTPS
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             This is the single highest-impact social SEO fix for most Shopify stores. The{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">og:image</code>{" "}
             tag must be an absolute HTTPS URL pointing to an image that is at least{" "}
             <strong className="font-semibold text-gray-900">1200 &times; 630px</strong>. Shopify
-            serves product images via its CDN – use the product&apos;s featured image with a size
+            serves product images via its CDN. Use the product&apos;s featured image with a size
             suffix:{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">product.featured_image | img_url: &apos;1200x630&apos;</code>.
             An image smaller than 600 &times; 315px will not render on Facebook. An image without
@@ -239,7 +239,7 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            6. twitter:card – set to summary_large_image for product pages
+            6. twitter:card: set to summary_large_image for product pages
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Set{" "}
@@ -253,12 +253,12 @@ export default function ShopifySeoChecklist2026() {
             format. Most Shopify themes include a{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">twitter:card</code>{" "}
             tag but default it to{" "}
-            <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">summary</code> – check
+            <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">summary</code>. Check
             your theme.liquid and update it.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            7. twitter:image – explicitly set, not inherited from og:image
+            7. twitter:image: explicitly set, not inherited from og:image
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Some social scrapers do not fall back from{" "}
@@ -270,7 +270,7 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            8. og:type – product on product pages, website on homepage
+            8. og:type: product on product pages, website on homepage
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Set{" "}
@@ -289,23 +289,23 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            9. Homepage meta tags – brand-led, not product-led
+            9. Homepage meta tags: brand-led, not product-led
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Your homepage title tag should prioritise your brand and primary category keyword.
             Format:{" "}
-            <strong className="font-semibold text-gray-900">[Brand] – [What You Sell] | [Key Differentiator]</strong>.
+            <strong className="font-semibold text-gray-900">[Brand]: [What You Sell] | [Key Differentiator]</strong>.
             Keep it under 60 characters. The meta description should convey your store&apos;s value
-            proposition in 150&ndash;160 characters – what you sell, why you are different, and
+            proposition in 150-160 characters, meaning what you sell, why you are different, and
             a soft call to action. Set a homepage og:image that represents your brand broadly,
             not a single product.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            10. Collection page meta tags – write them, do not skip them
+            10. Collection page meta tags: write them, do not skip them
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Collection pages rank for category-level keywords – &ldquo;men&apos;s running shoes&rdquo;,
+            Collection pages rank for category-level keywords: &ldquo;men&apos;s running shoes&rdquo;,
             &ldquo;handmade ceramic mugs&rdquo;, &ldquo;organic skincare&rdquo;. These are high-intent queries with
             strong commercial value. Yet most Shopify stores leave collection meta descriptions
             blank. Write a unique, keyword-rich meta description for every collection that drives
@@ -324,7 +324,7 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            1. Canonical tags – Shopify creates duplicate URLs by default
+            1. Canonical tags: Shopify creates duplicate URLs by default
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify products can appear at two different URLs:{" "}
@@ -335,21 +335,21 @@ export default function ShopifySeoChecklist2026() {
             collection-scoped URL pointing to the clean{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">/products/</code>{" "}
             URL, you are serving Google two copies of every product. Most modern Shopify themes
-            handle this correctly – but verify it. Open a product via a collection URL, view source,
+            handle this correctly, but verify it. Open a product via a collection URL, view source,
             and confirm the canonical points to the{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">/products/</code>{" "}
             path.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            2. robots.txt – verify it is not blocking important pages
+            2. robots.txt: verify it is not blocking important pages
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify auto-generates a{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">robots.txt</code>{" "}
             that blocks internal search pages, checkout, cart, and account pages. This is correct
             behaviour. However, if you have used a Shopify app that injects content at a custom
-            path – or if you have modified your robots.txt via the theme editor – you may be
+            path, or if you have modified your robots.txt via the theme editor, you may be
             accidentally blocking product or collection pages. Fetch your{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">yourdomain.com/robots.txt</code>{" "}
             and scan every disallow rule. Also check Google Search Console &rarr; URL Inspection
@@ -357,7 +357,7 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            3. XML sitemap – submitted and verified in Google Search Console
+            3. XML sitemap: submitted and verified in Google Search Console
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify generates your sitemap at{" "}
@@ -370,11 +370,11 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            4. Structured data (schema markup) – Product schema on every product page
+            4. Structured data (schema markup): Product schema on every product page
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Product schema tells Google the exact price, availability, SKU, and aggregate rating
-            of your product – enabling rich results in search (price shown directly in the SERP,
+            of your product, enabling rich results in search (price shown directly in the SERP,
             star ratings, availability badges). Shopify&apos;s default themes do not always output
             complete Product schema. Use Google&apos;s Rich Results Test on your top product URL to
             verify. If schema is missing or incomplete, install a schema app or add it manually to
@@ -386,7 +386,7 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            5. 404 errors – fix broken internal links and redirected pages
+            5. 404 errors: fix broken internal links and redirected pages
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Every time you delete a product, rename a collection handle, or restructure your URL
@@ -398,11 +398,11 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            6. HTTPS – confirm no mixed content warnings
+            6. HTTPS: confirm no mixed content warnings
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify handles HTTPS automatically via its managed SSL certificates. What it does not
-            handle is mixed content – where a secure page loads an insecure HTTP resource (typically
+            handle is mixed content, where a secure page loads an insecure HTTP resource (typically
             an image or script loaded from an external URL). Mixed content warnings in the browser
             console can suppress security indicators and, in some cases, cause browsers to block
             resources. Run your homepage, a product page, and a collection page through a tool like
@@ -410,18 +410,18 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            7. Hreflang – essential if you have multiple regional storefronts
+            7. Hreflang: essential if you have multiple regional storefronts
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             If you run separate Shopify stores for different countries or languages (e.g. .com for
             the US and .co.uk for the UK), you need hreflang tags to tell Google which version
             to serve to which audience. Without them, Google may choose the wrong regional version
             for international search results or consolidate your rankings onto a single storefront.
-            Shopify does not handle hreflang automatically – it must be added to your theme.
+            Shopify does not handle hreflang automatically. It must be added to your theme.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            8. Indexation audit – confirm no accidental noindex tags
+            8. Indexation audit: confirm no accidental noindex tags
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             A common Shopify mistake: a developer adds{" "}
@@ -445,20 +445,20 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            1. H1 tag – one per page, matches your target keyword
+            1. H1 tag: one per page, matches your target keyword
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Every page should have exactly one{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">&lt;h1&gt;</code>{" "}
             tag, and it should include or closely match your primary keyword. On Shopify product
-            pages, the H1 is typically set by the product title – so your product name is
+            pages, the H1 is typically set by the product title, so your product name is
             effectively your H1. Make sure product names are keyword-relevant and not just
             internal SKU codes. On collection pages, the collection title is the H1. On the
             homepage, set it explicitly in your theme to something descriptive.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            2. Image alt text – descriptive, keyword-aware, not stuffed
+            2. Image alt text: descriptive, keyword-aware, not stuffed
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify does not auto-generate alt text. Every image uploaded to your store defaults
@@ -466,18 +466,18 @@ export default function ShopifySeoChecklist2026() {
             accessibility (screen readers) and SEO (Google Image Search). Write a brief, accurate
             description of what the image shows. Include the product name and a relevant keyword
             where natural. Do not keyword-stuff. A product image of a navy canvas tote bag should
-            have alt text like &ldquo;Navy canvas tote bag with leather handles&rdquo; – not &ldquo;buy tote bag
+            have alt text like &ldquo;Navy canvas tote bag with leather handles&rdquo;, not &ldquo;buy tote bag
             cheap tote bag best tote bag&rdquo;.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            3. URL structure – clean, descriptive handles with no stop words
+            3. URL structure: clean, descriptive handles with no stop words
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Shopify auto-generates URL handles from your product and collection titles. A product
             titled &ldquo;The Ultimate Organic Cotton Premium Heavyweight T-Shirt in Navy Blue&rdquo; becomes
             the handle{" "}
-            <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">the-ultimate-organic-cotton-premium-heavyweight-t-shirt-in-navy-blue</code> –
+            <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">the-ultimate-organic-cotton-premium-heavyweight-t-shirt-in-navy-blue</code>:
             a 70-character URL that buries your keyword. Manually set handles to the shortest,
             most keyword-focused version:{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">organic-cotton-t-shirt-navy</code>.
@@ -486,31 +486,31 @@ export default function ShopifySeoChecklist2026() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            4. Product descriptions – unique, keyword-rich, written for humans
+            4. Product descriptions: unique, keyword-rich, written for humans
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Thin or duplicated product descriptions are a significant ranking problem for Shopify
             stores that import products from a supplier feed. If every store selling the same
             product has the same manufacturer description, none of them stand out to Google. Rewrite
             your top 20 most-visited product pages with unique descriptions that address the
-            customer&apos;s question – materials, sizing, use case, differentiating features.
-            400&ndash;600 words is a strong target for competitive product pages.
+            customer&apos;s question: materials, sizing, use case, differentiating features.
+            400-600 words is a strong target for competitive product pages.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            5. Internal linking – connect products, collections, and content
+            5. Internal linking: connect products, collections, and content
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Internal links pass page authority and help Google understand your site structure.
             In Shopify, the most common internal linking opportunities are: linking from blog
             posts to relevant product and collection pages, linking from product descriptions to
             related products, and linking from collection pages to sub-collection pages. Review
-            your top 10 traffic-generating blog posts – if none of them link to a product or
+            your top 10 traffic-generating blog posts. If none of them link to a product or
             collection page, you are leaving commercial value on the table.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
-            6. Heading hierarchy – logical H2/H3 structure throughout
+            6. Heading hierarchy: logical H2/H3 structure throughout
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             After your H1, use H2 and H3 tags to structure your page content hierarchically.
@@ -529,7 +529,7 @@ export default function ShopifySeoChecklist2026() {
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             PageSpeed and Core Web Vitals are confirmed Google ranking factors. Shopify stores
-            frequently fail Core Web Vitals on mobile – not because the platform is slow, but
+            frequently fail Core Web Vitals on mobile, not because the platform is slow, but
             because of accumulated theme bloat and unoptimised media. Here are the fastest wins.
           </p>
 
@@ -538,11 +538,11 @@ export default function ShopifySeoChecklist2026() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Every Shopify app that injects JavaScript into your storefront adds page weight.
-            Many apps continue loading scripts even after you uninstall them – they leave remnant
+            Many apps continue loading scripts even after you uninstall them. They leave remnant
             code in your theme files. Go to your theme code and search for any{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">script</code>{" "}
             tags referencing apps you no longer use. Remove them. In a study of 200 Shopify stores,
-            the average store had 4.3 dead app scripts still loading on every page – adding an
+            the average store had 4.3 dead app scripts still loading on every page, adding an
             average of 340ms to page load time.
           </p>
 
@@ -551,21 +551,21 @@ export default function ShopifySeoChecklist2026() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Images are the largest contributor to Shopify page weight. Shopify&apos;s CDN now serves
-            WebP automatically when the browser supports it – but only if you have uploaded
+            WebP automatically when the browser supports it, but only if you have uploaded
             high-quality source images and are using Shopify&apos;s image transformation parameters.
             Use{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">{"{{ image | image_url: width: 800, format: 'webp' }}"}</code>{" "}
             in your Liquid templates. For hero images, upload a source file no larger than
             3000px wide and let the CDN handle resizing. Avoid uploading raw camera files
-            (8&ndash;15MB) directly to your theme assets.
+            (8-15MB) directly to your theme assets.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
             3. Defer non-critical JavaScript
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Scripts that are not needed for the initial page render – analytics, chat widgets,
-            review widgets, social sharing buttons – should load after the main content. Add{" "}
+            Scripts that are not needed for the initial page render (analytics, chat widgets,
+            review widgets, social sharing buttons) should load after the main content. Add{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">defer</code>{" "}
             or{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">async</code>{" "}
@@ -583,7 +583,7 @@ export default function ShopifySeoChecklist2026() {
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">loading=&quot;lazy&quot;</code>{" "}
             attribute on product grid images and any image that appears below the fold. Shopify
             2.0 themes typically implement this by default. Older themes often do not. The hero
-            image and the first product image in your grid should never be lazy-loaded – they
+            image and the first product image in your grid should never be lazy-loaded. They
             need to render immediately for a good LCP score.
           </p>
 
@@ -594,9 +594,9 @@ export default function ShopifySeoChecklist2026() {
             Shopify 2.0 themes include several built-in performance features: section rendering
             API, lazy-loading sections on scroll, and deferred loading of non-critical CSS. Make
             sure your theme is on a Shopify 2.0 architecture. If you are running a legacy theme,
-            the upgrade alone can improve your PageSpeed score by 15&ndash;25 points. Also
-            enable Shopify&apos;s image CDN compression in your theme settings – it reduces image
-            payload by 25&ndash;40% automatically.
+            the upgrade alone can improve your PageSpeed score by 15-25 points. Also
+            enable Shopify&apos;s image CDN compression in your theme settings. It reduces image
+            payload by 25-40% automatically.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">
@@ -604,7 +604,7 @@ export default function ShopifySeoChecklist2026() {
           </h3>
           <p className="text-gray-600 leading-relaxed mb-4">
             Run your homepage and a top product page through Google PageSpeed Insights. It will
-            tell you exactly what your LCP element is – usually a hero image or a large above-the-fold
+            tell you exactly what your LCP element is, usually a hero image or a large above-the-fold
             text block. For image LCP elements, the two fastest wins are: preload the image with{" "}
             <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">&lt;link rel=&quot;preload&quot; as=&quot;image&quot;&gt;</code>{" "}
             in your theme&apos;s head, and make sure the image is served from Shopify&apos;s CDN with
@@ -616,7 +616,7 @@ export default function ShopifySeoChecklist2026() {
 
           {/* Final checklist */}
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-            Complete Shopify SEO checklist – scan this before you launch
+            Complete Shopify SEO checklist: scan this before you launch
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             Work through every item below. Tick them off as you go. The entire checklist can be
@@ -628,8 +628,8 @@ export default function ShopifySeoChecklist2026() {
             <ul className="space-y-2">
               {[
                 "Title tags are under 60 characters and lead with the primary keyword",
-                "Meta descriptions are written, unique, and 150–160 characters on all key pages",
-                "og:title is set – matches title tag or uses a more social-friendly version",
+                "Meta descriptions are written, unique, and 150-160 characters on all key pages",
+                "og:title is set, matches title tag or uses a more social-friendly version",
                 "og:description is explicitly set on all product and collection pages",
                 "og:image is set, 1200 × 630px, absolute HTTPS URL, on all product pages",
                 "twitter:card is set to summary_large_image on product and collection pages",
@@ -651,10 +651,10 @@ export default function ShopifySeoChecklist2026() {
             <ul className="space-y-2">
               {[
                 "Canonical tags on collection-scoped product URLs point to /products/ canonical",
-                "robots.txt reviewed – no important pages blocked",
+                "robots.txt reviewed, no important pages blocked",
                 "XML sitemap submitted to Google Search Console and indexed count is accurate",
                 "Product schema (with price, availability, reviews) verified via Rich Results Test",
-                "No 404 errors on key pages – 301 redirects set for deleted/moved pages",
+                "No 404 errors on key pages, 301 redirects set for deleted/moved pages",
                 "No mixed content warnings on HTTPS pages",
                 "Hreflang tags set if running multiple regional storefronts",
                 "No accidental noindex tags on product, collection, or homepage",

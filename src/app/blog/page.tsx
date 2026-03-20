@@ -3,11 +3,11 @@ import Link from "next/link";
 import { posts } from "./posts/data";
 
 export const metadata: Metadata = {
-  title: "SEO Blog – GetMetaFix",
+  title: "SEO Blog | GetMetaFix",
   description:
     "Practical guides on SEO meta tags, Open Graph, schema markup, and how to fix common issues on Shopify, WordPress, and custom sites.",
   openGraph: {
-    title: "SEO Blog – GetMetaFix",
+    title: "SEO Blog | GetMetaFix",
     description:
       "Practical guides on SEO meta tags, Open Graph, schema markup, and how to fix common issues on Shopify, WordPress, and custom sites.",
     url: "https://getmetafix.com/blog",
