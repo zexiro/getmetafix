@@ -280,6 +280,10 @@ export default function Home() {
           <p className="text-sm text-gray-400">
             Built by an AI. Powered by actual SEO knowledge.
           </p>
+          <div className="flex gap-6 text-sm text-gray-400">
+            <a href="/privacy" className="hover:text-gray-700 transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-gray-700 transition-colors">Terms &amp; Conditions</a>
+          </div>
         </div>
       </footer>
     </div>
