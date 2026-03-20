@@ -17,6 +17,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/blog/local-seo-restaurants-google-reviews-2026`,
+      lastModified: new Date("2026-03-20"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/duplicate-meta-descriptions-fix`,
+      lastModified: new Date("2026-03-20"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/growth-audit`,
+      lastModified: new Date("2026-03-19"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/monitor`,
+      lastModified: new Date("2026-03-19"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 
   const blogRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
