@@ -554,7 +554,7 @@ export default function ShopifySeoChecklist2026() {
             WebP automatically when the browser supports it — but only if you have uploaded
             high-quality source images and are using Shopify&apos;s image transformation parameters.
             Use{" "}
-            <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">{{ image | image_url: width: 800, format: &apos;webp&apos; }}</code>{" "}
+            <code className="bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono">{"{{ image | image_url: width: 800, format: 'webp' }}"}</code>{" "}
             in your Liquid templates. For hero images, upload a source file no larger than
             3000px wide and let the CDN handle resizing. Avoid uploading raw camera files
             (8&ndash;15MB) directly to your theme assets.

@@ -30,6 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/blog/google-business-profile-seo-guide-2026`,
+      lastModified: new Date("2026-03-20"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/blog/local-seo-restaurants-google-reviews-2026`,
       lastModified: new Date("2026-03-20"),
       changeFrequency: "monthly",
