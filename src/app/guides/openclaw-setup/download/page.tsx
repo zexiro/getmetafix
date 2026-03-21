@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 async function verifySession(sessionId: string | null) {
   if (!sessionId || !sessionId.startsWith("cs_")) return null;
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-      apiVersion: "2025-02-24.acacia" as Parameters<typeof Stripe>[1]["apiVersion"],
-    });
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
     const session = await stripe.checkout.sessions.retrieve(sessionId);
     if (session.payment_status === "paid") return session;
     return null;
