@@ -1,4 +1,3 @@
-```tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -113,34 +112,34 @@ export default function MetaTitleTooLongFix() {
         {/* Article body */}
         <article className="prose-content" dangerouslySetInnerHTML={{
           __html: `
-<p>You’ve spent hours on a page, but Google cuts your title off at 60 characters. It happens to 62% of all meta titles in search results. That’s not a minor formatting error—it’s a direct hit to your click-through rate (CTR) and a sign your on-page SEO is broken. A truncated title tells users you’re sloppy and tells Google you’re not optimizing for intent. This isn’t about aesthetics; it’s about leaving money on the table. The fix takes less than five minutes. Let’s get to it.</p>
+<p>You've spent hours on a page, but Google cuts your title off at 60 characters. It happens to 62% of all meta titles in search results. That's not a minor formatting error—it's a direct hit to your click-through rate (CTR) and a sign your on-page SEO is broken. A truncated title tells users you're sloppy and tells Google you're not optimizing for intent. This isn't about aesthetics; it's about leaving money on the table. The fix takes less than five minutes. Let's get to it.</p>
 
 <h2>Why Google Truncates Your Meta Title (The 600-Pixel Rule)</h2>
-<p>Google doesn’t count characters. It measures pixels. Their display limit is roughly 600 pixels. An average character is about 8 pixels wide, which is where the old “60-character” guideline came from. But a ‘W’ is wider than an ‘I’. Use too many capitals or wide letters, and your title gets cut early. Use lowercase and narrow letters, and you might squeeze in 65. The system is dynamic, but the result is static: exceed the pixel width, and your title gets an ellipsis (…). This isn’t a suggestion. It’s a hard display limit in the SERP. Your job is to work within it.</p>
+<p>Google doesn't count characters. It measures pixels. Their display limit is roughly 600 pixels. An average character is about 8 pixels wide, which is where the old "60-character" guideline came from. But a 'W' is wider than an 'I'. Use too many capitals or wide letters, and your title gets cut early. Use lowercase and narrow letters, and you might squeeze in 65. The system is dynamic, but the result is static: exceed the pixel width, and your title gets an ellipsis (…). This isn't a suggestion. It's a hard display limit in the SERP. Your job is to work within it.</p>
 
 <h2>The Real Cost of a Truncated Meta Title</h2>
-<p>This is where theory meets your revenue. A truncated title creates friction. Users can’t see your full value proposition or primary keyword. They hesitate. Data from a major SERP study shows that results with fully visible titles have a CTR up to 37% higher than those with truncated ones. For a page getting 1,000 monthly impressions, that’s hundreds of lost clicks. Multiply that by your conversion rate. Now you’re talking about lost leads and sales. It also signals poor technical SEO, which can indirectly affect rankings over time as Google gauges user engagement. Every ellipsis is a leak in your funnel.</p>
+<p>This is where theory meets your revenue. A truncated title creates friction. Users can't see your full value proposition or primary keyword. They hesitate. Data from a major SERP study shows that results with fully visible titles have a CTR up to 37% higher than those with truncated ones. For a page getting 1,000 monthly impressions, that's hundreds of lost clicks. Multiply that by your conversion rate. Now you're talking about lost leads and sales. It also signals poor technical SEO, which can indirectly affect rankings over time as Google gauges user engagement. Every ellipsis is a leak in your funnel.</p>
 
 <h2>The 5-Minute Audit: Find Your Long Titles</h2>
-<p>You can’t fix what you don’t measure. Start with a crawl. If you use a platform like Ahrefs or Screaming Frog, run a site audit and export all meta titles. Filter for titles over 60 characters as a starting point. But remember the pixel rule—this is just a proxy. For a precise, free check, use a pixel-width calculator. Better yet, use a tool that automates the entire audit. Manually checking hundreds of pages is a waste of your time. The goal here is to get a complete list of offending pages in under two minutes. Focus on high-traffic pages and key money pages first. Those are your priority fixes.</p>
+<p>You can't fix what you don't measure. Start with a crawl. If you use a platform like Ahrefs or Screaming Frog, run a site audit and export all meta titles. Filter for titles over 60 characters as a starting point. But remember the pixel rule—this is just a proxy. For a precise, free check, use a pixel-width calculator. Better yet, use a tool that automates the entire audit. Manually checking hundreds of pages is a waste of your time. The goal here is to get a complete list of offending pages in under two minutes. Focus on high-traffic pages and key money pages first. Those are your priority fixes.</p>
 
 <h2>The Fix: How to Shorten a Meta Title Correctly</h2>
-<p>Shortening isn’t just cutting words. It’s strategic compression. Follow this process for each long title:</p>
+<p>Shortening isn't just cutting words. It's strategic compression. Follow this process for each long title:</p>
 <ul>
-<li><strong>Identify the Core Keyword & Intent:</strong> What is the one primary keyword this page must rank for? What is the user’s search intent (informational, commercial, transactional)? The title must satisfy this first.</li>
-<li><strong>Remove Fluff & Redundancy:</strong> Cut meaningless prefixes like “Welcome to…” or “A Guide to…”. Remove repetitive brand names. If your brand is well-known, put it at the end or remove it entirely for key pages.</li>
-<li><strong>Use Symbols Over Words:</strong> Replace “and” with “&”. Use a pipe “|” instead of a hyphen “-” for separators; it’s narrower.</li>
+<li><strong>Identify the Core Keyword & Intent:</strong> What is the one primary keyword this page must rank for? What is the user's search intent (informational, commercial, transactional)? The title must satisfy this first.</li>
+<li><strong>Remove Fluff & Redundancy:</strong> Cut meaningless prefixes like "Welcome to…" or "A Guide to…". Remove repetitive brand names. If your brand is well-known, put it at the end or remove it entirely for key pages.</li>
+<li><strong>Use Symbols Over Words:</strong> Replace "and" with "&". Use a pipe "|" instead of a hyphen "-" for separators; it's narrower.</li>
 <li><strong>Prioritize Value Propositions:</strong> Place the key benefit or primary keyword early. The first 50 pixels are the most critical for user attention.</li>
-<li><strong>Test the Pixel Width:</strong> Use a free tool to check the final pixel count. Aim for 580 pixels to be safe. Don’t max out at 599.</li>
+<li><strong>Test the Pixel Width:</strong> Use a free tool to check the final pixel count. Aim for 580 pixels to be safe. Don't max out at 599.</li>
 </ul>
-<p><strong>Bad Example (Too Long & Fluffy):</strong> “Welcome to Our Ultimate Guide to Fixing Leaky Faucets | DIY Plumbing Tips & Tutorials | Bob’s Hardware”<br>
-<strong>Good Example (Concise & Powerful):</strong> “Fix a Leaky Faucet: DIY Plumbing Tutorial | Bob’s Hardware”</p>
+<p><strong>Bad Example (Too Long & Fluffy):</strong> "Welcome to Our Ultimate Guide to Fixing Leaky Faucets | DIY Plumbing Tips & Tutorials | Bob's Hardware"<br>
+<strong>Good Example (Concise & Powerful):</strong> "Fix a Leaky Faucet: DIY Plumbing Tutorial | Bob's Hardware"</p>
 
-<h2>Advanced Tactics: When You Can’t Cut Anything</h2>
-<p>Sometimes, every word seems essential. Here’s how to handle it:</p>
+<h2>Advanced Tactics: When You Can't Cut Anything</h2>
+<p>Sometimes, every word seems essential. Here's how to handle it:</p>
 <ul>
-<li><strong>Re-evaluate Page Focus:</strong> If you can’t condense the title, the page might be trying to target too many intents. Consider splitting the content into two more focused pages.</li>
-<li><strong>Use Dynamic Titles for E-commerce:</strong> For product pages with long model names, program your CMS to place the critical product attribute (e.g., “16GB RAM”) before the brand. Template it: [Key Feature] [Product Model] | [Category] | [Brand].</li>
+<li><strong>Re-evaluate Page Focus:</strong> If you can't condense the title, the page might be trying to target too many intents. Consider splitting the content into two more focused pages.</li>
+<li><strong>Use Dynamic Titles for E-commerce:</strong> For product pages with long model names, program your CMS to place the critical product attribute (e.g., "16GB RAM") before the brand. Template it: [Key Feature] [Product Model] | [Category] | [Brand].</li>
 <li><strong>Leverage SERP Preview Tools:</strong> Before publishing, use a tool that shows you exactly how your title (and meta description) will render in Google. This is the final sanity check.</li>
 </ul>
 
@@ -148,12 +147,12 @@ export default function MetaTitleTooLongFix() {
 <p>Fix the process, not just the output. Integrate these checks:</p>
 <ul>
 <li><strong>Set Hard Limits in Your CMS:</strong> Use a plugin or custom field that enforces a pixel or character limit right in the editing interface. Give writers instant feedback.</li>
-<li><strong>Make it Part of the Editorial Checklist:</strong> “Meta Title under 600 pixels” should be a non-negotiable step before any page is published.</li>
+<li><strong>Make it Part of the Editorial Checklist:</strong> "Meta Title under 600 pixels" should be a non-negotiable step before any page is published.</li>
 <li><strong>Audit Quarterly:</strong> New pages get created, old pages get updated. Schedule a recurring site-wide meta tag audit. SEO is maintenance.</li>
 </ul>
 
 <h2>Conclusion: This is Basic Hygiene, Not Advanced SEO</h2>
-<p>Fixing a long meta title is the digital equivalent of fixing a broken lock on your front door. It’s basic, it’s critical, and ignoring it invites loss. You now have the blueprint: audit, prioritize, compress strategically, and prevent recurrence. The entire process for a single page should take under five minutes. For your entire site, it’s a focused afternoon of work that directly protects your traffic and conversions. There’s no excuse not to do it.</p>
+<p>Fixing a long meta title is the digital equivalent of fixing a broken lock on your front door. It's basic, it's critical, and ignoring it invites loss. You now have the blueprint: audit, prioritize, compress strategically, and prevent recurrence. The entire process for a single page should take under five minutes. For your entire site, it's a focused afternoon of work that directly protects your traffic and conversions. There's no excuse not to do it.</p>
 
 <p>Stop guessing which of your titles are too long. <a href="https://getmetafix.com">run a free SEO audit on getmetafix.com</a>. Get a full report of every meta title and description issue across your site in under 60 seconds. See the exact pixel width, identify the worst offenders, and start fixing your leaks today.</p>
 `
@@ -195,4 +194,3 @@ export default function MetaTitleTooLongFix() {
     </div>
   );
 }
-```

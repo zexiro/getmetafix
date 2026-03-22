@@ -91,29 +91,29 @@ export default function OpenGraphTagsShopify() {
         {/* Article body */}
         <article
           className="prose prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-600 prose-p:leading-relaxed prose-a:text-black prose-a:underline prose-strong:text-gray-900 prose-li:text-gray-600"
-          dangerouslySetInnerHTML={{ __html: `<p>Ever shared a Shopify product link on Facebook or Twitter, only to see a broken image or a generic title? You’re not alone. A staggering <strong>42% of Shopify stores</strong> have missing or improperly configured Open Graph tags, according to a 2023 audit by GetMetaFix. This means nearly half of Shopify store owners are losing out on valuable social media engagement and traffic. Let’s fix that.</p>
+          dangerouslySetInnerHTML={{ __html: `<p>Ever shared a Shopify product link on Facebook or Twitter, only to see a broken image or a generic title? You're not alone. A staggering <strong>42% of Shopify stores</strong> have missing or improperly configured Open Graph tags, according to a 2023 audit by GetMetaFix. This means nearly half of Shopify store owners are losing out on valuable social media engagement and traffic. Let's fix that.</p>
 
 <h2>What Are Open Graph Tags?</h2>
 <p>Open Graph tags are snippets of code that tell social media platforms how to display your links. They control the title, description, and image that appear when you share a URL. Without them, your links look broken, unprofessional, and untrustworthy.</p>
-<p>Here’s what happens when Open Graph tags are missing:</p>
+<p>Here's what happens when Open Graph tags are missing:</p>
 <ul>
 <li>Facebook shows a generic title and no image.</li>
 <li>Twitter defaults to the URL as the title.</li>
 <li>LinkedIn displays a blank preview.</li>
 </ul>
-<p>This isn’t just an aesthetic issue—it’s costing you clicks. Links with properly optimized Open Graph tags see a <strong>30% higher click-through rate</strong> on social media, according to HubSpot.</p>
+<p>This isn't just an aesthetic issue—it's costing you clicks. Links with properly optimized Open Graph tags see a <strong>30% higher click-through rate</strong> on social media, according to HubSpot.</p>
 
 <h2>Why Shopify Stores Struggle with Open Graph Tags</h2>
-<p>Shopify’s default theme templates often lack comprehensive Open Graph tag support. While Shopify automatically generates basic tags, they’re often incomplete or generic. For example:</p>
+<p>Shopify's default theme templates often lack comprehensive Open Graph tag support. While Shopify automatically generates basic tags, they're often incomplete or generic. For example:</p>
 <ul>
 <li>The title tag might default to your store name instead of the product name.</li>
-<li>The description might pull from the first paragraph of your product page, which isn’t always optimized for social media.</li>
+<li>The description might pull from the first paragraph of your product page, which isn't always optimized for social media.</li>
 <li>The image might be too small or fail to load entirely.</li>
 </ul>
-<p>Even worse, third-party apps and custom themes can overwrite or break these tags entirely. If you’ve ever installed a social sharing app or tweaked your theme code, there’s a good chance your Open Graph tags are messed up.</p>
+<p>Even worse, third-party apps and custom themes can overwrite or break these tags entirely. If you've ever installed a social sharing app or tweaked your theme code, there's a good chance your Open Graph tags are messed up.</p>
 
 <h2>How to Check Your Open Graph Tags</h2>
-<p>Before you can fix the problem, you need to diagnose it. Here’s how to check your Open Graph tags:</p>
+<p>Before you can fix the problem, you need to diagnose it. Here's how to check your Open Graph tags:</p>
 <ol>
 <li>Go to <a href="https://getmetafix.com">GetMetaFix</a> and enter your Shopify store URL.</li>
 <li>Run a free SEO audit to see which pages have missing or broken Open Graph tags.</li>
@@ -122,25 +122,25 @@ export default function OpenGraphTagsShopify() {
 <p>This takes less than 5 minutes and gives you a clear roadmap for fixing your tags.</p>
 
 <h2>How to Fix Open Graph Tags on Shopify</h2>
-<p>Once you’ve identified the issues, here’s how to fix them:</p>
+<p>Once you've identified the issues, here's how to fix them:</p>
 <ul>
-<li><strong>Edit Your Theme Code:</strong> Locate the <code>theme.liquid</code> file in your Shopify admin and add custom Open Graph tags. Use Shopify’s Liquid variables to dynamically pull product titles, descriptions, and images.</li>
+<li><strong>Edit Your Theme Code:</strong> Locate the <code>theme.liquid</code> file in your Shopify admin and add custom Open Graph tags. Use Shopify's Liquid variables to dynamically pull product titles, descriptions, and images.</li>
 <li><strong>Use an App:</strong> Apps like SEO Manager or Open Graph & Twitter Card Tags can automate the process. These apps generate and insert Open Graph tags for you, saving time and reducing errors.</li>
-<li><strong>Optimize Your Images:</strong> Ensure your product images meet Facebook’s recommended size of 1200x630 pixels. Use high-quality, visually appealing images that grab attention.</li>
-<li><strong>Test Your Tags:</strong> After making changes, use Facebook’s Sharing Debugger or Twitter’s Card Validator to test your links and ensure they display correctly.</li>
+<li><strong>Optimize Your Images:</strong> Ensure your product images meet Facebook's recommended size of 1200x630 pixels. Use high-quality, visually appealing images that grab attention.</li>
+<li><strong>Test Your Tags:</strong> After making changes, use Facebook's Sharing Debugger or Twitter's Card Validator to test your links and ensure they display correctly.</li>
 </ul>
 
 <h2>Common Mistakes to Avoid</h2>
 <p>Even after fixing your Open Graph tags, there are a few pitfalls to watch out for:</p>
 <ul>
 <li><strong>Duplicate Tags:</strong> Some apps and themes generate duplicate Open Graph tags, which can confuse social media platforms. Use a tool like GetMetaFix to check for duplicates.</li>
-<li><strong>Missing Images:</strong> If your product page doesn’t have a featured image, Facebook will default to your store logo—or show nothing at all. Always include a featured image.</li>
+<li><strong>Missing Images:</strong> If your product page doesn't have a featured image, Facebook will default to your store logo—or show nothing at all. Always include a featured image.</li>
 <li><strong>Generic Descriptions:</strong> Avoid using the same description for every product. Write unique, compelling descriptions that encourage clicks.</li>
 </ul>
 
-<h2>Conclusion: Don’t Let Broken Links Cost You Sales</h2>
+<h2>Conclusion: Don't Let Broken Links Cost You Sales</h2>
 <p>Open Graph tags might seem like a small detail, but they have a big impact on your social media performance. Broken or missing tags make your links look unprofessional and reduce click-through rates. By optimizing your Open Graph tags, you can ensure your Shopify store looks its best on every platform.</p>
-<p>Ready to fix your Open Graph tags? <a href="https://getmetafix.com">Run a free SEO audit on GetMetaFix.com</a> to identify and resolve issues in minutes. Don’t let broken links cost you sales—take action today.</p>` }}
+<p>Ready to fix your Open Graph tags? <a href="https://getmetafix.com">Run a free SEO audit on GetMetaFix.com</a> to identify and resolve issues in minutes. Don't let broken links cost you sales—take action today.</p>` }}
         />
 
         {/* CTA */}

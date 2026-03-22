@@ -91,19 +91,19 @@ export default function LettingAgencySeoGuide2026() {
         {/* Article body */}
         <article
           className="prose prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-600 prose-p:leading-relaxed prose-a:text-black prose-a:underline prose-strong:text-gray-900 prose-li:text-gray-600"
-          dangerouslySetInnerHTML={{ __html: `<p>Rightmove dominates the UK property market, capturing <strong>85% of all online property searches</strong>. For letting agencies, this means competing with a giant that spends millions on SEO and advertising. But here’s the kicker: you don’t need to outspend Rightmove to outrank them in your local area. With the right letting agency SEO strategy, you can carve out your own slice of the market—without breaking the bank.</p>
+          dangerouslySetInnerHTML={{ __html: `<p>Rightmove dominates the UK property market, capturing <strong>85% of all online property searches</strong>. For letting agencies, this means competing with a giant that spends millions on SEO and advertising. But here's the kicker: you don't need to outspend Rightmove to outrank them in your local area. With the right letting agency SEO strategy, you can carve out your own slice of the market—without breaking the bank.</p>
 
-<h2>Why Rightmove Isn’t Invincible</h2>
-<p>Rightmove’s dominance isn’t absolute. While they rank for broad terms like “property to rent,” they often struggle with hyper-local searches. For example, a search like “letting agency in Manchester city centre” might show smaller agencies above Rightmove. Why? Because local SEO is about relevance, not just authority. By targeting specific areas and niches, you can beat Rightmove at its own game.</p>
+<h2>Why Rightmove Isn't Invincible</h2>
+<p>Rightmove's dominance isn't absolute. While they rank for broad terms like "property to rent," they often struggle with hyper-local searches. For example, a search like "letting agency in Manchester city centre" might show smaller agencies above Rightmove. Why? Because local SEO is about relevance, not just authority. By targeting specific areas and niches, you can beat Rightmove at its own game.</p>
 
 <h2>Optimise for Local Keywords</h2>
 <p>Start by identifying the keywords your audience is searching for. Tools like Google Keyword Planner or SEMrush can help. Focus on long-tail keywords that include your location and services, such as:</p>
 <ul>
-  <li>“letting agency in Birmingham”</li>
-  <li>“student flats to rent in Leeds”</li>
-  <li>“pet-friendly rentals in Brighton”</li>
+  <li>"letting agency in Birmingham"</li>
+  <li>"student flats to rent in Leeds"</li>
+  <li>"pet-friendly rentals in Brighton"</li>
 </ul>
-<p>These terms have lower competition but higher intent. According to a study by Ahrefs, <strong>long-tail keywords account for 70% of all search traffic</strong>. By targeting these, you’re more likely to attract qualified leads.</p>
+<p>These terms have lower competition but higher intent. According to a study by Ahrefs, <strong>long-tail keywords account for 70% of all search traffic</strong>. By targeting these, you're more likely to attract qualified leads.</p>
 
 <h2>Build Local Citations</h2>
 <p>Local citations—mentions of your business name, address, and phone number (NAP)—are crucial for local SEO. Ensure your agency is listed on directories like Google My Business, Yell, and Bing Places. Consistency is key. If your NAP details differ across platforms, it confuses search engines and hurts your rankings.</p>
@@ -112,19 +112,19 @@ export default function LettingAgencySeoGuide2026() {
 <h2>Create Hyper-Local Content</h2>
 <p>Content is king, but hyper-local content is the ace. Write blog posts, guides, and FAQs that address the specific needs of your area. For example:</p>
 <ul>
-  <li>“Top 5 Neighbourhoods for Families in Bristol”</li>
-  <li>“How to Find Affordable Rentals in London”</li>
-  <li>“Student Housing Guide for Manchester”</li>
+  <li>"Top 5 Neighbourhoods for Families in Bristol"</li>
+  <li>"How to Find Affordable Rentals in London"</li>
+  <li>"Student Housing Guide for Manchester"</li>
 </ul>
 <p>This type of content attracts local traffic and positions your agency as the go-to expert in your area. Plus, it gives you more opportunities to rank for local keywords.</p>
 
 <h2>Leverage Social Media</h2>
-<p>Social media isn’t just for engagement—it’s a powerful SEO tool. Platforms like Facebook and Instagram allow you to target specific demographics and locations. Share your listings, blog posts, and client testimonials to drive traffic to your site. Use location tags and hashtags to increase visibility.</p>
-<p>For example, if you’re a letting agency in Edinburgh, use hashtags like #EdinburghRentals or #PropertyInEdinburgh. This helps your posts reach a local audience and improves your chances of ranking in local searches.</p>
+<p>Social media isn't just for engagement—it's a powerful SEO tool. Platforms like Facebook and Instagram allow you to target specific demographics and locations. Share your listings, blog posts, and client testimonials to drive traffic to your site. Use location tags and hashtags to increase visibility.</p>
+<p>For example, if you're a letting agency in Edinburgh, use hashtags like #EdinburghRentals or #PropertyInEdinburgh. This helps your posts reach a local audience and improves your chances of ranking in local searches.</p>
 
 <h2>Monitor and Adjust Your Strategy</h2>
-<p>SEO isn’t a one-and-done deal. Regularly monitor your performance using tools like Google Analytics and Search Console. Track your rankings, traffic, and conversions. If a strategy isn’t working, pivot. SEO is about experimentation and adaptation.</p>
-<p>For example, if your blog post on “Pet-Friendly Rentals in Brighton” isn’t driving traffic, try updating it with fresh data or targeting a different keyword. SEO is a marathon, not a sprint.</p>
+<p>SEO isn't a one-and-done deal. Regularly monitor your performance using tools like Google Analytics and Search Console. Track your rankings, traffic, and conversions. If a strategy isn't working, pivot. SEO is about experimentation and adaptation.</p>
+<p>For example, if your blog post on "Pet-Friendly Rentals in Brighton" isn't driving traffic, try updating it with fresh data or targeting a different keyword. SEO is a marathon, not a sprint.</p>
 
 <h2>Conclusion</h2>
 <p>Rightmove may dominate the property market, but with the right letting agency SEO strategy, you can outrank them in your local area. Focus on hyper-local keywords, build local citations, create relevant content, and leverage social media. Monitor your performance and adjust your strategy as needed.</p>
