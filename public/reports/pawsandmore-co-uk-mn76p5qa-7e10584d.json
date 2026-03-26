@@ -1,0 +1,131 @@
+{
+  "slug": "pawsandmore-co-uk-mn76p5qa-7e10584d",
+  "targetUrl": "https://www.pawsandmore.co.uk",
+  "domain": "pawsandmore.co.uk",
+  "generatedAt": "2026-03-26T08:01:58.594Z",
+  "score": 1.5,
+  "data": {
+    "title": null,
+    "titleLength": 0,
+    "metaDescription": null,
+    "metaDescLength": 0,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "canonical": null,
+    "robots": null,
+    "pageSize": 114,
+    "htmlLength": 114,
+    "totalImages": 0,
+    "imagesWithoutAlt": 0,
+    "hasViewport": false,
+    "favicon": null,
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing page title",
+      "impact": "Your page won't show properly in Google search results. This is the #1 thing searchers see.",
+      "fix": "Add a unique, descriptive title tag (50-60 characters) to every page"
+    },
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing meta description",
+      "impact": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "fix": "Add a compelling 150-160 character description for every page"
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Technical SEO",
+      "issue": "Missing canonical tag",
+      "impact": "Duplicate content issues. Google might index the wrong version of your page.",
+      "fix": "Add a canonical tag to every page pointing to the preferred URL"
+    },
+    {
+      "severity": "high",
+      "category": "Mobile",
+      "issue": "Missing viewport meta tag",
+      "impact": "Your site won't display properly on mobile. Google prioritizes mobile-first indexing.",
+      "fix": "Add: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "We analyzed www.pawsandmore.co.uk and found 7 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Missing page title",
+      "reason": "Your page won't show properly in Google search results. This is the #1 thing searchers see.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Missing meta description",
+      "reason": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Incomplete Open Graph tags",
+      "reason": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Missing canonical tag",
+      "reason": "Duplicate content issues. Google might index the wrong version of your page.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Missing viewport meta tag",
+      "reason": "Your site won't display properly on mobile. Google prioritizes mobile-first indexing.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No structured data found",
+      "reason": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 7,
+    "criticalIssues": 2,
+    "highIssues": 2,
+    "mediumIssues": 2,
+    "lowIssues": 1
+  }
+}

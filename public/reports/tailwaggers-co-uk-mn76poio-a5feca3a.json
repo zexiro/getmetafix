@@ -1,0 +1,149 @@
+{
+  "slug": "tailwaggers-co-uk-mn76poio-a5feca3a",
+  "targetUrl": "https://www.tailwaggers.co.uk",
+  "domain": "tailwaggers.co.uk",
+  "generatedAt": "2026-03-26T08:02:22.945Z",
+  "score": 1.5,
+  "data": {
+    "title": null,
+    "titleLength": 0,
+    "metaDescription": null,
+    "metaDescLength": 0,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "canonical": null,
+    "robots": null,
+    "pageSize": 114,
+    "htmlLength": 114,
+    "totalImages": 0,
+    "imagesWithoutAlt": 0,
+    "hasViewport": false,
+    "favicon": null,
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing page title",
+      "impact": "Your page won't show properly in Google search results. This is the #1 thing searchers see.",
+      "fix": "Add a unique, descriptive title tag (50-60 characters) to every page"
+    },
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing meta description",
+      "impact": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "fix": "Add a compelling 150-160 character description for every page"
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Technical SEO",
+      "issue": "Missing canonical tag",
+      "impact": "Duplicate content issues. Google might index the wrong version of your page.",
+      "fix": "Add a canonical tag to every page pointing to the preferred URL"
+    },
+    {
+      "severity": "high",
+      "category": "Mobile",
+      "issue": "Missing viewport meta tag",
+      "impact": "Your site won't display properly on mobile. Google prioritizes mobile-first indexing.",
+      "fix": "Add: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "The Tailwaggers e-commerce store has significant room for growth, starting with its core on-page SEO. The biggest opportunity is to implement essential page elements that are currently missing, which are preventing the site from performing well in search. The most critical issues are the lack of a page title, meta description, and H1 headings. These core elements are essential for search engines to understand and display your content properly in search results. Without them, the site is essentially invisible to potential customers. Additionally, the incomplete Open Graph tags and missing viewport meta tag are hindering the site's performance on social media and mobile devices respectively. By addressing these top priorities, Tailwaggers can quickly improve its online visibility and start driving more high-quality traffic to the site.",
+  "fixes": [
+    {
+      "title": "Add page titles to all pages",
+      "reason": "Page titles are the most important on-page SEO element, telling search engines and users what each page is about. Without a title, your pages won't show properly in search results.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Write compelling meta descriptions",
+      "reason": "Meta descriptions provide the search snippet that entices users to click through to your site. Without them, you're letting Google write its own description, which is often inaccurate or unappealing.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Add H1 headings to all pages",
+      "reason": "H1 headings are a key signal to search engines about the main topic of a page. Without any H1s, your content is essentially invisible to search crawlers.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Implement Open Graph tags",
+      "reason": "Open Graph tags control how your pages look when shared on social media. Missing these means your product links will have broken thumbnails and poor descriptions, hurting click-through rates.",
+      "impact": "Medium",
+      "effort": "30 min"
+    },
+    {
+      "title": "Add a canonical tag to each page",
+      "reason": "Canonical tags tell search engines which version of a page is the original, authoritative one. Without them, you risk Google indexing the wrong URL and potential duplicate content issues.",
+      "impact": "Medium",
+      "effort": "30 min"
+    },
+    {
+      "title": "Add a viewport meta tag",
+      "reason": "The viewport tag ensures your site displays properly on mobile devices, which is crucial for a good user experience and search rankings in the mobile-first indexing era.",
+      "impact": "High",
+      "effort": "15 min"
+    },
+    {
+      "title": "Implement schema.org structured data",
+      "reason": "Structured data allows you to mark up key information about your products, like prices, availability, and reviews. This can earn you rich snippets in search results, boosting click-through rates.",
+      "impact": "Medium",
+      "effort": "Half day"
+    },
+    {
+      "title": "Add alt text to all images",
+      "reason": "Alt text helps search engines and screen readers understand the content of your images. Without it, you're missing out on another opportunity to improve your site's visibility.",
+      "impact": "Low",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Set a favicon for your site",
+      "reason": "A favicon is a small icon that appears in the browser tab and bookmarks. It's a small but important branding element that helps users quickly recognize your site.",
+      "impact": "Low",
+      "effort": "15 min"
+    },
+    {
+      "title": "Ensure your robots.txt file is correctly configured",
+      "reason": "The robots.txt file tells search engines which pages they should and shouldn't crawl. Ensuring it's set up properly helps search engines index your site more effectively.",
+      "impact": "Low",
+      "effort": "30 min"
+    }
+  ],
+  "metadata": {
+    "issueCount": 7,
+    "criticalIssues": 2,
+    "highIssues": 2,
+    "mediumIssues": 2,
+    "lowIssues": 1
+  }
+}
