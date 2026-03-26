@@ -50,6 +50,7 @@ export default function Home() {
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <a href="#pricing" className="hover:text-gray-900 transition-colors">Pricing</a>
             <a href="#how-it-works" className="hover:text-gray-900 transition-colors">How it works</a>
+            <a href="/roast" className="hover:text-gray-900 transition-colors font-medium text-red-600">🔥 Roast</a>
             <a href="/growth-audit" className="hover:text-gray-900 transition-colors font-medium text-gray-900">Growth Audit</a>
             <a href="/monitor" className="hover:text-gray-900 transition-colors font-medium text-gray-900">Monitor</a>
             <a href="/blog" className="hover:text-gray-900 transition-colors">Blog</a>
