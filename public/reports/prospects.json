@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "domain": "artisanbakeco.co.uk",
+    "url": "https://www.artisanbakeco.co.uk",
+    "niche": "artisan food",
+    "platform": "Shopify",
+    "contactEmail": "hello@artisanbakeco.co.uk",
+    "contactName": "The Team",
+    "notes": "Premium artisan bakery, likely missing meta descriptions and structured data"
+  },
+  {
+    "id": 2,
+    "domain": "pawsandmore.co.uk",
+    "url": "https://www.pawsandmore.co.uk",
+    "niche": "pet supplies",
+    "platform": "WooCommerce",
+    "contactEmail": "info@pawsandmore.co.uk",
+    "contactName": "The Team",
+    "notes": "Pet accessories store, potential image alt text issues"
+  },
+  {
+    "id": 3,
+    "domain": "thehomecurator.co.uk",
+    "url": "https://www.thehomecurator.co.uk",
+    "niche": "homeware",
+    "platform": "Shopify",
+    "contactEmail": "hello@thehomecurator.co.uk",
+    "contactName": "The Team",
+    "notes": "High-end homeware, likely missing canonical tags"
+  },
+  {
+    "id": 4,
+    "domain": "botanicalskincare.co.uk",
+    "url": "https://www.botanicalskincare.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "support@botanicalskincare.co.uk",
+    "contactName": "The Team",
+    "notes": "Natural skincare brand, potential OG tag issues"
+  },
+  {
+    "id": 5,
+    "domain": "gardengateshop.co.uk",
+    "url": "https://www.gardengateshop.co.uk",
+    "niche": "garden",
+    "platform": "WooCommerce",
+    "contactEmail": "info@gardengateshop.co.uk",
+    "contactName": "The Team",
+    "notes": "Garden supplies, large product catalog likely has SEO issues"
+  },
+  {
+    "id": 6,
+    "domain": "craftchocolatiers.co.uk",
+    "url": "https://www.craftchocolatiers.co.uk",
+    "niche": "artisan food",
+    "platform": "Shopify",
+    "contactEmail": "hello@craftchocolatiers.co.uk",
+    "contactName": "The Team",
+    "notes": "Artisan chocolate, potential structured data opportunities"
+  },
+  {
+    "id": 7,
+    "domain": "tailwaggers.co.uk",
+    "url": "https://www.tailwaggers.co.uk",
+    "niche": "pet supplies",
+    "platform": "Shopify",
+    "contactEmail": "support@tailwaggers.co.uk",
+    "contactName": "The Team",
+    "notes": "Dog accessories, likely missing product schema"
+  },
+  {
+    "id": 8,
+    "domain": "modernhomestyle.co.uk",
+    "url": "https://www.modernhomestyle.co.uk",
+    "niche": "homeware",
+    "platform": "WooCommerce",
+    "contactEmail": "info@modernhomestyle.co.uk",
+    "contactName": "The Team",
+    "notes": "Contemporary furniture, potential page speed issues"
+  },
+  {
+    "id": 9,
+    "domain": "pureglow.co.uk",
+    "url": "https://www.pureglow.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "hello@pureglow.co.uk",
+    "contactName": "The Team",
+    "notes": "Organic skincare, missing meta descriptions likely"
+  },
+  {
+    "id": 10,
+    "domain": "greenthumbgarden.co.uk",
+    "url": "https://www.greenthumbgarden.co.uk",
+    "niche": "garden",
+    "platform": "Shopify",
+    "contactEmail": "info@greenthumbgarden.co.uk",
+    "contactName": "The Team",
+    "notes": "Garden tools and plants, image optimization issues"
+  },
+  {
+    "id": 11,
+    "domain": "farmhousefoods.co.uk",
+    "url": "https://www.farmhousefoods.co.uk",
+    "niche": "artisan food",
+    "platform": "WooCommerce",
+    "contactEmail": "orders@farmhousefoods.co.uk",
+    "contactName": "The Team",
+    "notes": "Farm-fresh produce, potential mobile optimization issues"
+  },
+  {
+    "id": 12,
+    "domain": "petparadise.co.uk",
+    "url": "https://www.petparadise.co.uk",
+    "niche": "pet supplies",
+    "platform": "Shopify",
+    "contactEmail": "hello@petparadise.co.uk",
+    "contactName": "The Team",
+    "notes": "Multi-pet supplies, duplicate content likely"
+  },
+  {
+    "id": 13,
+    "domain": "cosyhaven.co.uk",
+    "url": "https://www.cosyhaven.co.uk",
+    "niche": "homeware",
+    "platform": "Shopify",
+    "contactEmail": "info@cosyhaven.co.uk",
+    "contactName": "The Team",
+    "notes": "Textiles and soft furnishings, missing H1s potential"
+  },
+  {
+    "id": 14,
+    "domain": "radiantbeauty.co.uk",
+    "url": "https://www.radiantbeauty.co.uk",
+    "niche": "skincare",
+    "platform": "WooCommerce",
+    "contactEmail": "support@radiantbeauty.co.uk",
+    "contactName": "The Team",
+    "notes": "Beauty products, likely missing canonical tags"
+  },
+  {
+    "id": 15,
+    "domain": "bloomandgrow.co.uk",
+    "url": "https://www.bloomandgrow.co.uk",
+    "niche": "garden",
+    "platform": "Shopify",
+    "contactEmail": "hello@bloomandgrow.co.uk",
+    "contactName": "The Team",
+    "notes": "Plant nursery, image alt text issues likely"
+  },
+  {
+    "id": 16,
+    "domain": "delectablefoods.co.uk",
+    "url": "https://www.delectablefoods.co.uk",
+    "niche": "artisan food",
+    "platform": "Shopify",
+    "contactEmail": "info@delectablefoods.co.uk",
+    "contactName": "The Team",
+    "notes": "Gourmet foods, potential meta tag issues"
+  },
+  {
+    "id": 17,
+    "domain": "pamperedpets.co.uk",
+    "url": "https://www.pamperedpets.co.uk",
+    "niche": "pet supplies",
+    "platform": "WooCommerce",
+    "contactEmail": "sales@pamperedpets.co.uk",
+    "contactName": "The Team",
+    "notes": "Premium pet products, structured data missing"
+  },
+  {
+    "id": 18,
+    "domain": "sanctuaryhome.co.uk",
+    "url": "https://www.sanctuaryhome.co.uk",
+    "niche": "homeware",
+    "platform": "Shopify",
+    "contactEmail": "hello@sanctuaryhome.co.uk",
+    "contactName": "The Team",
+    "notes": "Luxury homeware, page speed optimization needed"
+  },
+  {
+    "id": 19,
+    "domain": "naturalskin.co.uk",
+    "url": "https://www.naturalskin.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "info@naturalskin.co.uk",
+    "contactName": "The Team",
+    "notes": "Natural beauty, missing OG tags likely"
+  },
+  {
+    "id": 20,
+    "domain": "gardenersdelight.co.uk",
+    "url": "https://www.gardenersdelight.co.uk",
+    "niche": "garden",
+    "platform": "WooCommerce",
+    "contactEmail": "support@gardenersdelight.co.uk",
+    "contactName": "The Team",
+    "notes": "Garden center, likely multiple SEO issues"
+  }
+]

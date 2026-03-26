@@ -1,0 +1,110 @@
+{
+  "slug": "github-com-mn70gwno-e041e20a",
+  "targetUrl": "https://github.com",
+  "domain": "github.com",
+  "generatedAt": "2026-03-26T05:07:35.892Z",
+  "score": 6.5,
+  "data": {
+    "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+    "titleLength": 61,
+    "metaDescription": "Join the world&#39;s most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "metaDescLength": 190,
+    "h1s": [
+      "Search code, repositories, users, issues, pull requests...",
+      "Provide feedback",
+      "Saved searches",
+      "The future of building happens together"
+    ],
+    "h1Count": 4,
+    "ogTitle": "GitHub · Change is constant. GitHub keeps you ahead.",
+    "ogDescription": "Join the world&#39;s most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "ogImage": "https://images.ctfassets.net/8aevphvgewt8/4pe4eOtUJ0ARpZRE4fNekf/f52b1f9c52f059a33170229883731ed0/GH-Homepage-Universe-img.png",
+    "canonical": "https://github.com",
+    "robots": null,
+    "pageSize": 566823,
+    "htmlLength": 566728,
+    "totalImages": 24,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "https://github.com/fluidicon.png",
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Title too long (61 chars)",
+      "impact": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "fix": "Trim to under 60 characters. Front-load your most important keywords."
+    },
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Meta description too long (190 chars)",
+      "impact": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "fix": "Trim to 150-160 characters. Put the most important info first."
+    },
+    {
+      "severity": "medium",
+      "category": "Content Structure",
+      "issue": "Multiple H1 tags (4 found)",
+      "impact": "Multiple H1s confuse search engines about your page's main topic.",
+      "fix": "Use only one H1 per page. Use H2-H6 for subheadings."
+    },
+    {
+      "severity": "medium",
+      "category": "Performance",
+      "issue": "Large page size (554 KB)",
+      "impact": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "fix": "Compress images, minify CSS/JS, enable gzip compression. Target under 500KB."
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "We analyzed github.com and found 5 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too long (61 chars)",
+      "reason": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Meta description too long (190 chars)",
+      "reason": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Multiple H1 tags (4 found)",
+      "reason": "Multiple H1s confuse search engines about your page's main topic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Large page size (554 KB)",
+      "reason": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No structured data found",
+      "reason": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 5,
+    "criticalIssues": 0,
+    "highIssues": 2,
+    "mediumIssues": 2,
+    "lowIssues": 1
+  }
+}
