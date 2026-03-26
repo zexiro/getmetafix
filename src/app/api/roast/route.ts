@@ -75,9 +75,9 @@ Your task:
 
 3. Give them a score out of 10 (be harsh but fair - most sites are 3-6/10)
 
-Return ONLY valid JSON in this exact structure (no markdown, no code blocks):
+CRITICAL: Return ONLY valid JSON. Use \\n for newlines in the roastText string (not actual line breaks). No markdown, no code blocks, just pure JSON:
 {
-  "roastText": "paragraph 1\n\nparagraph 2\n\nparagraph 3",
+  "roastText": "paragraph 1\\n\\nparagraph 2\\n\\nparagraph 3",
   "issues": [
     {"emoji": "🏷️", "shortName": "Issue Name", "detail": "Why this matters in one sentence."}
   ],
@@ -108,10 +108,26 @@ Return ONLY valid JSON in this exact structure (no markdown, no code blocks):
   }
 
   const data = await response.json();
-  const content = data.content[0].text;
+  let content = data.content[0].text;
+
+  // Try to extract JSON from the response if it's wrapped in markdown code blocks
+  const jsonMatch = content.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+  if (jsonMatch) {
+    content = jsonMatch[1];
+  }
+
+  // Clean up the content - remove any leading/trailing whitespace
+  content = content.trim();
 
   // Parse the JSON response
-  const result = JSON.parse(content);
+  let result;
+  try {
+    result = JSON.parse(content);
+  } catch (parseError) {
+    console.error("JSON parse error:", parseError);
+    console.error("Content:", content.slice(0, 500));
+    throw new Error("Failed to parse roast response");
+  }
 
   return {
     ...result,
