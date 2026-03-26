@@ -1,0 +1,79 @@
+{
+  "slug": "shopify-com-mn70czeh-b4e502a7",
+  "targetUrl": "https://shopify.com",
+  "domain": "shopify.com",
+  "generatedAt": "2026-03-26T05:04:32.826Z",
+  "score": 7,
+  "data": {
+    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "titleLength": 66,
+    "metaDescription": "Try Shopify free and start a business or grow an existing one. Get more than ecommerce software with tools to manage every part of your business.",
+    "metaDescLength": 145,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "ogDescription": "Try Shopify free and start a business or grow an existing one. Get more than ecommerce software with tools to manage every part of your business.",
+    "ogImage": "https://cdn.shopify.com/b/shopify-brochure2-assets/d617483c5e5cdd01ae8b4f2571c76f34.png?originalWidth=2400&amp;originalHeight=1260",
+    "canonical": "https://www.shopify.com/",
+    "robots": null,
+    "pageSize": 635686,
+    "htmlLength": 635297,
+    "totalImages": 75,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "https://cdn.shopify.com/shopifycloud/web/assets/v1/favicon-default-6cbad9de243dbae3.ico",
+    "hasStructuredData": true,
+    "structuredDataCount": 1
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Title too long (66 chars)",
+      "impact": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "fix": "Trim to under 60 characters. Front-load your most important keywords."
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Performance",
+      "issue": "Large page size (621 KB)",
+      "impact": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "fix": "Compress images, minify CSS/JS, enable gzip compression. Target under 500KB."
+    }
+  ],
+  "summary": "We analyzed shopify.com and found 3 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too long (66 chars)",
+      "reason": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Large page size (621 KB)",
+      "reason": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 3,
+    "criticalIssues": 0,
+    "highIssues": 2,
+    "mediumIssues": 1,
+    "lowIssues": 0
+  }
+}
