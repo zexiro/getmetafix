@@ -1,0 +1,94 @@
+{
+  "slug": "petparadise-co-uk-mn8m6t16-e38396d4",
+  "targetUrl": "https://www.petparadise.co.uk",
+  "domain": "petparadise.co.uk",
+  "generatedAt": "2026-03-27T08:03:22.363Z",
+  "score": 6,
+  "data": {
+    "title": "Aftermarket.com | The domain petparadise.co.uk is for sale!",
+    "titleLength": 59,
+    "metaDescription": null,
+    "metaDescLength": 0,
+    "h1s": [
+      "petparadise.co.uk"
+    ],
+    "h1Count": 1,
+    "ogTitle": "Aftermarket.com | The domain petparadise.co.uk is for sale!",
+    "ogDescription": "Every great idea deserves a great domain. Establish your brand by investing in a quality domain name.",
+    "ogImage": "https://api.devshot.io/LPQW3P?name=petparadise.co.uk",
+    "canonical": null,
+    "robots": null,
+    "pageSize": 58422,
+    "htmlLength": 58421,
+    "totalImages": 2,
+    "imagesWithoutAlt": 2,
+    "hasViewport": true,
+    "favicon": "https://static.aftermarket.com/static/img/favicon.ico",
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing meta description",
+      "impact": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "fix": "Add a compelling 150-160 character description for every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Technical SEO",
+      "issue": "Missing canonical tag",
+      "impact": "Duplicate content issues. Google might index the wrong version of your page.",
+      "fix": "Add a canonical tag to every page pointing to the preferred URL"
+    },
+    {
+      "severity": "high",
+      "category": "Accessibility",
+      "issue": "2 of 2 images missing alt text",
+      "impact": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "fix": "Add descriptive alt text to every image. Be specific, include keywords where natural."
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "We analyzed www.petparadise.co.uk and found 4 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Missing meta description",
+      "reason": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Missing canonical tag",
+      "reason": "Duplicate content issues. Google might index the wrong version of your page.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "2 of 2 images missing alt text",
+      "reason": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No structured data found",
+      "reason": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 4,
+    "criticalIssues": 1,
+    "highIssues": 1,
+    "mediumIssues": 1,
+    "lowIssues": 1
+  }
+}

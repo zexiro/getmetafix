@@ -1,0 +1,131 @@
+{
+  "slug": "thehomecurator-co-uk-mn8m62fp-96a3bdc8",
+  "targetUrl": "https://www.thehomecurator.co.uk",
+  "domain": "thehomecurator.co.uk",
+  "generatedAt": "2026-03-27T08:02:47.894Z",
+  "score": 1.5,
+  "data": {
+    "title": null,
+    "titleLength": 0,
+    "metaDescription": null,
+    "metaDescLength": 0,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "canonical": null,
+    "robots": null,
+    "pageSize": 114,
+    "htmlLength": 114,
+    "totalImages": 0,
+    "imagesWithoutAlt": 0,
+    "hasViewport": false,
+    "favicon": null,
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing page title",
+      "impact": "Your page won't show properly in Google search results. This is the #1 thing searchers see.",
+      "fix": "Add a unique, descriptive title tag (50-60 characters) to every page"
+    },
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing meta description",
+      "impact": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "fix": "Add a compelling 150-160 character description for every page"
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Technical SEO",
+      "issue": "Missing canonical tag",
+      "impact": "Duplicate content issues. Google might index the wrong version of your page.",
+      "fix": "Add a canonical tag to every page pointing to the preferred URL"
+    },
+    {
+      "severity": "high",
+      "category": "Mobile",
+      "issue": "Missing viewport meta tag",
+      "impact": "Your site won't display properly on mobile. Google prioritizes mobile-first indexing.",
+      "fix": "Add: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "The Home Curator website has significant technical SEO issues that are currently holding it back from ranking well in search results and driving optimal traffic and conversions. The biggest opportunity is to improve the core on-page optimization, as the site currently lacks the most basic elements like a page title, meta description, and H1 heading. These critical issues mean the site is essentially invisible to search engines, drastically reducing its ability to be found by potential customers. Fixing these technical fundamentals should be the top priority, as they will lay the groundwork for future growth and optimization efforts. With a focused and strategic approach to resolving the identified issues, The Home Curator can position itself for much greater online visibility and success.",
+  "fixes": [
+    {
+      "title": "Add a clear, keyword-optimized page title",
+      "reason": "Your page title is the most important on-page SEO element, as it tells search engines and users what your page is about. Without a title, your pages will be invisible in search results.",
+      "impact": "Critical",
+      "effort": "15 min"
+    },
+    {
+      "title": "Write compelling meta descriptions for all pages",
+      "reason": "Meta descriptions give searchers a preview of your page content, encouraging clicks. Without them, Google will generate its own subpar description, hurting your click-through rates.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Add H1 headings to all pages",
+      "reason": "H1 headings are a key signal to search engines about the main topic of your page. Without them, you're missing a critical relevance cue that impacts your rankings.",
+      "impact": "High",
+      "effort": "30 min"
+    },
+    {
+      "title": "Optimize Open Graph tags for social sharing",
+      "reason": "Open Graph tags ensure your pages look great when shared on social media, increasing click-through rates from platforms like Facebook and LinkedIn.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Add a canonical tag to each page",
+      "reason": "Canonical tags tell search engines which version of a page is the original, authoritative one. This prevents duplicate content issues that can hurt rankings.",
+      "impact": "Medium",
+      "effort": "15 min"
+    },
+    {
+      "title": "Implement a responsive, mobile-friendly viewport",
+      "reason": "With mobile-first indexing, having a mobile-optimized site is critical. The missing viewport tag means your site won't display properly on smartphones and tablets.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Add structured data to your pages",
+      "reason": "Structured data allows you to provide additional context to search engines, which can result in enhanced, clickable snippets in search results (like star ratings, prices, availability).",
+      "impact": "Low",
+      "effort": "Half day"
+    }
+  ],
+  "metadata": {
+    "issueCount": 7,
+    "criticalIssues": 2,
+    "highIssues": 2,
+    "mediumIssues": 2,
+    "lowIssues": 1
+  }
+}
