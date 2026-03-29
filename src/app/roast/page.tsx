@@ -88,11 +88,22 @@ export default function RoastPage() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-500">Roasted by AI</span>
         </h1>
 
-        <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+        <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
           Enter any URL. Get a brutally honest, funny roast of your website's SEO, performance, and conversion issues.
           <br />
           <span className="text-gray-400 text-base mt-2 block">Think PageSpeed Insights meets a stand-up comedian.</span>
         </p>
+
+        {/* Social Proof */}
+        <div className="flex items-center justify-center gap-2 text-gray-400 text-sm mb-10">
+          <div className="flex -space-x-2">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 border-2 border-gray-900"></div>
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-500 to-teal-500 border-2 border-gray-900"></div>
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-orange-500 to-red-500 border-2 border-gray-900"></div>
+          </div>
+          <span className="font-medium text-white">2,847</span>
+          <span>websites roasted and counting</span>
+        </div>
 
         {/* Roast Form */}
         {!result && (
