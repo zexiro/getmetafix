@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "domain": "handmadenaturals.co.uk",
+    "url": "https://handmadenaturals.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "hello@handmadenaturals.co.uk",
+    "contactName": "The Team",
+    "notes": "Artisan handmade natural skincare, Cheshire-based, likely missing meta descriptions and structured data"
+  },
+  {
+    "id": 2,
+    "domain": "odylique.co.uk",
+    "url": "https://odylique.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "info@odylique.co.uk",
+    "contactName": "The Team",
+    "notes": "Organic skincare brand, potential OG tag and canonical issues"
+  },
+  {
+    "id": 3,
+    "domain": "haoma.co.uk",
+    "url": "https://haoma.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "contact@haoma.co.uk",
+    "contactName": "The Team",
+    "notes": "Certified organic vegan skincare, handmade small batches, likely missing product schema"
+  },
+  {
+    "id": 4,
+    "domain": "natrlskincare.co.uk",
+    "url": "https://natrlskincare.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "sales@porehouse.co.uk",
+    "contactName": "The Team",
+    "notes": "Natural handmade UK skincare (trading as Porehouse Ltd), potential image alt text issues"
+  },
+  {
+    "id": 5,
+    "domain": "floragy.co.uk",
+    "url": "https://floragy.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "hello@floragy.co.uk",
+    "contactName": "The Team",
+    "notes": "Faversham-based natural skincare, handmade in small batches, likely missing structured data"
+  },
+  {
+    "id": 6,
+    "domain": "rootsveganskincare.co.uk",
+    "url": "https://rootsveganskincare.co.uk",
+    "niche": "skincare",
+    "platform": "Shopify",
+    "contactEmail": "hello@rootsveganskincare.co.uk",
+    "contactName": "The Team",
+    "notes": "Award-winning vegan skincare, potential meta description and OG tag issues"
+  },
+  {
+    "id": 7,
+    "domain": "themerchantstable.co.uk",
+    "url": "https://themerchantstable.co.uk",
+    "niche": "homeware",
+    "platform": "Shopify",
+    "contactEmail": "susanna@themerchantstable.co.uk",
+    "contactName": "Susanna",
+    "notes": "British crafts homeware gallery in Woodbridge Suffolk, likely missing canonical tags and product schema"
+  },
+  {
+    "id": 8,
+    "domain": "monpote.co.uk",
+    "url": "https://monpote.co.uk",
+    "niche": "homeware",
+    "platform": "Shopify",
+    "contactEmail": "hello@monpote.co.uk",
+    "contactName": "The Team",
+    "notes": "Independent homeware accessories shop, likely missing meta descriptions"
+  },
+  {
+    "id": 9,
+    "domain": "independentpetco.co.uk",
+    "url": "https://independentpetco.co.uk",
+    "niche": "pet supplies",
+    "platform": "Shopify",
+    "contactEmail": "kelly@independentpetco.co.uk",
+    "contactName": "Kelly",
+    "notes": "Weston-super-Mare healthy pet shop, likely missing structured data and image alt text"
+  },
+  {
+    "id": 10,
+    "domain": "realpetstore.co.uk",
+    "url": "https://realpetstore.co.uk",
+    "niche": "pet supplies",
+    "platform": "WooCommerce",
+    "contactEmail": "hello@realpetstore.co.uk",
+    "contactName": "The Team",
+    "notes": "Independent UK pet accessories store, potential page speed and meta tag issues"
+  },
+  {
+    "id": 11,
+    "domain": "quirkychocolate.com",
+    "url": "https://quirkychocolate.com",
+    "niche": "artisan food",
+    "platform": "Shopify",
+    "contactEmail": "hello@quirkychocolate.com",
+    "contactName": "The Team",
+    "notes": "Scottish artisan chocolatier, handmade gifts, likely missing OG tags and product schema"
+  },
+  {
+    "id": 12,
+    "domain": "carbethplants.co.uk",
+    "url": "https://carbethplants.co.uk",
+    "niche": "garden",
+    "platform": "WooCommerce",
+    "contactEmail": "info@carbethplants.co.uk",
+    "contactName": "The Team",
+    "notes": "Rural Glasgow nursery, 19 years in horticulture, likely image alt text and structured data issues"
+  }
+]

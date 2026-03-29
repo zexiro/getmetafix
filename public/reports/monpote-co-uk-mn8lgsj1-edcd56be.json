@@ -1,0 +1,109 @@
+{
+  "slug": "monpote-co-uk-mn8lgsj1-edcd56be",
+  "targetUrl": "https://monpote.co.uk",
+  "domain": "monpote.co.uk",
+  "generatedAt": "2026-03-27T07:43:08.654Z",
+  "score": 6.5,
+  "data": {
+    "title": "Mon Pote",
+    "titleLength": 8,
+    "metaDescription": "Mon Pote is an independent homeware shop. Bringing you hand picked colourful, joyful accessories to make your home your own. We select our range of home accessories from the best homeware brands from Europe and around the world. We specialise in Scandinavian design brands including House Doctor and IB Laursen.",
+    "metaDescLength": 311,
+    "h1s": [
+      "Easter at Home",
+      "Beautiful homeware and gifts",
+      "Browse our shoppable Lookbooks"
+    ],
+    "h1Count": 3,
+    "ogTitle": "Mon Pote",
+    "ogDescription": "Mon Pote is an independent homeware shop. Bringing you hand picked colourful, joyful accessories to make your home your own. We select our range of home accessories from the best homeware brands from Europe and around the world. We specialise in Scandinavian design brands including House Doctor and IB Laursen.",
+    "ogImage": null,
+    "canonical": "https://monpote.co.uk/",
+    "robots": null,
+    "pageSize": 450572,
+    "htmlLength": 450430,
+    "totalImages": 47,
+    "imagesWithoutAlt": 1,
+    "hasViewport": true,
+    "favicon": "//monpote.co.uk/cdn/shop/files/mon-pote-favicon-dark-walnut_25561479-7ba1-4898-ad68-fc7d63f3b1c2_32x32.png?v=1713953597",
+    "hasStructuredData": true,
+    "structuredDataCount": 2
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "Meta Tags",
+      "issue": "Title too short (8 chars)",
+      "impact": "You're not using the full space Google gives you in search results.",
+      "fix": "Expand to 50-60 characters with more descriptive, keyword-rich content"
+    },
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Meta description too long (311 chars)",
+      "impact": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "fix": "Trim to 150-160 characters. Put the most important info first."
+    },
+    {
+      "severity": "medium",
+      "category": "Content Structure",
+      "issue": "Multiple H1 tags (3 found)",
+      "impact": "Multiple H1s confuse search engines about your page's main topic.",
+      "fix": "Use only one H1 per page. Use H2-H6 for subheadings."
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Accessibility",
+      "issue": "1 of 47 images missing alt text",
+      "impact": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "fix": "Add descriptive alt text to every image. Be specific, include keywords where natural."
+    }
+  ],
+  "summary": "We analyzed monpote.co.uk and found 5 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too short (8 chars)",
+      "reason": "You're not using the full space Google gives you in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Meta description too long (311 chars)",
+      "reason": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Multiple H1 tags (3 found)",
+      "reason": "Multiple H1s confuse search engines about your page's main topic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Incomplete Open Graph tags",
+      "reason": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "1 of 47 images missing alt text",
+      "reason": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 5,
+    "criticalIssues": 0,
+    "highIssues": 1,
+    "mediumIssues": 4,
+    "lowIssues": 0
+  }
+}

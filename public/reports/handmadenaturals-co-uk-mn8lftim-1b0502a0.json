@@ -1,0 +1,79 @@
+{
+  "slug": "handmadenaturals-co-uk-mn8lftim-1b0502a0",
+  "targetUrl": "https://handmadenaturals.co.uk",
+  "domain": "handmadenaturals.co.uk",
+  "generatedAt": "2026-03-27T07:42:23.278Z",
+  "score": 7,
+  "data": {
+    "title": "Natural, Organic &amp; Vegan Skincare\n&ndash; Handmade Naturals",
+    "titleLength": 63,
+    "metaDescription": "Handmade Naturals is a Cheshire based artisan brand, offering an extensive range of award winning organic, vegan and natural skincare &amp; cosmetic products.",
+    "metaDescLength": 158,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Natural, Organic &amp; Vegan Skincare",
+    "ogDescription": "Handmade Naturals is a Cheshire based artisan brand, offering an extensive range of award winning organic, vegan and natural skincare &amp; cosmetic products.",
+    "ogImage": "http://handmadenaturals.co.uk/cdn/shop/files/Logo_396x137_x300dpi.jpg?v=1646065545",
+    "canonical": "https://handmadenaturals.co.uk/",
+    "robots": null,
+    "pageSize": 307716,
+    "htmlLength": 307671,
+    "totalImages": 70,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "//handmadenaturals.co.uk/cdn/shop/files/favicon-large_32x32.gif?v=1647529289",
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Title too long (63 chars)",
+      "impact": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "fix": "Trim to under 60 characters. Front-load your most important keywords."
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "We analyzed handmadenaturals.co.uk and found 3 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too long (63 chars)",
+      "reason": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No structured data found",
+      "reason": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 3,
+    "criticalIssues": 0,
+    "highIssues": 2,
+    "mediumIssues": 0,
+    "lowIssues": 1
+  }
+}

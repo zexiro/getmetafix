@@ -1,0 +1,94 @@
+{
+  "slug": "forestwholefoods-co-uk-mnb6btv0-2c822cbb",
+  "targetUrl": "https://www.forestwholefoods.co.uk",
+  "domain": "forestwholefoods.co.uk",
+  "generatedAt": "2026-03-29T03:02:41.388Z",
+  "score": 7.5,
+  "data": {
+    "title": "The Organic Food People | Forest Whole Foods",
+    "titleLength": 44,
+    "metaDescription": "Forest Whole foods offer one of the finest ranges of organic foods, snacks and groceries that are healthy, affordable.",
+    "metaDescLength": 118,
+    "h1s": [
+      "The Organic Food People"
+    ],
+    "h1Count": 1,
+    "ogTitle": "Home",
+    "ogDescription": "Forest Whole foods offer one of the finest ranges of organic foods, snacks and groceries that are healthy, affordable.",
+    "ogImage": null,
+    "canonical": "https://www.forestwholefoods.co.uk/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "pageSize": 554657,
+    "htmlLength": 554653,
+    "totalImages": 36,
+    "imagesWithoutAlt": 2,
+    "hasViewport": true,
+    "favicon": "https://www.forestwholefoods.co.uk/wp-content/themes/forestwholefoods/img/favs/favicon.ico",
+    "hasStructuredData": true,
+    "structuredDataCount": 2
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "Meta Tags",
+      "issue": "Meta description too short (118 chars)",
+      "impact": "You're leaving valuable persuasion space unused.",
+      "fix": "Expand to 150-160 characters. Sell the click!"
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Accessibility",
+      "issue": "2 of 36 images missing alt text",
+      "impact": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "fix": "Add descriptive alt text to every image. Be specific, include keywords where natural."
+    },
+    {
+      "severity": "medium",
+      "category": "Performance",
+      "issue": "Large page size (542 KB)",
+      "impact": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "fix": "Compress images, minify CSS/JS, enable gzip compression. Target under 500KB."
+    }
+  ],
+  "summary": "We analyzed www.forestwholefoods.co.uk and found 4 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Meta description too short (118 chars)",
+      "reason": "You're leaving valuable persuasion space unused.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Incomplete Open Graph tags",
+      "reason": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "2 of 36 images missing alt text",
+      "reason": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Large page size (542 KB)",
+      "reason": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 4,
+    "criticalIssues": 0,
+    "highIssues": 0,
+    "mediumIssues": 4,
+    "lowIssues": 0
+  }
+}

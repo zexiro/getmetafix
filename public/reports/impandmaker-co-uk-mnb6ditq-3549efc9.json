@@ -1,0 +1,92 @@
+{
+  "slug": "impandmaker-co-uk-mnb6ditq-3549efc9",
+  "targetUrl": "https://impandmaker.co.uk",
+  "domain": "impandmaker.co.uk",
+  "generatedAt": "2026-03-29T03:04:00.399Z",
+  "score": 6.5,
+  "data": {
+    "title": "IMP &amp; MAKER | The Modern Way to Gift Food &amp; Drink",
+    "titleLength": 57,
+    "metaDescription": "Award-winning Food &amp; Drink Gifts, personalised service. Featured in Good Housekeeping, GQ &amp; Harper&#39;s BAZAAR. Modern luxury gifts for food &amp; drink lovers.",
+    "metaDescLength": 169,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "IMP &amp; MAKER | The Modern Way to Gift Food &amp; Drink",
+    "ogDescription": "Award-winning Food &amp; Drink Gifts, personalised service. Featured in Good Housekeeping, GQ &amp; Harper&#39;s BAZAAR. Modern luxury gifts for food &amp; drink lovers.",
+    "ogImage": "http://impandmaker.co.uk/cdn/shop/files/IMP_MAKER_LOGO.jpg?crop=center&height=1200&v=1648123288&width=1200",
+    "canonical": "https://impandmaker.co.uk/",
+    "robots": null,
+    "pageSize": 1280585,
+    "htmlLength": 1280356,
+    "totalImages": 490,
+    "imagesWithoutAlt": 7,
+    "hasViewport": true,
+    "favicon": "//impandmaker.co.uk/cdn/shop/files/IAM-Favicon.png?crop=center&height=48&v=1618996629&width=48",
+    "hasStructuredData": true,
+    "structuredDataCount": 2
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Meta description too long (169 chars)",
+      "impact": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "fix": "Trim to 150-160 characters. Put the most important info first."
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Accessibility",
+      "issue": "7 of 490 images missing alt text",
+      "impact": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "fix": "Add descriptive alt text to every image. Be specific, include keywords where natural."
+    },
+    {
+      "severity": "medium",
+      "category": "Performance",
+      "issue": "Large page size (1251 KB)",
+      "impact": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "fix": "Compress images, minify CSS/JS, enable gzip compression. Target under 500KB."
+    }
+  ],
+  "summary": "We analyzed impandmaker.co.uk and found 4 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Meta description too long (169 chars)",
+      "reason": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "7 of 490 images missing alt text",
+      "reason": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Large page size (1251 KB)",
+      "reason": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 4,
+    "criticalIssues": 0,
+    "highIssues": 2,
+    "mediumIssues": 2,
+    "lowIssues": 0
+  }
+}

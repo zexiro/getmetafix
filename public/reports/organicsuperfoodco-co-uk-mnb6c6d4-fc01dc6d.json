@@ -1,0 +1,77 @@
+{
+  "slug": "organicsuperfoodco-co-uk-mnb6c6d4-fc01dc6d",
+  "targetUrl": "https://organicsuperfoodco.co.uk",
+  "domain": "organicsuperfoodco.co.uk",
+  "generatedAt": "2026-03-29T03:02:57.592Z",
+  "score": 8.5,
+  "data": {
+    "title": "Organic Superfood Juice Shots | Pure Organic Nutrition Daily",
+    "titleLength": 60,
+    "metaDescription": "Boost daily health with organic wheatgrass, broccoli sprout and beetroot juice shots. Grown in Ireland cold pressed and delivered fresh with free shipping.",
+    "metaDescLength": 155,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Organic Juice Shots",
+    "ogDescription": "Boost daily health with organic wheatgrass, broccoli sprout and beetroot juice shots. Grown in Ireland cold pressed and delivered fresh with free shipping.",
+    "ogImage": "https://organicsuperfoodco.co.uk/wp-content/uploads/2025/09/Wheatgrass-organic-juice-shot.jpg",
+    "canonical": "https://organicsuperfoodco.co.uk/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "pageSize": 257143,
+    "htmlLength": 257112,
+    "totalImages": 32,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "https://organicsuperfoodco.co.uk/wp-content/uploads/2025/09/cropped-OSFC-Logo-Black-Round-32x32.png",
+    "hasStructuredData": true,
+    "structuredDataCount": 1
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    }
+  ],
+  "summary": "The Organic Superfood Co. website has a strong technical SEO foundation, earning an impressive 8.5/10 score. However, the lack of a clear H1 heading is a critical issue that could severely impact the site's visibility and engagement with search engines. This oversight means the website is essentially invisible to search engines, making it difficult for potential customers to find and connect with the brand. By addressing this core issue, the Organic Superfood Co. can unlock significant opportunities to drive more traffic, increase brand awareness, and ultimately, boost sales and revenue.",
+  "fixes": [
+    {
+      "title": "Add an H1 Heading to the Homepage",
+      "reason": "The absence of an H1 heading on the homepage makes it challenging for search engines to understand the main focus and purpose of the page. This can negatively impact the site's visibility and ranking in search results, resulting in lost traffic and missed opportunities to connect with potential customers.",
+      "impact": "Critical",
+      "effort": "15 min"
+    },
+    {
+      "title": "Optimize Image Alt Text",
+      "reason": "While the website has a large number of images, none of them currently have alt text. This missed opportunity can hurt the site's accessibility and search engine optimization, as search engines rely on alt text to understand the content and context of the images.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Create a Consistent Heading Structure",
+      "reason": "The lack of a clear heading structure (H1, H2, H3, etc.) makes it difficult for both search engines and users to navigate and understand the content hierarchy on the website. Implementing a consistent heading structure can improve the user experience and enhance the site's SEO performance.",
+      "impact": "Medium",
+      "effort": "Half day"
+    },
+    {
+      "title": "Implement Structured Data",
+      "reason": "While the website already has some structured data, further enhancing and expanding this implementation can provide more context and information to search engines, potentially leading to improved visibility and rich snippets in search results.",
+      "impact": "Medium",
+      "effort": "Half day"
+    },
+    {
+      "title": "Optimize Page Load Speed",
+      "reason": "The current page size of over 257KB may be impacting the website's load speed, which can negatively affect the user experience and potentially hurt search engine rankings. Optimizing image sizes, minifying CSS and JavaScript, and implementing other performance best practices can help improve page load times.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 1,
+    "criticalIssues": 0,
+    "highIssues": 1,
+    "mediumIssues": 0,
+    "lowIssues": 0
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "bloomandgrow-co-uk-mn9kggj7-c303a664",
+  "targetUrl": "https://www.bloomandgrow.co.uk",
+  "domain": "bloomandgrow.co.uk",
+  "generatedAt": "2026-03-28T00:02:39.667Z",
+  "score": 1.5,
+  "data": {
+    "title": null,
+    "titleLength": 0,
+    "metaDescription": null,
+    "metaDescLength": 0,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "canonical": null,
+    "robots": null,
+    "pageSize": 114,
+    "htmlLength": 114,
+    "totalImages": 0,
+    "imagesWithoutAlt": 0,
+    "hasViewport": false,
+    "favicon": null,
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing page title",
+      "impact": "Your page won't show properly in Google search results. This is the #1 thing searchers see.",
+      "fix": "Add a unique, descriptive title tag (50-60 characters) to every page"
+    },
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing meta description",
+      "impact": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "fix": "Add a compelling 150-160 character description for every page"
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "medium",
+      "category": "Technical SEO",
+      "issue": "Missing canonical tag",
+      "impact": "Duplicate content issues. Google might index the wrong version of your page.",
+      "fix": "Add a canonical tag to every page pointing to the preferred URL"
+    },
+    {
+      "severity": "high",
+      "category": "Mobile",
+      "issue": "Missing viewport meta tag",
+      "impact": "Your site won't display properly on mobile. Google prioritizes mobile-first indexing.",
+      "fix": "Add: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "The Bloom & Grow website has significant technical SEO issues that are preventing it from performing well in search. The biggest opportunity is to address the critical problems with the page title, meta description, and lack of H1 heading, which are the core elements that search engines and users rely on to understand and surface your content. These issues are causing your site to be invisible in Google search results, resulting in major traffic and potential revenue losses. Addressing these three things should be the top priority, as they will provide the biggest and most immediate impact on your website's performance. With some targeted fixes, you can significantly improve your SEO and start driving more qualified traffic to your e-commerce store.",
+  "fixes": [
+    {
+      "title": "Add a unique, compelling page title",
+      "reason": "The page title is the most important on-page SEO element, as it tells search engines and users what your page is about. Without a title, your site will not appear properly in Google's search results, leading to a loss of traffic and potential customers.",
+      "impact": "Critical",
+      "effort": "15 min"
+    },
+    {
+      "title": "Write a unique meta description for each page",
+      "reason": "The meta description provides a brief summary of your page's content, which helps search engines and users understand what they can expect when they click through. Without a meta description, Google will generate its own, which is usually much less compelling and effective at driving clicks.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Add H1 headings to all pages",
+      "reason": "H1 headings are a crucial signal to search engines about the main topic of your page. Without any H1 tags, your content becomes invisible and difficult for Google to properly understand and rank.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Implement Open Graph tags",
+      "reason": "Open Graph tags ensure your website's links look great when shared on social media platforms like Facebook, Twitter, and LinkedIn. Without these tags, your links will not display a thumbnail image or compelling description, leading to lower click-through rates.",
+      "impact": "Medium",
+      "effort": "30 min"
+    },
+    {
+      "title": "Add a canonical tag to each page",
+      "reason": "Canonical tags help search engines understand the preferred version of a page, which is especially important if you have any duplicate content on your site. Without a canonical tag, Google may index the wrong version of your pages, causing confusion and potential ranking issues.",
+      "impact": "Medium",
+      "effort": "30 min"
+    },
+    {
+      "title": "Add a viewport meta tag",
+      "reason": "The viewport meta tag ensures your website displays properly on mobile devices, which is critical for a good user experience and aligns with Google's mobile-first indexing approach. Without this tag, your site may appear broken or difficult to navigate on smartphones and tablets.",
+      "impact": "High",
+      "effort": "15 min"
+    },
+    {
+      "title": "Implement structured data",
+      "reason": "Structured data, such as schema markup, allows you to provide additional context about your content to search engines. This can result in enhanced search result snippets, like star ratings, prices, and availability, which can improve click-through rates and conversions.",
+      "impact": "Low",
+      "effort": "Half day"
+    },
+    {
+      "title": "Add alt text to all images",
+      "reason": "Alt text provides a textual description of an image, which is important for accessibility and can also help search engines better understand the content of your pages.",
+      "impact": "Low",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Create a favicon",
+      "reason": "A favicon is the small icon that appears in the browser tab or search results, and it helps to reinforce your brand and make your site more recognizable to users.",
+      "impact": "Low",
+      "effort": "15 min"
+    },
+    {
+      "title": "Optimize page size and load time",
+      "reason": "Fast-loading pages provide a better user experience and can also positively impact your search engine rankings. Reducing your page size and optimizing assets like images and scripts can help improve your site's speed and performance.",
+      "impact": "Medium",
+      "effort": "Half day"
+    }
+  ],
+  "metadata": {
+    "issueCount": 7,
+    "criticalIssues": 2,
+    "highIssues": 2,
+    "mediumIssues": 2,
+    "lowIssues": 1
+  }
+}

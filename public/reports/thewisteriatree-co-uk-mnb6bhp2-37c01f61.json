@@ -1,0 +1,79 @@
+{
+  "slug": "thewisteriatree-co-uk-mnb6bhp2-37c01f61",
+  "targetUrl": "https://www.thewisteriatree.co.uk",
+  "domain": "thewisteriatree.co.uk",
+  "generatedAt": "2026-03-29T03:02:25.622Z",
+  "score": 7,
+  "data": {
+    "title": "Shop Stylish Home Decor at The Wisteria Tree | Online Home Decor Store | White Waltham, UK",
+    "titleLength": 90,
+    "metaDescription": "Discover the best quality home decor at The Wisteria Tree. Shop now for stylish home decor and accessories. Online home decor store, The Wisteria Tree.",
+    "metaDescLength": 151,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Shop Stylish Home Decor at The Wisteria Tree | Online Home Decor Store | White Waltham, UK",
+    "ogDescription": "Discover the best quality home decor at The Wisteria Tree. Shop now for stylish home decor and accessories. Online home decor store, The Wisteria Tree.",
+    "ogImage": "https://static.wixstatic.com/media/b0690b_e491eaf91c8d488d9720a6c5efda28d5%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/b0690b_e491eaf91c8d488d9720a6c5efda28d5%7Emv2.jpg",
+    "canonical": "https://www.thewisteriatree.co.uk",
+    "robots": null,
+    "pageSize": 1651729,
+    "htmlLength": 1651531,
+    "totalImages": 83,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "https://static.wixstatic.com/media/b0690b_f4b6faa94721437db951d427aa8e080a%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/b0690b_f4b6faa94721437db951d427aa8e080a%7Emv2.png",
+    "hasStructuredData": true,
+    "structuredDataCount": 3
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Title too long (90 chars)",
+      "impact": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "fix": "Trim to under 60 characters. Front-load your most important keywords."
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Performance",
+      "issue": "Large page size (1613 KB)",
+      "impact": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "fix": "Compress images, minify CSS/JS, enable gzip compression. Target under 500KB."
+    }
+  ],
+  "summary": "We analyzed www.thewisteriatree.co.uk and found 3 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too long (90 chars)",
+      "reason": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Large page size (1613 KB)",
+      "reason": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 3,
+    "criticalIssues": 0,
+    "highIssues": 2,
+    "mediumIssues": 1,
+    "lowIssues": 0
+  }
+}

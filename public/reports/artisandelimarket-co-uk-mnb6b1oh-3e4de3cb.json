@@ -1,0 +1,92 @@
+{
+  "slug": "artisandelimarket-co-uk-mnb6b1oh-3e4de3cb",
+  "targetUrl": "https://www.artisandelimarket.co.uk",
+  "domain": "artisandelimarket.co.uk",
+  "generatedAt": "2026-03-29T03:02:04.866Z",
+  "score": 5.5,
+  "data": {
+    "title": "American Express",
+    "titleLength": 16,
+    "metaDescription": null,
+    "metaDescLength": 0,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Luxury Food &amp; Drink Hampers | UK Delivery | [Artisan Deli Market]",
+    "ogDescription": "Explore our luxury handmade range of luxury food and drink hampers with UK delivery. Send a thoughtful hamper to friends and loved ones - the perfect gift for all occasions.",
+    "ogImage": "http://www.artisandelimarket.co.uk/cdn/shop/files/Untitled_design_56.jpg?v=1696589133",
+    "canonical": "https://www.artisandelimarket.co.uk/",
+    "robots": null,
+    "pageSize": 307872,
+    "htmlLength": 307682,
+    "totalImages": 4,
+    "imagesWithoutAlt": 1,
+    "hasViewport": true,
+    "favicon": "//www.artisandelimarket.co.uk/cdn/shop/files/Someone_sent_you_a_gift_2.png?crop=center&height=32&v=1661340233&width=32",
+    "hasStructuredData": true,
+    "structuredDataCount": 2
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "Meta Tags",
+      "issue": "Title too short (16 chars)",
+      "impact": "You're not using the full space Google gives you in search results.",
+      "fix": "Expand to 50-60 characters with more descriptive, keyword-rich content"
+    },
+    {
+      "severity": "critical",
+      "category": "Meta Tags",
+      "issue": "Missing meta description",
+      "impact": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "fix": "Add a compelling 150-160 character description for every page"
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Accessibility",
+      "issue": "1 of 4 images missing alt text",
+      "impact": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "fix": "Add descriptive alt text to every image. Be specific, include keywords where natural."
+    }
+  ],
+  "summary": "We analyzed www.artisandelimarket.co.uk and found 4 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too short (16 chars)",
+      "reason": "You're not using the full space Google gives you in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Missing meta description",
+      "reason": "Google will write its own description, and it's usually terrible. You've surrendered control of your search snippet.",
+      "impact": "Critical",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "1 of 4 images missing alt text",
+      "reason": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 4,
+    "criticalIssues": 1,
+    "highIssues": 1,
+    "mediumIssues": 2,
+    "lowIssues": 0
+  }
+}

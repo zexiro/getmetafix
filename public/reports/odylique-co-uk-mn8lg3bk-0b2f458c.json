@@ -1,0 +1,85 @@
+{
+  "slug": "odylique-co-uk-mn8lg3bk-0b2f458c",
+  "targetUrl": "https://odylique.co.uk",
+  "domain": "odylique.co.uk",
+  "generatedAt": "2026-03-27T07:42:35.985Z",
+  "score": 8,
+  "data": {
+    "title": "Odylique UK | Organic Skincare, Haircare &amp; Makeup",
+    "titleLength": 53,
+    "metaDescription": "Organic Skin Care, Natural Shampoo, and Natural Organic Makeup for the Most Sensitive Skin. Independent, Cruelty-Free, Vegan and Hand-Made in the UK",
+    "metaDescLength": 148,
+    "h1s": [
+      "Vitamin-rich botanicals and coconut to restore natural vitality and shine",
+      "&quot;glides on easily, has a nice texture, leaves the skin silky smooth&quot;",
+      "Our creamy, nourishing, natural lipsticks are bursting with organic plant oils and butters",
+      "Hydrating vitamin-rich raw shea, coconut &amp; extra virgin olive oils",
+      "Gentle, Natural, Sulphate-Free"
+    ],
+    "h1Count": 5,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "canonical": "https://odylique.co.uk/",
+    "robots": null,
+    "pageSize": 504585,
+    "htmlLength": 504535,
+    "totalImages": 29,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": null,
+    "hasStructuredData": false,
+    "structuredDataCount": 0
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "Content Structure",
+      "issue": "Multiple H1 tags (5 found)",
+      "impact": "Multiple H1s confuse search engines about your page's main topic.",
+      "fix": "Use only one H1 per page. Use H2-H6 for subheadings."
+    },
+    {
+      "severity": "medium",
+      "category": "Social Sharing",
+      "issue": "Incomplete Open Graph tags",
+      "impact": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "fix": "Add og:title, og:description, og:image, and og:url to every page"
+    },
+    {
+      "severity": "low",
+      "category": "Rich Results",
+      "issue": "No structured data found",
+      "impact": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "fix": "Add schema.org JSON-LD markup for products, reviews, FAQs, or local business"
+    }
+  ],
+  "summary": "We analyzed odylique.co.uk and found 3 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Multiple H1 tags (5 found)",
+      "reason": "Multiple H1s confuse search engines about your page's main topic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Incomplete Open Graph tags",
+      "reason": "Your links look terrible when shared on Twitter, LinkedIn, Facebook. Broken thumbnail = low click rates.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No structured data found",
+      "reason": "Missing out on rich snippets (star ratings, prices, availability) in search results.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 3,
+    "criticalIssues": 0,
+    "highIssues": 0,
+    "mediumIssues": 2,
+    "lowIssues": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "wolfandmoon-com-mnb6dofb-46be0114",
+  "targetUrl": "https://www.wolfandmoon.com",
+  "domain": "wolfandmoon.com",
+  "generatedAt": "2026-03-29T03:04:07.656Z",
+  "score": 8,
+  "data": {
+    "title": "Wolf &amp; Moon | Handmade jewellery from London",
+    "titleLength": 48,
+    "metaDescription": "ANYTHING BUT ORDINARY. Playful jewellery &amp; accessories, designed to stand out. Handmade in London, since 2009.",
+    "metaDescLength": 114,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Wolf &amp; Moon | Handmade jewellery from London",
+    "ogDescription": "ANYTHING BUT ORDINARY. Playful jewellery &amp; accessories, designed to stand out. Handmade in London, since 2009.",
+    "ogImage": "http://www.wolfandmoon.com/cdn/shop/files/wolfandmoon-simplelogo-v1-black-300px.png?v=1665132811",
+    "canonical": "https://www.wolfandmoon.com/en-us",
+    "robots": null,
+    "pageSize": 390338,
+    "htmlLength": 388827,
+    "totalImages": 30,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "//www.wolfandmoon.com/cdn/shop/files/favicon_star_blue_1_32x32.png?v=1764868462",
+    "hasStructuredData": true,
+    "structuredDataCount": 4
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "Meta Tags",
+      "issue": "Meta description too short (114 chars)",
+      "impact": "You're leaving valuable persuasion space unused.",
+      "fix": "Expand to 150-160 characters. Sell the click!"
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    }
+  ],
+  "summary": "We analyzed www.wolfandmoon.com and found 2 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Meta description too short (114 chars)",
+      "reason": "You're leaving valuable persuasion space unused.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 2,
+    "criticalIssues": 0,
+    "highIssues": 1,
+    "mediumIssues": 1,
+    "lowIssues": 0
+  }
+}

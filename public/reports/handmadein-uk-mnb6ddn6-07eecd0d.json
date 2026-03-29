@@ -1,0 +1,92 @@
+{
+  "slug": "handmadein-uk-mnb6ddn6-07eecd0d",
+  "targetUrl": "https://www.handmadein.uk",
+  "domain": "handmadein.uk",
+  "generatedAt": "2026-03-29T03:03:53.683Z",
+  "score": 6,
+  "data": {
+    "title": "Handmadein.uk | Unique Beautiful Handmade Home and Gifts items",
+    "titleLength": 62,
+    "metaDescription": "Handmade by Artists and Artisans HandmadeIn.UK brings you a curated collection of beautifully made arts and crafts. Each item is unique. Shop by region, artist or item. Find something you will love.",
+    "metaDescLength": 198,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Handmadein.uk | Unique Beautiful Handmade Home and Gifts items",
+    "ogDescription": "Handmade by Artists and Artisans HandmadeIn.UK brings you a curated collection of beautifully made arts and crafts. Each item is unique. Shop by region, artist or item. Find something you will love.",
+    "ogImage": "https://static.wixstatic.com/media/f052b6_dcd26e3c705d4ae2bfe496f8e5b130dd%7Emv2.png/v1/fit/w_2500,h_1330,al_c/f052b6_dcd26e3c705d4ae2bfe496f8e5b130dd%7Emv2.png",
+    "canonical": "https://www.handmadein.uk",
+    "robots": null,
+    "pageSize": 1168407,
+    "htmlLength": 1168291,
+    "totalImages": 23,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "https://static.wixstatic.com/media/f052b6_dcd26e3c705d4ae2bfe496f8e5b130dd%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/f052b6_dcd26e3c705d4ae2bfe496f8e5b130dd%7Emv2.png",
+    "hasStructuredData": true,
+    "structuredDataCount": 3
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Title too long (62 chars)",
+      "impact": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "fix": "Trim to under 60 characters. Front-load your most important keywords."
+    },
+    {
+      "severity": "high",
+      "category": "Meta Tags",
+      "issue": "Meta description too long (198 chars)",
+      "impact": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "fix": "Trim to 150-160 characters. Put the most important info first."
+    },
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    },
+    {
+      "severity": "medium",
+      "category": "Performance",
+      "issue": "Large page size (1141 KB)",
+      "impact": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "fix": "Compress images, minify CSS/JS, enable gzip compression. Target under 500KB."
+    }
+  ],
+  "summary": "We analyzed www.handmadein.uk and found 4 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "Title too long (62 chars)",
+      "reason": "Google will cut off your title in search results. You're losing valuable click-through real estate.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Meta description too long (198 chars)",
+      "reason": "Google truncates long descriptions. Your call-to-action is probably getting cut off.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "No H1 heading found",
+      "reason": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Large page size (1141 KB)",
+      "reason": "Slow load times = higher bounce rates. Mobile users are leaving before your page loads.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 4,
+    "criticalIssues": 0,
+    "highIssues": 3,
+    "mediumIssues": 1,
+    "lowIssues": 0
+  }
+}
