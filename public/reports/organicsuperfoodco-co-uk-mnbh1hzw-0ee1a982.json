@@ -1,0 +1,77 @@
+{
+  "slug": "organicsuperfoodco-co-uk-mnbh1hzw-0ee1a982",
+  "targetUrl": "https://organicsuperfoodco.co.uk",
+  "domain": "organicsuperfoodco.co.uk",
+  "generatedAt": "2026-03-29T08:02:35.228Z",
+  "score": 8.5,
+  "data": {
+    "title": "Organic Superfood Juice Shots | Pure Organic Nutrition Daily",
+    "titleLength": 60,
+    "metaDescription": "Boost daily health with organic wheatgrass, broccoli sprout and beetroot juice shots. Grown in Ireland cold pressed and delivered fresh with free shipping.",
+    "metaDescLength": 155,
+    "h1s": [],
+    "h1Count": 0,
+    "ogTitle": "Organic Juice Shots",
+    "ogDescription": "Boost daily health with organic wheatgrass, broccoli sprout and beetroot juice shots. Grown in Ireland cold pressed and delivered fresh with free shipping.",
+    "ogImage": "https://organicsuperfoodco.co.uk/wp-content/uploads/2025/09/Wheatgrass-organic-juice-shot.jpg",
+    "canonical": "https://organicsuperfoodco.co.uk/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "pageSize": 257143,
+    "htmlLength": 257112,
+    "totalImages": 32,
+    "imagesWithoutAlt": 0,
+    "hasViewport": true,
+    "favicon": "https://organicsuperfoodco.co.uk/wp-content/uploads/2025/09/cropped-OSFC-Logo-Black-Round-32x32.png",
+    "hasStructuredData": true,
+    "structuredDataCount": 1
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Content Structure",
+      "issue": "No H1 heading found",
+      "impact": "Search engines use H1s to understand what your page is about. You're invisible.",
+      "fix": "Add exactly one H1 per page that clearly describes the page content"
+    }
+  ],
+  "summary": "Organic Superfood Co. has a solid technical foundation, with an SEO score of 8.5/10. However, the lack of an H1 heading on the website is a significant issue that needs to be addressed. This is a critical problem, as search engines rely on H1s to understand the core focus and purpose of a page. Without a clear H1, the website is effectively invisible to potential customers searching for organic superfood products. The good news is that this issue can be resolved relatively quickly, and will have a high impact on the site's visibility and ability to attract the right audience. Once this foundational element is in place, the company can focus on other optimization opportunities to further enhance their online presence and drive more traffic and conversions.",
+  "fixes": [
+    {
+      "title": "Add H1 Heading to the Homepage",
+      "reason": "The lack of an H1 heading is a critical issue, as search engines use this element to understand the main focus and purpose of a page. Without a clear H1, the site is essentially invisible to potential customers searching for organic superfood products.",
+      "impact": "Critical",
+      "effort": "15 min"
+    },
+    {
+      "title": "Optimize Page Titles and Meta Descriptions",
+      "reason": "While the current page titles and meta descriptions are good, there is room for further optimization to better align with the site's core products and services. Well-crafted titles and descriptions can significantly improve click-through rates from search engine results.",
+      "impact": "High",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Implement Structured Data",
+      "reason": "Adding structured data to the website will help search engines better understand the site's content and features, improving the chances of appearing in rich snippets and knowledge panels. This can lead to increased visibility and trust among potential customers.",
+      "impact": "High",
+      "effort": "Half day"
+    },
+    {
+      "title": "Optimize Image Alt Text",
+      "reason": "While the site currently has no images without alt text, proactively adding meaningful alt text to all images can improve accessibility and contribute to a better overall user experience.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    },
+    {
+      "title": "Improve Site Speed",
+      "reason": "The site's current page size of 257143 bytes is on the larger side, which can impact load times and user experience. Optimizing images, minifying code, and implementing other speed-enhancing techniques can lead to faster load times and a better overall user experience.",
+      "impact": "Medium",
+      "effort": "Half day"
+    }
+  ],
+  "metadata": {
+    "issueCount": 1,
+    "criticalIssues": 0,
+    "highIssues": 1,
+    "mediumIssues": 0,
+    "lowIssues": 0
+  }
+}

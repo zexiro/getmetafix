@@ -1,0 +1,55 @@
+{
+  "slug": "artisanoliveoilcompany-co-uk-mnbh1u9h-9ecfd345",
+  "targetUrl": "https://www.artisanoliveoilcompany.co.uk",
+  "domain": "artisanoliveoilcompany.co.uk",
+  "generatedAt": "2026-03-29T08:02:51.125Z",
+  "score": 9.5,
+  "data": {
+    "title": "Shop the Best Olive Oil Online - Artisan Olive Oil Company",
+    "titleLength": 58,
+    "metaDescription": "Discover the best Olive Oil at Artisan Olive Oil Company – crafted with care for rich flavour, purity, and health benefits. Taste the difference today!",
+    "metaDescLength": 151,
+    "h1s": [
+      "Authentic Olive Oils,Crafted by Artisans."
+    ],
+    "h1Count": 1,
+    "ogTitle": "Shop the Best Olive Oil Online - Artisan Olive Oil Company",
+    "ogDescription": "Discover the best Olive Oil at Artisan Olive Oil Company – crafted with care for rich flavour, purity, and health benefits. Taste the difference today!",
+    "ogImage": "http://www.artisanoliveoilcompany.co.uk/cdn/shop/files/ursini_olive_harvest_7b0d7ac1-3037-40c0-b034-7faae8fe8e00.jpg?crop=center&height=1200&v=1761904971&width=1200",
+    "canonical": "https://www.artisanoliveoilcompany.co.uk/",
+    "robots": null,
+    "pageSize": 447345,
+    "htmlLength": 447208,
+    "totalImages": 60,
+    "imagesWithoutAlt": 1,
+    "hasViewport": true,
+    "favicon": "//www.artisanoliveoilcompany.co.uk/cdn/shop/files/Small_logo_ad6997ae-ef30-4530-bb71-3864b4a0ad50.jpg?crop=center&height=48&v=1614320524&width=48",
+    "hasStructuredData": true,
+    "structuredDataCount": 4
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "Accessibility",
+      "issue": "1 of 60 images missing alt text",
+      "impact": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "fix": "Add descriptive alt text to every image. Be specific, include keywords where natural."
+    }
+  ],
+  "summary": "We analyzed www.artisanoliveoilcompany.co.uk and found 1 issues affecting your search visibility and conversions. The biggest opportunities are fixing your meta tags, improving mobile optimization, and adding structured data for rich snippets. These changes could significantly increase your organic traffic within 30-60 days.",
+  "fixes": [
+    {
+      "title": "1 of 60 images missing alt text",
+      "reason": "Invisible to screen readers and search engines. You're losing Google Images traffic.",
+      "impact": "Medium",
+      "effort": "1 hour"
+    }
+  ],
+  "metadata": {
+    "issueCount": 1,
+    "criticalIssues": 0,
+    "highIssues": 0,
+    "mediumIssues": 1,
+    "lowIssues": 0
+  }
+}
